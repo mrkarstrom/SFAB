@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .basic-btn {
     display: inline-flex;
     flex-shrink: 0;
