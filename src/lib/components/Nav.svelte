@@ -1,10 +1,12 @@
 <script>
-	let logo = '$lib/img/logo.png';
+	let logo = '../img/logo.png';
 </script>
 
 <div class="flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<div class="navbar-start">
-		<img src={logo} alt="logo" />
+		<div>
+			<img src={logo} alt="logo" />
+		</div>
 		<div class="dropdown">
 			<label tabindex="0" class="lg:hidden">
 				<svg
@@ -25,9 +27,9 @@
 				tabindex="0"
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 			>
-				<li><a>Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
 				<li tabindex="0">
-					<a class="justify-between">
+					<a href="#" class="justify-between">
 						Parent
 						<svg
 							class="fill-current"
@@ -39,19 +41,19 @@
 						>
 					</a>
 					<ul class="p-2">
-						<li><a>Submenu 1</a></li>
-						<li><a>Submenu 2</a></li>
+						<li><a href="#">Submenu 2</a></li>
+						<li><a href="#">Submenu 1</a></li>
 					</ul>
 				</li>
-				<li><a>Item 3</a></li>
+				<li><a href="#">Item 3</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
-			<li><a>Item 1</a></li>
+			<li><a href="#">Item 1</a></li>
 			<li tabindex="0">
-				<a>
+				<a href="#">
 					Parent
 					<svg
 						class="fill-current"
@@ -63,11 +65,11 @@
 					>
 				</a>
 				<ul class="p-2">
-					<li><a>Submenu 1</a></li>
-					<li><a>Submenu 2</a></li>
+					<li><a href="#">Submenu 1</a></li>
+					<li><a href="#">Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a>Item 3</a></li>
+			<li><a href="#">Item 3</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end" />
