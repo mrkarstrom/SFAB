@@ -1,13 +1,13 @@
 <script>
-	let logo = '../img/logo.png';
+	let logo = '$lib/img/logo.png';
 </script>
 
 <div class="flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<div class="navbar-start">
-		<div>
-			<img src={logo} alt="logo" />
+		<div class="absolute ml-2">
+			<h4 class="">SLOWFASHION</h4>
 		</div>
-		<div class="dropdown">
+		<div class="dropdown ">
 			<label tabindex="0" class="lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
