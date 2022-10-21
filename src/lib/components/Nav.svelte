@@ -1,11 +1,10 @@
 <script>
-	let logo = '$lib/img/logo.png';
 </script>
 
 <div class="flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<div class="navbar-start">
-		<img src="{logo}" alt="logo" />
-		<div class="dropdown">
+		<div class="absolute pl-4 uppercase">Slowfashion</div>
+		<div class="dropdown absolute pl-32 pt-0.5">
 			<label tabindex="0" class="lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
