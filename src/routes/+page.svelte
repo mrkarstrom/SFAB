@@ -7,7 +7,6 @@
 	import SpacerEmpty from '/src/lib/components/SpacerEmpty.svelte';
 </script>
 
-<SpacerEmpty />
 <Hero />
 <SpacerEmpty />
 <!-- <HeroSplit /> -->
