@@ -3,7 +3,7 @@
 
 <div class="flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<div class="navbar-start">
-		<div class="relative pt-1 pl-4 uppercase">Slowfashion</div>
+		<div class="relative pt-0.3 pl-4 pb-1 uppercase">Slowfashion</div>
 		<div class="dropdown absolute pl-32 pt-0.5">
 			<label tabindex="0" class="lg:hidden">
 				<svg
