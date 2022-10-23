@@ -72,7 +72,7 @@
 
 <style>
 	.dropdownNav {
-		position: fixed;
+		position: absolute;
 		display: inline-block;
 	}
 	.dropdownNav > *:focus {
