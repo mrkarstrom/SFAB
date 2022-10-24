@@ -7,7 +7,7 @@
 		/>
 	</div>
 	<div class="carousel-item">
-		<img src="https://placeimg.com/1000/800/arch" class="rounded-box w-48" />
+		<img src="https://yesweb.se/sfab/img/bag.jpg" class="rounded-box w-48" />
 	</div>
 	<div class="carousel-item">
 		<img src="https://placeimg.com/1000/800/arch" class="rounded-box w-48" />
