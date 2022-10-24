@@ -1,8 +1,15 @@
-<!-- <div class="wrapper w-full bg-transparent flex flex-row"> -->
+<script>
+	import menItems from '../../stores/categoryStore';
+import categoryStore from '../../stores/categoryStore';
+
+</script>
+
 <section class="carousel carousel-center max-w-full p-4 space-x-4 bg-neutral ">
 	<div class="carousel-item">
+		{#each $categoryStore as item}
+		<!--todo Create and send the store objects to Carousel-->
 		<img
-			src="https://github.com/mrkarstrom/sfab/tree/main/src/lib/img/Men.jpg"
+			src={item}
 			class="rounded-box w-48"
 		/>
 	</div>
