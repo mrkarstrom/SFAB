@@ -3,7 +3,9 @@
 
 <div class="flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<!-- <div class="navbar-start"> -->
-	<div class="relative pt-0.5 pl-4 pb-1 uppercase">Slowfashion</div>
+	<!-- <div class="relative pt-0.5 pl-4 pb-1 uppercase">Slowfashion</div> -->
+	<img class="flex flex-start h-[30px] pl-4" src="https://yesweb.se/sfab/img/logo.png" alt="logo" />
+
 	<div class="dropdownNav pl-32 pt-0">
 		<label tabindex="0" class="lg:hidden">
 			<svg
