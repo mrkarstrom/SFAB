@@ -1,4 +1,4 @@
-<div class="flex flex-col w-full">
+<div class="flex flex-col w-full z-50">
 	<div class="spacer" />
 </div>
 
