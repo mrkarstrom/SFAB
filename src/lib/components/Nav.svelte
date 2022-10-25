@@ -7,7 +7,7 @@
 		src="https://yesweb.se/sfab/img/logo.png"
 		alt="logo"
 	/>
-	<div class="dropdownNav pl-32 pt-0">
+	<div class="dropdownNav pl-[115px] pt-0">
 		<label tabindex="0" class="lg:hidden">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,10 @@
 				/></svg
 			>
 		</label>
-		<ul tabindex="0" class="menu menu-compact dropdownNav-content mt-3 p-2 shadow bg-base-100 w-52">
+		<ul
+			tabindex="0"
+			class="menu menu-compact dropdownNav-content left-0 mt-[6px] shadow bg-base-100 w-52"
+		>
 			<li><a>Item 1</a></li>
 			<li tabindex="0">
 				<a class="justify-between">
