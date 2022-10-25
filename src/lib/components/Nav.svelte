@@ -50,7 +50,7 @@
 		<!-- </div> -->
 	</div>
 	<!-- TODO -->
-	<div class="navbar-center hidden lg:flex ">
+	<div class="navbar-center w-full absolute justify-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
 			<li><a>Item 1</a></li>
 			<li tabindex="0">
