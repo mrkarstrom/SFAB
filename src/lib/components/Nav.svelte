@@ -3,7 +3,7 @@
 
 <div class="categoryList flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
 	<img
-		class="flex flex-start h-[30px] pl-3.5"
+		class="flex flex-start h-[30px] pl-[13px]"
 		src="https://yesweb.se/sfab/img/logo.png"
 		alt="logo"
 	/>
