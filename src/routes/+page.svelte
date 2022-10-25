@@ -9,7 +9,7 @@
 
 <Hero />
 <SpacerEmpty />
-<!-- <HeroSplit /> -->
-<!-- <CarouselView /> -->
-<!-- <SpacerEmpty /> -->
+<HeroSplit />
+<CarouselView />
+<SpacerEmpty />
 <CarouselBanner />
