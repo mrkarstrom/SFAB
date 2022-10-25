@@ -7,7 +7,7 @@
 		<div class="carousel-item">
 			<div class="card w-96 bg-base-100 shadow-xl">
 				<figure>
-					<img src={item.link} class="rounded-box w-48" alt={item.label} />
+					<img src={item.link} class="rounded-box w-[90%] pt-2" alt={item.label} />
 				</figure>
 				<div class="card-body">
 					<h2 class="card-title">
@@ -17,7 +17,6 @@
 					<p>Color: {item.color}</p>
 					<div class="card-actions justify-end">
 						<div class="badge badge-outline">Price: {item.price}</div>
-						/>
 						<div class="badge badge-outline">Label: {item.label}</div>
 					</div>
 				</div>
