@@ -1,10 +1,8 @@
-<div class="flex flex-col items-center w-full h-full artboard artboard-horizontal phone-4 ">
-	<div class="flex flex-col w-full h-full">
-		<div class="w-[50%]">
-			<img src="$lib/img/Men.jpg" alt="" />
-		</div>
-		<div class="w-[50%] h-full">
-			<img src="$lib/img/Women.jpg" alt="" />
-		</div>
+<div class="h-full w-full">
+	<div class="grid grid-cols-2 ">
+		<img src="https://yesweb.se/sfab/img/women/shirts/blouse-white.jpg" alt="" />
+		<img src="https://yesweb.se/sfab/img/men/suits/suit-darkblue.jpg" alt="" />
 	</div>
+	<button class="flex btn btn-neutral absolute right-3">Shop For Him</button>
+	<button class="flex btn btn-neutral absolute left-3">Shop For Her</button>
 </div>

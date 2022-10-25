@@ -7,7 +7,7 @@
 	import SpacerEmpty from '/src/lib/components/SpacerEmpty.svelte';
 </script>
 
-<Hero />
+<HeroSplit />
 <SpacerEmpty />
 <!-- <HeroSplit /> -->
 <CarouselView />
