@@ -25,10 +25,7 @@
 				/></svg
 			>
 		</label>
-		<ul
-			tabindex="0"
-			class="menu menu-compact dropdownNav-content left-0 mt-[6px] shadow bg-base-100 w-52"
-		>
+		<ul tabindex="0" class="menu menu-compact dropdownNav-content left-0 mt-[6px] bg-base-100 w-52">
 			<li><a>Men</a></li>
 			<li tabindex="0">
 				<a class="justify-between">
@@ -43,8 +40,8 @@
 					>
 				</a>
 				<ul class="p-2">
-					<li><a>Submenu 1</a></li>
-					<li><a>Submenu 2</a></li>
+					<li><a>Submenu-1 1</a></li>
+					<li><a>Submenu-1 2</a></li>
 				</ul>
 			</li>
 			<li><a>Lookbook</a></li>
@@ -55,10 +52,11 @@
 		<!-- </div> -->
 	</div>
 	<div class="navbar-center w-full absolute justify-center hidden lg:flex">
-		<ul class="menu menu-horizontal p-0">
-			<li><a href="/Men">Men</a></li>
+		<!-- <ul class="menu-1 menu-horizontal1 p-0"> -->
+		<ul class="menu menu-horizontal hover:bg-transparent p-0">
+			<li><a href="/Men" class="focus:bg-transparent hover:bg-transparent">Men</a></li>
 			<li tabindex="0">
-				<a href="/Women">
+				<a href="/Women" class="focus:bg-transparent hover:bg-transparent">
 					Women
 					<svg
 						class="fill-current"
@@ -70,14 +68,14 @@
 					>
 				</a>
 				<ul class="p-2">
-					<li><a>Submenu 1</a></li>
-					<li><a>Submenu 2</a></li>
+					<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Submenu-1 1</a></li>
+					<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Submenu-1 2</a></li>
 				</ul>
 			</li>
-			<li><a>Lookbook</a></li>
-			<li><a>Brands A-Z</a></li>
-			<li><a>Contact</a></li>
-			<li><a>Sell</a></li>
+			<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Lookbook</a></li>
+			<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Brands A-Z</a></li>
+			<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Contact</a></li>
+			<li><a href="#" class="focus:bg-transparent hover:bg-transparent">Sell</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end" />
