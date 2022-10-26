@@ -45,7 +45,7 @@
 	<div class="flex justify-end rounded-none">
 		<div class="dropdown dropdown-end rounded-none">
 			<label tabindex="0">
-				<div class="w-6 rounded-none">
+				<div class="w-6 rounded-none flex flex-col justify-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="12"
@@ -57,6 +57,9 @@
 						/></svg
 					>
 				</div>
+				<!-- <p class="text-sm flex flex-col">
+					My Account
+				</p>  -->
 			</label>
 			<ul
 				tabindex="0"

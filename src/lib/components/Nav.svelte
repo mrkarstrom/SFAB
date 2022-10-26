@@ -2,11 +2,13 @@
 </script>
 
 <div class="categoryList flex items-center w-full bg-base-100 max-h-[30px] border-b-gray-400">
-	<img
-		class="flex flex-start h-[30px] pl-[13px]"
-		src="https://yesweb.se/sfab/img/logo.png"
-		alt="logo"
-	/>
+	<a href="/">
+		<img
+			class="flex flex-start h-[30px] pl-[13px]"
+			src="https://yesweb.se/sfab/img/logo.png"
+			alt="logo"
+		/>
+	</a>
 	<div class="dropdownNav pl-[115px] pt-0">
 		<label tabindex="0" class="lg:hidden">
 			<svg
@@ -27,10 +29,10 @@
 			tabindex="0"
 			class="menu menu-compact dropdownNav-content left-0 mt-[6px] shadow bg-base-100 w-52"
 		>
-			<li><a>Item 1</a></li>
+			<li><a>Men</a></li>
 			<li tabindex="0">
 				<a class="justify-between">
-					Parent
+					Women
 					<svg
 						class="fill-current"
 						xmlns="http://www.w3.org/2000/svg"
@@ -45,17 +47,19 @@
 					<li><a>Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a>Item 3</a></li>
+			<li><a>Lookbook</a></li>
+			<li><a>Brands A-Z</a></li>
+			<li><a>Contact</a></li>
+			<li><a>Sell</a></li>
 		</ul>
 		<!-- </div> -->
 	</div>
-	<!-- TODO -->
 	<div class="navbar-center w-full absolute justify-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
-			<li><a>Item 1</a></li>
+			<li><a href="/Men">Men</a></li>
 			<li tabindex="0">
-				<a>
-					Parent
+				<a href="/Women">
+					Women
 					<svg
 						class="fill-current"
 						xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +74,10 @@
 					<li><a>Submenu 2</a></li>
 				</ul>
 			</li>
-			<li><a>Item 3</a></li>
+			<li><a>Lookbook</a></li>
+			<li><a>Brands A-Z</a></li>
+			<li><a>Contact</a></li>
+			<li><a>Sell</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end" />
