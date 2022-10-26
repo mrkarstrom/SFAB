@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center justify-center w-screen h-[400px]">
+<div class="flex flex-col items-center hidden lg:flex justify-center w-full h-[400px]">
 	<div class="artboard bg-secondary artboard-horizontal phone-6">
 		<div class="wrapper grid grid-cols-3 grid-rows-2 gap-4 p-4 h-full">
 			<div class="col-start-1 col-end-1 row-span-2">
