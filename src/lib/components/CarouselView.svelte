@@ -4,13 +4,13 @@
 
 <section class="carousel carousel-center max-w-full p-4 space-x-4 bg-neutral ">
 	{#each $itemsStore as item}
-		<div class="carousel-item">
-			<div class="card rounded-sm w-80 h-[25rem] bg-base-100 shadow-xl">
-				<figure>
+		<div class="carousel-item ">
+			<div class="card rounded-sm w-80  bg-base-100 shadow-xl ">
+				<figure class="h-[60%] overflow-hidden">
 					<!-- todo -->
 					<img
 						src={item.link}
-						class="none-rounded p-2 object-cover object-center overflow-y-hidden"
+						class="none-rounded p-2 object-cover object-center "
 						alt={item.label}
 					/>
 				</figure>
