@@ -26,9 +26,9 @@
 			>
 		</label>
 		<ul tabindex="0" class="menu menu-compact dropdownNav-content left-0 mt-[6px] bg-base-100 w-52">
-			<li><a>Men</a></li>
+			<li><a href="/Men">Men</a></li>
 			<li tabindex="0">
-				<a class="justify-between">
+				<a href="/Women" class="justify-between">
 					Women
 					<svg
 						class="fill-current"

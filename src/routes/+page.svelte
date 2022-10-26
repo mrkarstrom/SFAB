@@ -5,9 +5,12 @@
 	import Hero from '/src/lib/components/Hero.svelte';
 	import Spacer from '/src/lib/components/Spacer.svelte';
 	import SpacerEmpty from '/src/lib/components/SpacerEmpty.svelte';
+	import ArtBoard from '/src/lib/components/ArtBoard.svelte';
 </script>
 
 <HeroSplit />
+<SpacerEmpty />
+<ArtBoard />
 <SpacerEmpty />
 <!-- <HeroSplit /> -->
 <CarouselView />
