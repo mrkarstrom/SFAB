@@ -4,7 +4,7 @@
 
 <section class="carousel carousel-center max-h-[60%] max-w-full p-4 space-x-4 bg-neutral ">
 	{#each $itemsStore as item}
-		<div class="carousel-item lg:h-[500px] lg:w-[300px] h-96">
+		<div class="carousel-item max-w-[300px] max-h-[500px]">
 			<div class="card rounded-sm max-w-full bg-base-100 shadow-xl ">
 				<figure class="mt-2 overflow-hidden">
 					<img
