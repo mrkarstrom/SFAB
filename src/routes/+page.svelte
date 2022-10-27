@@ -12,7 +12,6 @@
 <SpacerEmpty />
 <ArtBoard />
 <SpacerEmpty />
-<!-- <HeroSplit /> -->
 <CarouselView />
 <SpacerEmpty />
 <CarouselBanner />
