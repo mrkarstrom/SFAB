@@ -9,7 +9,7 @@
 	import ArtBoard from '/src/lib/components/ArtBoard.svelte';
 </script>
 
-<HeroVideo />
+<HeroVideo data-sveltekit-prefetch />
 <SpacerEmpty />
 <ArtBoard />
 <SpacerEmpty />
