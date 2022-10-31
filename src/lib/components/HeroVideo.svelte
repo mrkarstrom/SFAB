@@ -1,5 +1,6 @@
 <script>
-	export const video = 'https://yesweb.se/sfab/video/SlowFashionVideo.mp4';
+	// export const video = 'https://yesweb.se/sfab/video/SlowFashionVideo.mp4';
+	export const video = '../video/SlowFashionVideo.mp4';
 </script>
 
 <video
@@ -10,5 +11,5 @@
 	type="video/mp4"
 	class="w-full"
 	alt="Slowfashion Video"
-	style="pointer-events:none ;"
+	style="pointer-events:none"
 />
