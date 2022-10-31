@@ -1,6 +1,6 @@
 <script>
 	// export const video = 'https://yesweb.se/sfab/video/SlowFashionVideo.mp4';
-	export const video = '../video/SlowFashionVideo.mp4';
+	export const video = '..src/lib/video/SlowFashionVideo.mp4';
 </script>
 
 <video
