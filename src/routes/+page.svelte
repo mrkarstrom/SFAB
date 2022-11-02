@@ -9,7 +9,7 @@
 	import ArtBoard from '$lib/components/ArtBoard.svelte';
 </script>
 
-<HeroVideo />
+<Hero />
 <SpacerEmpty />
 <ArtBoard />
 <SpacerEmpty />
