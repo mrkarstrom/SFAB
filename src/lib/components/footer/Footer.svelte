@@ -2,10 +2,11 @@
 </script>
 
 <div
-	class="block h-auto active:text-gray-900 text-center md:flex md:flex-col md:items-center md:justify-center w-full md:h-[70px] border-t-2 border-gray-400 bg-white"
+	class="block h-auto active:text-gray-900 text-center 
+	border-t-2 border-gray-400 bg-white md:flex md:flex-col md:items-center md:justify-center w-full md:h-[70px] "
 >
 	<ul
-		class="block py-2 space-y-2 md:flex md:flex-row items-center font-normal  text-gray-500 w-full justify-center md:space-x-7 "
+		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-gray-500 w-full  md:flex md:flex-row md:items-center md:justify-center md:space-x-7 "
 	>
 		<li>
 			<a href="#" class="uppercase hover:text-gray-900">About us</a>
