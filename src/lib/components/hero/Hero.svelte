@@ -9,7 +9,7 @@
 	</div>
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
-			<h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+			<h1 class="mb-5 text-5xl font-['Steelfish'] uppercase ">Slowfashion</h1>
 			<p class="mb-5">
 				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
 				quasi. In deleniti eaque aut repudiandae et a id nisi.
@@ -18,3 +18,11 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	
+@font-face {
+    font-family: 'Steelfish';
+    src: url('../static/fonts/steelfish.rg-regular.otf') ;
+}
+</style>

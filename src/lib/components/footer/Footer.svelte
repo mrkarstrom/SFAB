@@ -15,7 +15,7 @@
 			<a href="#" class="uppercase hover:text-gray-900">Contact us</a>
 		</li>
 		<li>
-			<a href="#" class="uppercase hover:text-gray-900">Sustainability</a>
+			<a href="#" class="uppercase hover:text-gray-900">Circularity</a>
 		</li>
 		<li>
 			<a href="#" class="uppercase hover:text-gray-900">App</a>
