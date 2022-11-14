@@ -1,5 +1,5 @@
 <script>
-	import itemsStore from '../../stores/itemsStore';
+	import itemsStore from '../../../stores/itemsStore';
 </script>
 
 <section class="carousel carousel-center max-h-[60%] max-w-full p-4 space-x-4 bg-neutral ">

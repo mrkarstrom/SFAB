@@ -23,6 +23,6 @@
 	}
 	@font-face {
 		font-family: 'Steelfish';
-		src: url('../fonts/steelfish.rg-regular.otf');
+		src: url('../fonts/steelfish-rg.otf');
 	}
 </style>
