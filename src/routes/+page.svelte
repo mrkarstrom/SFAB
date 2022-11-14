@@ -8,6 +8,9 @@
 
 <Hero />
 <SpacerEmpty />
+<SpacerEmpty />
+<SpacerEmpty />
+<SpacerEmpty />
 <ArtBoard />
 <SpacerEmpty />
 <CarouselView />
