@@ -5,18 +5,13 @@
 </script>
 
 <div
-	class="backdrop relative h-[800px] w-full bg-gradient-to-r from-secondary via-[#5a554682] to-white"
+	class="backdrop m-0 p-0 h-[800px] w-auto overflow-x-hidden bg-gradient-to-r from-secondary via-[#5a554682] to-white"
 >
 	<LinkbarHero />
-	<div class="box-wrapper h-64 w-full absolute top-64">
-		<div class="box flex flex-col items-center justify-center">
-			<p class="mb-3 text-xl text-white uppercase">Be the change</p>
-			<h1 class="mb-16 text-7xl text-white font-['Steelfish'] uppercase ">Slowfashion</h1>
-			<ArrowDown />
-		</div>
-	</div>
-	<div class="wrapper w-full h-[96] justify-center items-center">
-		<DownloadAppPromo1 />
+	<div class="box flex flex-col pt-60 items-center justify-center">
+		<p class="mb-3 text-xl text-white uppercase">Be the change</p>
+		<h1 class="mb-16 text-7xl text-white font-['Steelfish'] uppercase ">Slowfashion</h1>
+		<ArrowDown />
 	</div>
 </div>
 

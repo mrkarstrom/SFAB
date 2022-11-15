@@ -7,6 +7,16 @@
     src: url('../static/fonts/steelfish.rg-regular.otf') ;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    overflow-x:hidden
+}
 
 .basic-btn {
     display: inline-flex;
