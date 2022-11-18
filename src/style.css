@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Steelfish';
-    src: url('../static/fonts/steelfish.rg-regular.otf') ;
-}
+		font-family: 'Steelfish';
+		src: url('../fonts/steelfish-rg.otf');
+	}
 
 * {
     box-sizing: border-box;
@@ -16,6 +16,10 @@
 
 html {
     overflow-x:hidden
+}
+
+h2 {
+    font-size: xx-large;
 }
 
 .basic-btn {
