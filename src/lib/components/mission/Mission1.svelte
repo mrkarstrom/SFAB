@@ -13,7 +13,9 @@
 			<p class="font-['Steelfish'] pb-2 uppercase text-4xl">Slowfashion</p>
 			<p>Made in Sweden</p>
 		</div>
-		<div class="button-container absolute left-[50%] bottom-0 z-100  bg-accent h-12 w-52">
+		<div
+			class="hidden lg:flex button-container absolute left-[50%] bottom-0 z-100  bg-accent h-12 w-52"
+		>
 			<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 				<div class="left-pointer w-full h-full flex flex-col items-center justify-center">
 					<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
