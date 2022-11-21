@@ -4,8 +4,8 @@
 </script>
 
 <div class="spacer relative flex justify-center items-end">
-	<div class="wrapper flex z-100 absolute bottom-0 w-[92%] h-[32rem]">
-		<div class="box-wrap flex items-center justify-center w-full h-full bg-transparent">
+	<div class="wrapper flex z-100 absolute bottom-0 w-[92%] h-[32rem] drop-shadow-2xl">
+		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div class="left-part h-[90%] w-[4rem] bg-secondary flex items-center justify-center">
 				<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
@@ -14,11 +14,13 @@
 					/></svg
 				>
 			</div>
-			<div class="center-part h-full w-full grid grid-cols-3 gap-0">
-				<div class="bg-white flex flex-col items-center justify-center">Download App</div>
+			<div class="center-part h-full w-full grid grid-cols-3 max-w-4xl">
+				<div class="bg-white flex flex-col items-center justify-center w-full h-full">
+					Download App
+				</div>
 				<div
-					class="col-span-2 col-start-2"
-					style="background-image: url({images.aesteticPhone}) ;"
+					class="col-span-2 col-start-2 bg-cover bg-center bg-no-repeat"
+					style="background-image: url({images.aesteticPhone});"
 				/>
 			</div>
 			<div class="right-part h-[90%] w-[4rem] bg-secondary flex items-center justify-center">
