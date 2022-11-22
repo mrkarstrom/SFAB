@@ -4,7 +4,6 @@
 	import Spacer from '$lib/components/spacers/Spacer.svelte';
 	import ArrowBlock from '$lib/components/pointers/ArrowBlock.svelte';
 	import AppWindow from '$lib/components/appwindow/AppWindow.svelte';
-	import CarouselBanner from '$lib/components/carousels/CarouselBanner.svelte';
 	import Mission1 from '$lib/components/mission/Mission1.svelte';
 </script>
 
