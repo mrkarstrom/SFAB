@@ -1,6 +1,6 @@
 <script>
 	import imageStore from '../../../stores/imageStore';
-	import CtaBasic from '$lib/components/cta/CTA-Basic.svelte';
+	import CTABasic from '$lib/components/cta/CTABasic.svelte';
 	const images = $imageStore;
 </script>
 
@@ -52,7 +52,7 @@
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						</p>
 					</div>
-					<CtaBasic />
+					<CTABasic />
 				</div>
 				<div
 					class="col-span-2 col-start-2 bg-cover bg-center bg-no-repeat"

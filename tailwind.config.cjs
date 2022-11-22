@@ -10,7 +10,7 @@ module.exports = {
 					primary: '#000',
 					secondary: '#edc693',
 					accent: '#ffc693',
-					neutral: '#eee',
+					neutral: '#555',
 					'base-100': '#ffffff',
 
 					'--rounded-box': '1rem', // border radius rounded-box utility class, used in card and other large boxes
