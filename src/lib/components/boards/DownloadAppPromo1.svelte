@@ -8,26 +8,33 @@
 	<div class="wrapper hidden lg:flex z-100 absolute bottom-0 w-[92%] h-[32rem] drop-shadow-2xl">
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div class="left-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center">
-				<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					height="2rem"
+					fill="var(--arrowColor)"
+					viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 					<path
 						d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"
 					/></svg
 				>
 			</div>
-			<div class="box h-full w-full grid grid-cols-3 max-w-4xl">
+			<div class="center-box h-full w-full grid grid-cols-3 max-w-4xl">
 				<div
 					class="left-box-part bg-white flex flex-col items-center justify-between pt-20 pb-12 w-full h-full"
 				>
-					<div class="dropbox-icon relative w-16 h-16 border-2 rounded-full border-black">
+					<div
+						class="dropbox-icon relative w-16 h-16 border-2 rounded-full border-[var(--lineFillColor)]"
+					>
 						<div
 							class="arrow-box absolute w-4 h-13 z-10 left-[50%] top-[40%] translate-x-[-50%] translate-y-[-100%] bg-white"
 						>
 							<svg
+								class="arrow-down"
 								xmlns="http://www.w3.org/2000/svg"
 								width="1rem"
 								height="1rem"
-								fill="black"
+								fill="#333"
 								viewBox="0 0 384 512"
 								><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 								<path
@@ -39,6 +46,7 @@
 							class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
 							xmlns="http://www.w3.org/2000/svg"
 							width="2.3rem"
+							fill='#333'
 							viewBox="0 0 512 512"
 							><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 							<path
@@ -72,6 +80,11 @@
 </div>
 
 <style>
+	:root {
+		--lineFillColor: '#555';
+		--arrowColor: '#555';
+	}
+
 	.spacer {
 		display: flex;
 		flex-direction: row;

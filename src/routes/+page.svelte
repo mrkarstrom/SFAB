@@ -9,9 +9,8 @@
 
 <Hero />
 <DownloadAppPromo1 --spacer-height="15rem" />
-<ArrowBlock --blockHeight="18rem" />
-<Spacer --spacer-height="4rem" />
+<ArrowBlock --blockHeight="18rem" --circleColor="#555" --arrowColor="#555" />
 <AppWindow />
-<ArrowBlock --blockHeight="18rem" />
+<ArrowBlock --blockHeight="18rem" --circleColor="#555" --arrowColor="#555" />
 <Mission1 />
 <ArrowBlock --blockHeight="18rem" />

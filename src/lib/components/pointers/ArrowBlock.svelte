@@ -1,10 +1,9 @@
-<div
-	class="w-full h-[var(--blockHeight)] bg-[var(--bgColor)] z-100 flex items-center justify-center"
->
+<div class="w-full h-[var(--blockHeight)] bg-base-100 z-100 flex items-center justify-center">
 	<div
 		class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "
 	>
 		<svg
+			class="arrow-down"
 			xmlns="http://www.w3.org/2000/svg"
 			width="1rem"
 			fill="var(--arrowColor)"
@@ -20,9 +19,9 @@
 
 <style>
 	:root {
-		--arrowColor: #000;
-		--circleColor: #000;
 		--blockHeight: 12rem;
 		--bgColor: '#fff';
+		--arrowColor: #555;
+		--circleColor: #555;
 	}
 </style>

@@ -15,7 +15,7 @@
 
 <style>
 	:root {
-		--arrowColor: white;
-		--circleColor: white;
+		--arrowColor: #555;
+		--circleColor: #555;
 	}
 </style>

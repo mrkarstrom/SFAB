@@ -18,8 +18,17 @@ html {
     overflow-x:hidden
 }
 
+h1 {
+    color: #555;
+}
+
 h2 {
     font-size: xx-large;
+    color: #555;
+}
+
+p {
+    color: #555;
 }
 
 .basic-btn {
