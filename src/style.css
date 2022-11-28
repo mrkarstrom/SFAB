@@ -27,6 +27,22 @@ h2 {
     color: #555;
 }
 
+h3 {
+    font-size: x-large;
+}
+
+h4 {
+    font-size: larger;
+}
+
+h5 {
+    font-size: medium;
+}
+
+h6 {
+    font-size: small;
+}
+
 p {
     color: #555;
 }
