@@ -36,14 +36,14 @@
 						<h5>Winter 2022</h5>
 					</div>
 				</div>
-				<div class="OE-container flex flex-col items-center justify-start border-red-500 border">
-					<div class="OE-card h-auto w-[60%] pt-24 pb-10">
+				<div class="OE-container flex flex-col items-center justify-start">
+					<div class="OE-card h-auto w-[60%] -translate-y-14">
 						<div class="title-text font-medium leading-6 pb-1">
-							<h4 class="pb-1">WEEK Fashion</h4>
+							<h4 class="pb-1">ONE Eye</h4>
 						</div>
-						<img src='https://yesweb.se/sfab/img/mockup/woman-gray-coat.png' alt="Chanel Shoe" />
+						<img src="https://yesweb.se/sfab/img/mockup/woman-gray-coat.png" alt="Chanel Shoe" />
 						<h6 class="pt-1.5">Stockholm</h6>
-						<h5>February 2023</h5>
+						<h5>December 2022</h5>
 					</div>
 				</div>
 			</div>
