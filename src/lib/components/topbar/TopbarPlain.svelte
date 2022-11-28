@@ -2,7 +2,7 @@
 	export let currentLang = 'EN';
 </script>
 
-<div class="flex flex-col w-screen h-[40px] bg-[white]  items-center justify-center">
+<div class="flex flex-col w-screen h-[40px] bg-secondary  items-center justify-center">
 	<p class="hidden md:flex font-normal text-sm">
 		We Are The Best Marketplace for Pre-Owned High Quality Fashion
 	</p>
