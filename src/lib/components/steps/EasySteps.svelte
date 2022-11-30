@@ -2,10 +2,10 @@
 	<div class="w-full h-auto max-w-[1200px] bg-white flex flex-col">
 		<div class="title-wrap block">
 			<div class="title flex flex-row justify-between">
-				<h2 class="ml-16 py-6 font-normal text-black">3 Easy STEPS</h2>
+				<h2 class="ml-16 pb-16 font-normal text-black">3 Easy STEPS</h2>
 			</div>
 		</div>
-		<div class="three-steps-container h-80 w-full flex items-center justify-center">
+		<div class="three-steps-container h-80 w-full flex items-center justify-center z-10">
 			<div class="three-steps grid grid-cols-3 w-[85%] h-full ">
 				<div
 					class="one-box border-slate-500 border-l flex items-center justify-center border-left space-x-7"
@@ -33,7 +33,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="download-app-container w-full flex flex-row items-center justify-center">
+		<div
+			class="download-app-container w-full flex flex-row items-center justify-start space-x-24 pl-40"
+		>
 			<div class="download-button rounded flex items-center justify-center bg-accent w-72 h-20  ">
 				<div class="icon">
 					<div class="dropbox-icon-container relative w-16 h-16 border rounded-full border-black">
@@ -57,7 +59,7 @@
 							class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
 							xmlns="http://www.w3.org/2000/svg"
 							width="2.3rem"
-							fill="#333"
+							fill="#000"
 							viewBox="0 0 512 512"
 							><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 							<path
@@ -66,10 +68,10 @@
 						>
 					</div>
 				</div>
-				<div class="download-text pl-4">Download App</div>
+				<div class="download-text pl-4 text-black">Download App</div>
 			</div>
-			<div class="mobile-image w-96 h-[500px]">
-				<img src="https://yesweb.se/sfab/img/mockup/aesthetic-phone.png" alt="">
+			<div class="mobile-image w-[480px] z-0 -translate-y-[30px] ">
+				<img src="src/lib/images/mobile-download.svg" alt="Mobile Phone" />
 			</div>
 		</div>
 	</div>

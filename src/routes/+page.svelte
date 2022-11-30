@@ -6,6 +6,7 @@
 	import AppWindow from '$lib/components/appwindow/AppWindow.svelte';
 	import Mission1 from '$lib/components/mission/Mission1.svelte';
 	import BeInspired from '$lib/components/boards/BeInspired.svelte';
+	import Subscribe1 from '$lib/components/newsletter/Subscribe1.svelte';
 </script>
 
 <Hero />
@@ -19,3 +20,4 @@
 <ArrowBlock --blockHeight="20rem" />
 <BeInspired />
 <ArrowBlock --blockHeight="20rem" />
+<Subscribe1 />
