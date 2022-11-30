@@ -11,7 +11,7 @@
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					height="2rem"
-					fill="var(--arrowColor)"
+					fill="black"
 					viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 					<path
@@ -46,7 +46,7 @@
 							class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
 							xmlns="http://www.w3.org/2000/svg"
 							width="2.3rem"
-							fill='#333'
+							fill="#333"
 							viewBox="0 0 512 512"
 							><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 							<path
@@ -68,7 +68,7 @@
 				/>
 			</div>
 			<div class="right-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center">
-				<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
+				<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="black" viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 					<path
 						d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
@@ -81,8 +81,8 @@
 
 <style>
 	:root {
-		--lineFillColor: '#555';
-		--arrowColor: '#555';
+		--lineFillColor: '#000';
+		--arrowColor: '#000';
 	}
 
 	.spacer {
