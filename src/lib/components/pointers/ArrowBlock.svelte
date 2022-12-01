@@ -3,16 +3,18 @@
 		class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "
 	>
 		<svg
-			class="arrow-down"
+			width="16px"
+			height="16px"
+			viewBox="0 0 16 16"
 			xmlns="http://www.w3.org/2000/svg"
-			width="1rem"
-			fill="var(--arrowColor)"
-			viewBox="0 0 384 512"
-			><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-			<path
-				d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-			/></svg
+			fill="currentColor"
+			class="bi bi-arrow-down"
 		>
+			<path
+				fill-rule="evenodd"
+				d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+			/>
+		</svg>
 	</div>
 	<p class="pl-5 text-lg">scroll down</p>
 </div>

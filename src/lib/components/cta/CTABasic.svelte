@@ -1,5 +1,3 @@
-<div
-	class="btn bg-secondary w-[14rem] uppercase text-neutral hover:bg-accent hover:text-gray-900"
->
+<div class="btn bg-accent w-[14rem] rounded-md uppercase text-primary hover:bg-accent">
 	Join Slowfashion
 </div>

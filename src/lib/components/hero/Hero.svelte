@@ -8,7 +8,7 @@
 	style="background-image: url('https://yesweb.se/sfab/img/mockup/hero-couple.png') "
 >
 	<LinkbarHero />
-	<div class="box flex flex-col pt-56 opacity-100 items-center justify-center">
+	<div class="box flex flex-col pt-56 items-center justify-center">
 		<p class="mb-3 text-xl text-white uppercase">Be the change</p>
 		<h1 class="mb-16 text-7xl text-white font-['Steelfish'] uppercase ">Slowfashion</h1>
 		<ArrowDown --arrowColor="white" --circleColor="white" />
@@ -18,9 +18,5 @@
 <style>
 	:root {
 		--hero-lines: '#fff';
-	}
-	@font-face {
-		font-family: 'Steelfish';
-		src: url('../fonts/steelfish-rg.otf');
 	}
 </style>

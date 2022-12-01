@@ -7,6 +7,10 @@
 		src: url('../static/fonts/steelfish-rg.otf');
         color: #000;
 	} */
+	@font-face {
+		font-family: 'Steelfish';
+		src: url('../fonts/steelfish-rg.otf');
+	}
 
 * {
     box-sizing: border-box;
