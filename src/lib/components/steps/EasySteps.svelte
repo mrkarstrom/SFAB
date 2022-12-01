@@ -71,7 +71,7 @@
 				<div class="download-text pl-4 text-black">Download App</div>
 			</div>
 			<div class="mobile-image w-[480px] z-0 -translate-y-[30px] ">
-				<img src="src/lib/images/mobile-download.svg" alt="Mobile Phone" />
+				<img src="./src/lib/images/mobile-download.svg" alt="Mobile Phone" />
 			</div>
 		</div>
 	</div>
