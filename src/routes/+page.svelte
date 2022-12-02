@@ -10,7 +10,7 @@
 </script>
 
 <Hero />
-<DownloadAppPromo1 --spacer-height="15rem" />
+<DownloadAppPromo1 --spacer-height="13rem" />
 <ArrowBlock --blockHeight="18rem" --circleColor="black" --arrowColor="black" />
 <AppWindow />
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />

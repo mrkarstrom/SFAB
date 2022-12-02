@@ -5,7 +5,7 @@
 </script>
 
 <div class="spacer relative hidden lg:flex justify-center items-end">
-	<div class="wrapper hidden lg:flex z-100 absolute bottom-0 w-[92%] h-[32rem] drop-shadow-xl">
+	<div class="wrapper hidden lg:flex absolute bottom-0 w-[92%] h-[30rem] drop-shadow-xl">
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div
 				class="left-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center rounded-lg"
