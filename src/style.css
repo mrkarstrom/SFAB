@@ -22,10 +22,15 @@
 
 html {
     overflow-x:hidden;
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;    
 }
 
 body {
-
+max-width: 1200px;
 display: flex;
 flex-direction: column;
 justify-content: center;
