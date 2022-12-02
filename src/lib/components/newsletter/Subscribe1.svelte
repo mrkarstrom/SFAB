@@ -15,11 +15,15 @@
 		</div>
 		<div class="join-text font-semibold">
 			<h5 class="pb-4">Join The Club to Not Miss Our Most Exciting Launches</h5>
-			<svg xmlns="http://www.w3.org/2000/svg" height="1rem" fill="black" viewBox="0 0 512 512"
-				><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-				<path
-					d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
-				/></svg
+			<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
+				><g
+					fill="none"
+					fill-rule="evenodd"
+					stroke="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					transform="translate(4 6)"><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></g
+				></svg
 			>
 		</div>
 		<div class="links flex items-center space-x-4 max-w-fit flex-1">

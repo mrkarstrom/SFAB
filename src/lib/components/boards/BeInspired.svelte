@@ -2,10 +2,10 @@
 	<div class="be-inspired-box px-20 w-full">
 		<div class="be-inspired-title block">
 			<h2>Be INSPIRED</h2>
-			<p class="w-[600px] whitespace-normal">
+			<h5 class="mt-3 w-[600px] whitespace-normal">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis esse neque autem eveniet
 				temporibus dolorum!
-			</p>
+			</h5>
 		</div>
 		<div class="image-container grid grid-cols-3 gap-4 h-96 pt-8">
 			<div

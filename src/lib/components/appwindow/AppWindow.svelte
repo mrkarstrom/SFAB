@@ -3,7 +3,22 @@
 		<div class="title-wrap block">
 			<div class="title flex flex-row justify-between">
 				<h2 class="ml-16 py-6 font-medium">A WINDOW into the App</h2>
-				<h5 class="pt-8 pr-8">View All ---></h5>
+				<div class="flex flex-row items-center justify-center w-auto space-x-3 mr-10">
+					<h5>View All</h5>
+					<svg
+						width="20px"
+						height="20px"
+						viewBox="0 0 20 20"
+						version="1.1"
+						xmlns="http://www.w3.org/2000/svg"
+						><g id="layer1"
+							><path
+								d="M 14 7 L 17 10 L 0 10 L 0 11 L 17 11 L 14 14 L 15.5 14 L 19 10.5 L 15.5 7 L 14 7 z "
+								style="fill:#222222; fill-opacity:1; stroke:none; stroke-width:0px;"
+							/></g
+						></svg
+					>
+				</div>
 			</div>
 		</div>
 		<div class="content-container grid grid-cols-2 h-auto">
