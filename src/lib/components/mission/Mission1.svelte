@@ -4,8 +4,8 @@
 		style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
 	/>
 	<div class="bg-secondary flex flex-col items-center justify-between">
-		<h2 class="pt-8">Our Mission</h2>
-		<p class="max-w-[70%] text-center pb-4">
+		<h2 class="mt-12">Our Mission</h2>
+		<p class="max-w-[70%] text-center mb-20">
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid pariatur magnam sit, libero
 			hic tenetur vero.
 		</p>
