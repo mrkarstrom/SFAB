@@ -9,28 +9,38 @@
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid pariatur magnam sit, libero
 			hic tenetur vero.
 		</p>
-		<div class="pb-6">
-			<p class="font-['Steelfish'] pb-2 uppercase text-4xl">Slowfashion</p>
-			<p>Made in Sweden</p>
+		<div class="pb-8 text-center">
+			<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
+			<h6>Made in Sweden</h6>
 		</div>
 		<div
 			class="button-container hidden lg:flex absolute left-[50%] bottom-0 z-100  bg-accent h-12 w-52"
 		>
 			<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 				<div class="left-pointer w-full h-full flex flex-col items-center justify-center">
-					<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
-						><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-						<path
-							d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"
-						/></svg
+					<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
+						><g
+							fill="none"
+							fill-rule="evenodd"
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							transform="translate(3 6)"
+							><path d="m4.499.497-3.999 4.002 4 4.001" /><path d="m13.5 4.5h-13" /></g
+						></svg
 					>
 				</div>
 				<div class="right-pointer w-full h-full flex flex-col items-center justify-center">
-					<svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="gray" viewBox="0 0 512 512"
-						><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-						<path
-							d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
-						/></svg
+					<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
+						><g
+							fill="none"
+							fill-rule="evenodd"
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							transform="translate(4 6)"
+							><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></g
+						></svg
 					>
 				</div>
 			</div>
