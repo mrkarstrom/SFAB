@@ -23,7 +23,7 @@
 	/* Online */
 	@font-face {
 		font-family: 'Steelfish';
-		src: url('./static/fonts/steelfish-rg.otf');
+		src: url('steelfish-rg.otf');
 		color: #000;
 	}
 </style>
