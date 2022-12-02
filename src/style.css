@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Online */
-@font-face {
-		font-family: 'Steelfish';
-		src: url('../static/fonts/steelfish-rg.otf');
-        color: #000;
-	}
 
     /* Local */
 	@font-face {

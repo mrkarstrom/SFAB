@@ -19,4 +19,11 @@
 	:root {
 		--hero-lines: '#fff';
 	}
+
+	/* Online */
+	@font-face {
+		font-family: 'Steelfish';
+		src: url('./static/fonts/steelfish-rg.otf');
+		color: #000;
+	}
 </style>
