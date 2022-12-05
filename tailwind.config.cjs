@@ -19,7 +19,7 @@ module.exports = {
 					'--animation-btn': '0.25s', // duration of animation when you click on button
 					'--animation-input': '0.2s', // duration of animation for inputs like checkbox, toggle, radio, etc
 					'--btn-text-case': 'uppercase', // set default text transform for buttons
-					'--btn-focus-scale': '0.95', // scale transform of button when you focus/click it
+					'--btn-focus-scale': '.95', // scale transform of button when you focus/click it
 					'--border-btn': '0px', // border width of buttons
 					'--tab-border': '1px', // border width of tabs
 					'--tab-radius': '0.5rem' // border radius of tabs
