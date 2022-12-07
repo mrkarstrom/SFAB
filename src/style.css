@@ -2,24 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* Vercel version */
+/* * Vercel version */
 @font-face {
 		font-family: 'Steelfish';
 		src: url('../static/fonts/steelfish-rg.otf');
         color: #000;
 	}
 
-/* Local version */
-=======
-
-    /* Local */
->>>>>>> 0d5d13b491f694d80d9bb60e073b5dc6f846b684
-=======
-
-    /* Local */
->>>>>>> 0d5d13b491f694d80d9bb60e073b5dc6f846b684
+/* * Local version */
 	@font-face {
 		font-family: 'Steelfish';
 		src: url('./fonts/steelfish-rg.otf');
@@ -30,24 +20,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
-html {
-    overflow-x:hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-}
-
-body {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-}
 
 h1 {
     font-size: 5rem;
