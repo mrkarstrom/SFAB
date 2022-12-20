@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="backdrop bg-no-repeat bg-cover bg-center m-0 p-0 h-[800px] overflow-x-hidden"
+	class="backdrop relative bg-no-repeat bg-cover bg-center m-0 p-0 h-[800px] overflow-x-hidden"
 	style="background-image: url('https://yesweb.se/sfab/img/mockup/hero-couple.png') "
 >
 	<LinkbarHero />

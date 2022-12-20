@@ -1,5 +1,5 @@
 <div class="w-full flex flex-row justify-center">
-	<div class="w-full h-auto max-w-[1200px] bg-secondary flex flex-col">
+	<div class="w-full h-auto bg-secondary flex flex-col">
 		<div class="title-wrap block">
 			<div class="title flex flex-row justify-between">
 				<h2 class="ml-16 py-6 font-medium">A WINDOW into the App</h2>

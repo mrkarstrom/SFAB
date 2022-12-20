@@ -1,5 +1,5 @@
 <div class="w-full flex flex-row justify-center">
-	<div class="w-full h-auto max-w-[1200px] bg-white flex flex-col">
+	<div class="w-full h-auto bg-white flex flex-col">
 		<div class="title-wrap block">
 			<div class="title flex flex-row justify-between">
 				<h2 class="ml-16 pb-16 font-normal text-black">3 Easy STEPS</h2>
