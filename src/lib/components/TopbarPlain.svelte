@@ -2,10 +2,8 @@
 	export let currentLang = 'EN';
 </script>
 
-<div
-	class="grid w-full h-[40px] bg-secondary grid-cols-[50px_auto_50px] items-center justify-between"
->
-	<div class="" />
+<div class="grid h-[40px] bg-secondary grid-cols-[50px_auto_50px] items-center justify-between">
+	<div />
 	<div class="">
 		<p class="flex font-normal text-sm">
 			We Are The Marketplace for Pre-Owned High Quality Fashion

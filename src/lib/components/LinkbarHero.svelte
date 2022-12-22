@@ -1,5 +1,7 @@
-<div class="absolute left-8">
-	<div class="wrapper flex flex-row items-center justify-center mt-16 space-y-12 h-64 w-10">
+<div class="absolute top-12 lg:left-8 ">
+	<div
+		class="wrapper h-64 flex flex-row lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-12 lg:h-64 lg:w-10 "
+	>
 		<ul class="space-y-5">
 			<li class="flex items-center justify-center w-10 h-10 border border-white rounded-full">
 				<a href="https://linkedin.com">
