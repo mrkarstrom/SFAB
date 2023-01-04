@@ -1,4 +1,6 @@
-<div class="w-full h-[var(--blockHeight)] bg-base-100 z-100 flex items-center justify-center">
+<div
+	class="w-full h-[var(--blockHeight)] bg-base-100 z-100 items-center justify-center hidden lg:flex"
+>
 	<div
 		class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "
 	>

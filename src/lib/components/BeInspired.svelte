@@ -1,4 +1,4 @@
-<div class="be-inspired-container w-full h-auto flex justify-center">
+<div class="be-inspired-container w-full h-auto hidden lg:flex justify-center">
 	<div class="be-inspired-box px-20 w-full">
 		<div class="be-inspired-title block">
 			<h2>Be INSPIRED</h2>

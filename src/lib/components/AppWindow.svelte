@@ -1,4 +1,4 @@
-<div class="w-full flex flex-row justify-center">
+<div class="w-full flex flex-row justify-center items-center hidden lg:flex">
 	<div class="w-full h-auto bg-secondary flex flex-col">
 		<div class="title-wrap">
 			<div class="title flex flex-row justify-between">
