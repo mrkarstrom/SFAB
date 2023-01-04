@@ -9,7 +9,6 @@
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 </script>
 
-<div class="m-0 p-0">
 <Hero />
 <AppDownloadBlock --spacer-height="13rem" />
 <ArrowBlock --blockHeight="18rem" --circleColor="black" --arrowColor="black" />
@@ -22,4 +21,3 @@
 <BeInspired />
 <ArrowBlock --blockHeight="20rem" />
 <Subscribe1 />
-</div>

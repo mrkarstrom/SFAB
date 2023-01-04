@@ -14,7 +14,7 @@
 			<h6>Made in Sweden</h6>
 		</div>
 		<div
-			class="button-container hidden lg:flex absolute left-[50%] bottom-0 z-100  bg-accent h-12 w-52"
+			class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent h-12 w-52 lg:flex"
 		>
 			<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 				<div class="left-pointer w-full h-full flex flex-col items-center justify-center">
