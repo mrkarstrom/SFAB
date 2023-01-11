@@ -1,8 +1,8 @@
-<div class="spacer w-full h-[300px] flex justify-center items-end border-2 border-red-100 lg:flex">
-	<div class="wrapper relative bottom-[90px] flex w-[92%] h-auto drop-shadow-xl lg:flex">
+<div class="spacer w-full h-[300px] flex justify-center items-end lg:flex">
+	<div class="wrapper relative bottom-[10px] lg:bottom-[90px] flex w-[92%] h-[600px] lg:h-[480px] drop-shadow-xl lg:flex">
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div
-				class="left-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center rounded-lg"
+				class="left-box-arrow hidden lg:flex items-center justify-center h-[90%] w-[5rem] bg-secondary  rounded-lg"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" height="1rem" fill="black" viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
@@ -11,25 +11,35 @@
 					/></svg
 				>
 			</div>
-			<div class="center-box h-auto w-full grid grid-cols-3 max-w-4xl">
+			<div class="center-box h-full w-[50%] lg:w-full grid grid-rows-2 lg:grid-cols-3 lg:max-w-4xl">
 				<div
-					class="left-box-part bg-white flex flex-col items-center justify-between pt-24 pb-6 w-full h-full rounded-lg"
+					class="first-box-part bg-white flex flex-col items-center justify-between rounded-lg lg:pt-24 lg:pb-6 w-full h-full lg:h-[480px] lg:rounded-lg"
 				>
-					<div class="download-icon w-32 flex flex-col items-center ">
-						<img src="https://yesweb.se/sfab/img/mockup/download-app-icon.svg" alt="" />
-						<h5 class="text-center font-semibold pt-10">Easy | Reliable | Advanced</h5>
+					<div
+						class="download-icon w-full h-full flex flex-col items-center justify-center lg:w-32 lg:h-32"
+					>
+						<img
+							src="https://yesweb.se/sfab/img/mockup/download-app-icon.svg"
+							width="120px"
+							alt=""
+						/>
+						<h5 class="hidden text-center whitespace-nowrap font-semibold pt-10 lg:flex">
+							Easy | Reliable | Advanced
+						</h5>
 					</div>
-					<div class="btn bg-accent w-[14rem] rounded-md uppercase text-primary hover:bg-accent">
+					<div
+						class="btn bg-accent hidden w-[14rem] rounded-md uppercase text-primary hover:bg-accent lg:flex"
+					>
 						Join Slowfashion
 					</div>
 				</div>
 				<div
-					class="col-span-2 col-start-2 bg-cover bg-center bg-no-repeat h-[480px]"
+					class="image-box lg:col-span-2 lg:col-start-2 bg-cover bg-center bg-no-repeat lg:h-[480px]"
 					style="background-image: url('https://yesweb.se/sfab/img/mockup/aesthetic-phone.png');"
 				/>
 			</div>
 			<div
-				class="right-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center rounded-lg"
+				class="right-box-arrow  hidden lg:flex items-center justify-center h-[90%] w-[5rem] bg-secondary rounded-lg"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" height="1rem" fill="black" viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
