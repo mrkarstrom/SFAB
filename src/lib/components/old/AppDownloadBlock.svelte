@@ -1,5 +1,5 @@
 <script>
-	import imageStore from '../../stores/imageStore';
+	import imageStore from '../../../stores/imageStore';
 	import CTABasic from '$lib/components/CTABasic.svelte';
 	const images = $imageStore;
 </script>

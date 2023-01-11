@@ -1,5 +1,5 @@
-<div class="spacer w-full h-[500px] flex justify-center items-end border-2 border-red-100 lg:flex">
-	<div class="wrapper flex w-[92%] h-auto drop-shadow-xl lg:flex">
+<div class="spacer w-full h-[600px] flex justify-center items-end border-2 border-red-100 lg:flex">
+	<div class="wrapper relative bottom-[300px] flex w-[92%] h-auto drop-shadow-xl lg:flex">
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div
 				class="left-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center rounded-lg"
@@ -11,7 +11,7 @@
 					/></svg
 				>
 			</div>
-			<div class="center-box h-full w-full grid grid-cols-3 max-w-4xl">
+			<div class="center-box h-auto w-full grid grid-cols-3 max-w-4xl">
 				<div
 					class="left-box-part bg-white flex flex-col items-center justify-between pt-24 pb-6 w-full h-full rounded-lg"
 				>
@@ -24,8 +24,8 @@
 					</div>
 				</div>
 				<div
-					class="col-span-2 col-start-2 bg-cover bg-center bg-no-repeat"
-					style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone.png');"
+					class="col-span-2 col-start-2 bg-cover bg-center bg-no-repeat h-[480px]"
+					style="background-image: url('https://yesweb.se/sfab/img/mockup/aesthetic-phone.png');"
 				/>
 			</div>
 			<div
