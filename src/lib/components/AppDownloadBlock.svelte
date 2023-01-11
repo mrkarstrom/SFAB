@@ -4,8 +4,8 @@
 	const images = $imageStore;
 </script>
 
-<div class="spacer relative hidden justify-center items-end  lg:flex">
-	<div class="wrapper hidden  absolute bottom-0 w-[92%] h-[30rem] drop-shadow-xl lg:flex">
+<div class="spacer w-full h-[500px] flex justify-center items-end border-2 border-red-100 lg:flex">
+	<div class="wrapper flex w-[92%] h-auto drop-shadow-xl lg:flex">
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div
 				class="left-box-arrow h-[90%] w-[4rem] bg-secondary flex items-center justify-center rounded-lg"

@@ -1,6 +1,6 @@
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import AppDownloadBlock from '$lib/components/AppDownloadBlock.svelte';
+	import DownloadApp from '$lib/components/DownloadApp.svelte';
 	import EasySteps from '$lib/components/EasySteps.svelte';
 	import ArrowBlock from '$lib/components/ArrowBlock.svelte';
 	import AppWindow from '$lib/components/AppWindow.svelte';
@@ -10,7 +10,7 @@
 </script>
 
 <Hero />
-<AppDownloadBlock --spacer-height="13rem" />
+<DownloadApp --spacer-height="13rem" />
 <ArrowBlock --blockHeight="18rem" --circleColor="black" --arrowColor="black" />
 <AppWindow />
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
