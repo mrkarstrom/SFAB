@@ -1,5 +1,5 @@
 <div
-	class="circle-arrow hidden lg:flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "
+	class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "
 >
 	<svg
 		width="20px"

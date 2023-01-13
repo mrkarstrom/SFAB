@@ -1,5 +1,7 @@
-<div class="spacer w-full h-[300px] flex justify-center items-end lg:flex">
-	<div class="wrapper relative bottom-[10px] lg:bottom-[90px] flex w-[92%] h-[600px] lg:h-[480px] drop-shadow-xl lg:flex">
+<div class="spacer w-full h-[400px] lg:h-[300px] flex justify-center items-end lg:flex">
+	<div
+		class="wrapper relative bottom-[10px] flex w-[92%] h-[600px] drop-shadow-xl lg:bottom-[90px] lg:h-[480px]  lg:flex"
+	>
 		<div class="box-wrap flex items-center justify-center w-full h-full">
 			<div
 				class="left-box-arrow hidden lg:flex items-center justify-center h-[90%] w-[5rem] bg-secondary  rounded-lg"

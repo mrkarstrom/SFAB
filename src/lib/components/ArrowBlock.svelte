@@ -1,5 +1,5 @@
 <div
-	class="w-full h-[var(--blockHeight)] bg-base-100 z-100 items-center justify-center hidden lg:flex"
+	class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-base-100 z-100 "
 >
 	<div
 		class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border-2 w-16 h-16 rounded-full "

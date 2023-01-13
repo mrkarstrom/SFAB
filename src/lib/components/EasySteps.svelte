@@ -1,12 +1,12 @@
-<div class="w-full hidden lg:flex flex-row justify-center">
+<div class="w-full lg:flex flex-row justify-center">
 	<div class="w-full h-auto bg-white flex flex-col">
-		<div class="title-wrap block">
+		<div class="title-wrap ">
 			<div class="title flex flex-row justify-between">
 				<h2 class="ml-16 pb-16 font-normal text-black">3 Easy STEPS</h2>
 			</div>
 		</div>
 		<div class="three-steps-container h-80 w-full flex items-center justify-center z-10">
-			<div class="three-steps grid grid-cols-3 w-[85%] h-full ">
+			<div class="three-steps grid grid-cols-3 lg:w-[85%] h-full ">
 				<div
 					class="one-box border-slate-500 border-l flex items-center justify-center border-left space-x-7"
 				>
@@ -18,7 +18,7 @@
 				<div
 					class="two-box border-slate-500 border-x-2 flex items-center justify-center border-left space-x-7"
 				>
-					<div class="two border rounded-full w-16 h-16 p-0 flex items-center justify-center">
+					<div class="two border rounded-full lg:lg:w-16 h-16 p-0 flex items-center justify-center">
 						<h4>02</h4>
 					</div>
 					<h3 class="whitespace-normal w-48">Find SlowFashion App</h3>
@@ -37,7 +37,7 @@
 			class="download-app-container w-full flex flex-row items-center justify-start space-x-24 pl-40"
 		>
 			<div
-				class="download-button rounded flex items-center justify-center bg-accent w-[18rem] h-[4.5rem]"
+				class="download-button rounded flex items-center justify-center bg-accent w-[18rem] h-[4.5rem] "
 			>
 				<div class="icon">
 					<div class="dropbox-icon-container relative w-16 h-16 border rounded-full border-black">
@@ -58,7 +58,7 @@
 							>
 						</div>
 						<svg
-							class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
+							class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
 							xmlns="http://www.w3.org/2000/svg"
 							width="2.3rem"
 							fill="black"
@@ -72,7 +72,7 @@
 				</div>
 				<h5 class="download-text pl-4 text-black">Download App</h5>
 			</div>
-			<div class="mobile-image w-[480px] z-0 -translate-y-[30px] ">
+			<div class="mobile-image w-auto lg:w-[480px] z-0 -translate-y-[30px] ">
 				<img src="https://yesweb.se/sfab/img/mockup/mobile-download.svg" alt="Mobile Phone" />
 			</div>
 		</div>

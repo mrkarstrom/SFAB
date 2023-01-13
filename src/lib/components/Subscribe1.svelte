@@ -1,4 +1,4 @@
-<div class="newsletter-container w-full flex justify-between h-auto border-t-2 border-gray-400 ">
+<div class="newsletter-container hidden w-full lg:flex justify-between h-auto border-t-2 border-gray-400 ">
 	<section class="flex flex-col align-start items-between space-y-20 py-20 pl-20">
 		<div class="newsletter-signup">
 			<h2 class="pb-6">NEWSLETTER</h2>
