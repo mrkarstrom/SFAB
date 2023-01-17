@@ -8,25 +8,33 @@
 		<div class="three-steps-container h-80 w-full flex items-center justify-center z-10">
 			<div class="three-steps grid grid-cols-3 lg:w-[85%] h-full ">
 				<div
-					class="one-box border-slate-500 border-l flex items-center justify-center border-left space-x-7"
+					id="box-one"
+					class="border-slate-500 border-l flex items-center justify-center border-left space-x-7"
 				>
-					<div class="one border rounded-full w-16 h-16 p-0 flex items-center justify-center">
+					<div id="ring-one" class="border m-2 rounded-full flex items-center justify-center">
 						<h4>01</h4>
 					</div>
 					<h3 class="whitespace-normal w-48">Open App Store/ Google Play</h3>
 				</div>
 				<div
-					class="two-box border-slate-500 border-x-2 flex items-center justify-center border-left space-x-7"
+					id="box-two"
+					class="border-slate-500 border-x-2 flex items-center justify-center border-left space-x-7"
 				>
-					<div class="two border rounded-full lg:lg:w-16 h-16 p-0 flex items-center justify-center">
+					<div
+						id="ring-two"
+						class="border rounded-full w-16 h-16 p-0 flex items-center justify-center"
+					>
 						<h4>02</h4>
 					</div>
 					<h3 class="whitespace-normal w-48">Find SlowFashion App</h3>
 				</div>
 				<div
-					class="three-box border-slate-500 border-r flex items-center justify-center border-left space-x-7"
+					class="box-three border-slate-500 border-r flex items-center justify-center border-left space-x-7"
 				>
-					<div class="three border rounded-full w-16 h-16 p-0 flex items-center justify-center">
+					<div
+						id="ring-three"
+						class="border rounded-full w-16 h-16 p-0 flex items-center justify-center"
+					>
 						<h4>03</h4>
 					</div>
 					<h3 class="whitespace-normal w-48">Tap Install</h3>
