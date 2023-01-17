@@ -1,7 +1,7 @@
 <div class="spacer w-full h-[400px] lg:h-[300px] flex justify-center items-end lg:flex">
 	<div
 		id="wrapper"
-		class="relative bottom-[10px] flex w-[92%] h-[600px] drop-shadow-xl lg:bottom-[90px] lg:h-[480px] lg:flex"
+		class="relative bottom-[10px] flex w-[92%] h-[485px] drop-shadow-xl lg:bottom-[90px] lg:flex"
 	>
 		<div id="box-wrap" class="flex items-center justify-center w-full h-full">
 			<div
@@ -36,11 +36,12 @@
 							Honest | Smooth | Desirable
 						</h5>
 					</div>
-					<div
-						class="btn bg-accent hidden w-[14rem] rounded-md uppercase text-primary hover:bg-accent lg:flex"
+					<button
+						id="join-button"
+						class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
 					>
-						Join Slowfashion
-					</div>
+						<h5>Join Slowfashion</h5>
+					</button>
 				</div>
 				<div
 					id="image-box"
