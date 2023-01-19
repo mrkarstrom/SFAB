@@ -17,7 +17,9 @@
 					>
 						<h4>1</h4>
 					</div>
-					<h3 class="whitespace-normal w-48">Open App Store/ Google Play</h3>
+					<h3 class="whitespace-normal w-48">
+						Search for SLOWFASHION in App Store or Google Play.
+					</h3>
 				</div>
 				<div
 					id="box-two"
@@ -29,7 +31,7 @@
 					>
 						<h4>2</h4>
 					</div>
-					<h3 class="whitespace-normal w-48">Find SlowFashion App</h3>
+					<h3 class="whitespace-normal w-48">Install and start to explore.</h3>
 				</div>
 			</div>
 		</div>
@@ -80,7 +82,12 @@
 					<h5 class="download-text pl-4 text-black">Download App</h5>
 				</button>
 				<div id="scan-me" class="w-72">
-					<img src="https://yesweb.se/sfab/img/mockup/scan-me.jpeg" alt="Scan-me" style="object-fill" id="scan-me-img" />
+					<img
+						src="https://yesweb.se/sfab/img/mockup/scan-me.jpeg"
+						alt="Scan-me"
+						style="object-fill"
+						id="scan-me-img"
+					/>
 				</div>
 			</div>
 
