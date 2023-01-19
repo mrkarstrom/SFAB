@@ -1,7 +1,7 @@
-<div class="spacer w-full h-[400px] lg:h-[300px] flex justify-center items-end lg:flex">
+<div id="spacer" class="w-full h-[400px] flex justify-center items-end lg:flex lg:h-[300px] ">
 	<div
 		id="wrapper"
-		class="relative bottom-[10px] flex w-[92%] h-[485px] drop-shadow-xl lg:bottom-[90px] lg:flex"
+		class="relative bottom-[10px] w-[92%] h-[400px] drop-shadow-xl lg:bottom-[150px] lg:flex"
 	>
 		<div id="box-wrap" class="flex items-center justify-center w-full h-full">
 			<div
@@ -17,24 +17,24 @@
 			</div>
 			<div
 				id="center-box"
-				class="h-full w-[50%] lg:w-full grid grid-rows-2 lg:grid-cols-3 lg:max-w-4xl"
+				class="h-full w-[50%] grid grid-rows-2 lg:grid-rows-1 lg:w-full lg:grid-cols-3 lg:max-w-4xl"
 			>
 				<div
 					id="first-box-part"
-					class="bg-white flex flex-col items-center justify-between rounded-lg lg:pt-24 lg:pb-6 w-full h-full lg:h-[480px] lg:rounded-lg"
+					class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg"
 				>
 					<div
 						id=" download-icon"
-						class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-32 lg:h-32"
+						class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-[90px] lg:h-[90px]"
 					>
 						<img
 							src="https://yesweb.se/sfab/img/mockup/download-app-icon.svg"
 							width="120px"
 							alt=""
 						/>
-						<h5 class="hidden text-center whitespace-nowrap font-semibold pt-14 lg:flex">
+						<h6 class="hidden text-center whitespace-nowrap pt-14 lg:flex">
 							Honest | Smooth | Desirable
-						</h5>
+						</h6>
 					</div>
 					<button
 						id="join-button"
@@ -43,11 +43,14 @@
 						<h5>Join Slowfashion</h5>
 					</button>
 				</div>
-				<div
-					id="image-box"
-					class="lg:col-span-2 lg:col-start-2 bg-cover bg-center bg-no-repeat lg:h-[480px]"
-					style="background-image: url('https://yesweb.se/sfab/img/mockup/aesthetic-phone.png');"
-				/>
+				<div class="lg:col-span-2 lg:col-start-2">
+					<img
+						id="aestetic-phone"
+						class="object-fill"
+						src="https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg"
+						alt=""
+					/>
+				</div>
 			</div>
 			<div
 				class="right-box-arrow  hidden lg:flex items-center justify-center h-[90%] w-[5rem] bg-secondary rounded-lg"
