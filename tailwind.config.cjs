@@ -22,7 +22,8 @@ module.exports = {
 					'--btn-focus-scale': '.95', // scale transform of button when you focus/click it
 					'--border-btn': '0px', // border width of buttons
 					'--tab-border': '1px', // border width of tabs
-					'--tab-radius': '0.5rem' // border radius of tabs
+					'--tab-radius': '0.5rem', // border radius of tabs
+				
 				}
 			}
 		]
