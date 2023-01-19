@@ -1,7 +1,7 @@
-<div id="spacer" class="w-full h-[400px] flex justify-center items-end lg:flex lg:h-[300px] ">
+<div id="spacer" class="w-full h-[400px] flex justify-center items-end lg:flex lg:h-[200px] ">
 	<div
 		id="wrapper"
-		class="relative bottom-[10px] w-[92%] h-[400px] drop-shadow-xl lg:bottom-[150px] lg:flex"
+		class="relative bottom-[10px] w-[92%] h-[400px] drop-shadow-xl lg:bottom-[50px] lg:flex"
 	>
 		<div id="box-wrap" class="flex items-center justify-center w-full h-full">
 			<div

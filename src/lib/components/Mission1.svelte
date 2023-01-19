@@ -5,10 +5,7 @@
 	/>
 	<div class="right-side bg-secondary flex flex-col items-center justify-between h-full">
 		<h2 class="mt-12">Our Mission</h2>
-		<p class="max-w-[70%] text-center mb-20">
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid pariatur magnam sit, libero
-			hic tenetur vero.
-		</p>
+		<p class="max-w-[70%] text-center mb-20">Making circular fashion exclusive, fun & rewarding.</p>
 		<div class="pb-8 text-center">
 			<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
 			<h6>Made in Sweden</h6>

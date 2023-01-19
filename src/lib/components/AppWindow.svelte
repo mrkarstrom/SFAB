@@ -35,7 +35,7 @@
 					<div class="title-text font-medium leading-6 pb-1">
 						<h4 class="pb-1">WEEK Fashion</h4>
 					</div>
-					<img src="https://yesweb.se/sfab/img/mockup/chanel-shoe.png" alt="Chanel Shoe" />
+					<img src="https://yesweb.se/sfab/img/mockup/woman-white-rose.svg" alt="Woman Rose" />
 					<h6 class="pt-1.5">Stockholm</h6>
 					<h5>February 2023</h5>
 				</div>
@@ -46,9 +46,12 @@
 						<div class="title-text font-medium leading-6 pb-1">
 							<h4 class="pb-1">STYLE & Fashion</h4>
 						</div>
-						<img src="https://yesweb.se/sfab/img/mockup/bike-man.png" alt="Bike Man" />
+						<img
+							src="https://yesweb.se/sfab/img/mockup/face-cover-reading.jpg"
+							alt="Cover Reading"
+						/>
 						<h6 class="pt-1.5">Sweden</h6>
-						<h5>Winter 2022</h5>
+						<h5>Summer 2023</h5>
 					</div>
 				</div>
 				<div class="OE-container flex flex-col items-center justify-start">
@@ -56,9 +59,9 @@
 						<div class="title-text font-medium leading-6 pb-1">
 							<h4 class="pb-1">ONE Eye</h4>
 						</div>
-						<img src="https://yesweb.se/sfab/img/mockup/woman-gray-coat.png" alt="Chanel Shoe" />
+						<img src="https://yesweb.se/sfab/img/mockup/woman-gray-coat.png" alt="One Eye" />
 						<h6 class="pt-1.5">Stockholm</h6>
-						<h5>December 2022</h5>
+						<h5>September 2023</h5>
 					</div>
 				</div>
 			</div>
