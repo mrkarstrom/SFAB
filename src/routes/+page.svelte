@@ -10,14 +10,14 @@
 </script>
 
 <Hero />
-<DownloadApp/>
+<DownloadApp />
 <ArrowBlock --blockHeight="14rem" --circleColor="black" --arrowColor="black" />
 <AppWindow />
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
 <EasySteps />
-<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock --blockHeight="14rem" --circleColor="black" --arrowColor="black" />
 <Discover />
-<ArrowBlock --blockHeight="20rem" />
+<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
 <Mission1 />
-<ArrowBlock --blockHeight="20rem" />
+<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
 <Subscribe1 />

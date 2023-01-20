@@ -1,8 +1,8 @@
 <div id="discover-container" class="w-full h-auto hidden lg:flex justify-center">
 	<div id="discover-box" class="px-20 w-full">
 		<div id="discover-title">
-			<h2>DISCOVER in the app</h2>
-			<h5 class="mt-3 lg:w-[620px] whitespace-normal">
+			<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
+			<h5 class="mt-5 lg:w-[620px] whitespace-normal">
 				Find your unique expression by matching pieces from SlowFashion's newly arrived items now
 				available in the app.
 			</h5>

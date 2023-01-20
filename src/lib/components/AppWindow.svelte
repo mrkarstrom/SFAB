@@ -1,8 +1,8 @@
-<div class="w-full justify-center items-center lg:flex">
-	<div class="w-full h-auto bg-secondary flex flex-col">
-		<div class="title-wrap">
-			<div class="title flex flex-row justify-between">
-				<h2 class="ml-16 py-6 font-medium">A WINDOW into the App</h2>
+<div id="wrapper" class="w-full justify-center items-center lg:flex">
+	<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
+		<div id="title-wrap">
+			<div id="title" class="flex flex-row justify-between">
+				<p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p>
 				<div class="flex flex-row items-center justify-center w-auto space-x-3 mr-10">
 					<h5>View All</h5>
 					<svg

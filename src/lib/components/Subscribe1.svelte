@@ -1,5 +1,8 @@
-<div class="newsletter-container hidden w-full lg:flex justify-between h-auto border-t-2 border-gray-400 ">
-	<section class="flex flex-col align-start items-between space-y-20 py-20 pl-20">
+<div
+	id="newsletter-wrapper"
+	class="hidden w-full justify-between h-[500px] border-y-2 border-black overflow-hidden lg:flex"
+>
+	<section class="flex flex-col align-start items-between space-y-20 py-10 pl-20">
 		<div class="newsletter-signup">
 			<h2 class="pb-6">NEWSLETTER</h2>
 			<form action="" class="flex flex-row items-center">
@@ -13,8 +16,8 @@
 				<button class="bg-accent px-6 h-12 rounded m-0">SIGN UP</button>
 			</form>
 		</div>
-		<div class="join-text font-semibold">
-			<h5 class="pb-4">Join The Club to Not Miss Our Most Exciting Launches</h5>
+		<div id="join-text" class="font-semibold">
+			<h5 class="pb-4">Join our community and be part of the exciting launch</h5>
 			<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
 				><g
 					fill="none"
@@ -26,8 +29,11 @@
 				></svg
 			>
 		</div>
-		<div class="links flex items-center space-x-4 max-w-fit flex-1">
-			<div class="linked-in rounded-full flex items-center justify-center bg-secondary h-16 w-16">
+		<div id="links" class="flex items-center space-x-4 max-w-fit flex-1">
+			<div
+				id="linked-in-link"
+				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+			>
 				<svg
 					width="24px"
 					height="24px"
@@ -44,7 +50,10 @@
 					/><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg
 				>
 			</div>
-			<div class="twitter rounded-full flex items-center justify-center bg-secondary h-16 w-16">
+			<div
+				id="twitter-link"
+				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+			>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="black" width="20px" viewBox="0 0 512 512"
 					><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 					<path
@@ -52,7 +61,10 @@
 					/></svg
 				>
 			</div>
-			<div class="instagram rounded-full flex items-center justify-center bg-secondary h-16 w-16">
+			<div
+				id="instagram-link"
+				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+			>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="black" width="20px" viewBox="0 0 448 512"
 					><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
 					<path
@@ -62,7 +74,11 @@
 			</div>
 		</div>
 	</section>
-	<div class="download-app-right h-full">
-		<img src="https://yesweb.se/sfab/img/mockup/download-app-footer.svg" alt="Download App" />
+	<div id="download-app-right" class="overflow-hidden h-full">
+		<img
+			src="https://yesweb.se/sfab/img/mockup/download-app-footer.svg"
+			class="h-full w-auto"
+			alt="Download App"
+		/>
 	</div>
 </div>

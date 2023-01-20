@@ -2,8 +2,8 @@
 	class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border w-16 h-16 rounded-full "
 >
 	<svg
-		width="20px"
-		height="20px"
+		width="18px"
+		height="15px"
 		viewBox="0 0 16 16"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="white"

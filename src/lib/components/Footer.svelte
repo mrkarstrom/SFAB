@@ -1,7 +1,6 @@
-
 <div
 	class="hidden lg:flex h-auto w-full active:text-gray-900 text-center 
-	border-t-2 border-gray-400 bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
+	bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 >
 	<ul
 		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-gray-500 w-full md:flex md:flex-row md:items-center md:justify-center md:space-x-7 "

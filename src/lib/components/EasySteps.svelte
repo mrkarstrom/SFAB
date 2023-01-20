@@ -2,36 +2,36 @@
 	<div class="w-full h-auto bg-white flex flex-col">
 		<div id="title-wrap">
 			<div class="title flex flex-row justify-between">
-				<h2 class="ml-16 pb-16 font-normal text-black">2 Easy STEPS</h2>
+				<p class="text-4xl ml-16 pb-16 font-normal text-black">2 Easy STEPS</p>
 			</div>
 		</div>
-		<div id="two-steps-container" class="h-72 w-full flex items-center justify-center z-10">
-			<div id="two-steps" class="grid grid-cols-2 lg:w-[65%] h-full ">
+		<div id="two-steps-container" class="h-56 w-full flex items-center justify-center z-10">
+			<div id="two-steps" class="grid grid-cols-2 lg:w-[600px] h-full ">
 				<div
 					id="box-one"
-					class="border-slate-500 border-l flex items-center justify-center border-left space-x-7"
+					class="border-black border-l flex items-end justify-center border-left pb-8 space-x-6 w-[90%]"
 				>
 					<div
 						id="ring-one"
-						class="border m-2 w-16 h-16 p-0 rounded-full flex items-center justify-center"
+						class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
 					>
 						<h4>1</h4>
 					</div>
-					<h3 class="whitespace-normal w-48">
+					<p class="text-lg whitespace-normal w-36">
 						Search for SLOWFASHION in App Store or Google Play.
-					</h3>
+					</p>
 				</div>
 				<div
 					id="box-two"
-					class="border-slate-500 border-x flex items-center justify-center border-left space-x-7"
+					class="border-black border-x flex items-end justify-center border-left pb-8 space-x-6 w-[90%]"
 				>
 					<div
 						id="ring-two"
-						class="border m-2 rounded-full w-16 h-16 p-0 flex items-center justify-center"
+						class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
 					>
 						<h4>2</h4>
 					</div>
-					<h3 class="whitespace-normal w-48">Install and start to explore.</h3>
+					<p class="text-lg whitespace-normal w-36 pb-8">Install and start to explore.</p>
 				</div>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 						>
 							<div
 								id="arrow-box"
-								class=" absolute w-4 h-13 z-10 left-[50%] top-[40%] -translate-x-[50%] -translate-y-[100%] bg-secondary"
+								class=" absolute w-4 h-13 z-10 left-[50%] top-[48%] -translate-x-[50%] -translate-y-[100%] bg-secondary"
 							>
 								<svg
 									class="arrow-down"
@@ -68,15 +68,28 @@
 							</div>
 							<svg
 								class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
+								<svg
+								width="30px"
+								height="30px"
+								viewBox="0 0 24 24"
+								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
-								width="2.3rem"
-								fill="black"
-								viewBox="0 0 512 512"
-								><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-								<path
-									d="M121 32C91.6 32 66 52 58.9 80.5L1.9 308.4C.6 313.5 0 318.7 0 323.9V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V323.9c0-5.2-.6-10.4-1.9-15.5l-57-227.9C446 52 420.4 32 391 32H121zm0 64H391l48 192H387.8c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7H195.8c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7H73L121 96z"
-								/></svg
 							>
+								<path
+									d="M2 12H7.5L8.6094 13.6641C9.1658 14.4987 10.1025 15 11.1056 15H12H12.8944C13.8975 15 14.8342 14.4987 15.3906 13.6641L16.5 12H22V18.5C22 19.0523 21.5523 19.5 21 19.5H3C2.44772 19.5 2 19.0523 2 18.5L2 12Z"
+									stroke="#333333"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M22 12L19.4867 5.29775C19.1939 4.51715 18.4477 4 17.614 4H6.386C5.55231 4 4.80607 4.51715 4.51334 5.29775L2 12"
+									stroke="#333333"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
 						</div>
 					</div>
 					<h5 class="download-text pl-4 text-black">Download App</h5>
