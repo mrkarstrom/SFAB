@@ -1,4 +1,4 @@
-<div class="h-[25rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2">
+<div class="h-[23rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2">
 	<div
 		class="left-side w-full bg-cover bg-center lg:h-full"
 		style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"

@@ -51,7 +51,7 @@
 						>
 							<div
 								id="arrow-box"
-								class=" absolute w-4 h-13 z-10 left-[50%] top-[48%] -translate-x-[50%] -translate-y-[100%] bg-secondary"
+								class="absolute w-4 h-13 z-10 left-[50%] top-[48%] -translate-x-[50%] -translate-y-[100%] bg-secondary"
 							>
 								<svg
 									class="arrow-down"
@@ -68,9 +68,8 @@
 							</div>
 							<svg
 								class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
-								<svg
-								width="30px"
-								height="30px"
+								width="35px"
+								height="35px"
 								viewBox="0 0 24 24"
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
