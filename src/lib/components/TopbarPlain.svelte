@@ -2,7 +2,7 @@
 	export let currentLang = 'EN';
 </script>
 
-<div class="grid h-[40px] bg-secondary grid-cols-[50px_auto_50px] items-center justify-between">
+<div class="grid h-[40px] bg-secondary grid-cols-[50px_auto_50px] w-full items-center justify-between">
 	<div />
 	<div class="">
 		<p class="flex font-normal text-sm">
