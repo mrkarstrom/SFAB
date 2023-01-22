@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.31.0"
+		"daisyui": "^2.31.0",
+		"svelte-inview": "^3.0.2"
 	}
 }
