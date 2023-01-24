@@ -1,4 +1,4 @@
-<div id="wrapper" class="w-full justify-center items-center lg:flex">
+<div id="wrapper" class="hidden w-full justify-center items-center lg:flex">
 	<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 		<div id="title-wrap">
 			<div id="title" class="flex flex-row justify-between">
