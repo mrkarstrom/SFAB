@@ -1,3 +1,6 @@
+
+
+
 <div id="wrapper" class="opacity-[var(--op)] hidden w-full justify-center items-center lg:flex">
 	<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 		<div id="title-wrap">
