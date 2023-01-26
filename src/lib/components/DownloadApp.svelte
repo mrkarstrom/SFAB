@@ -1,33 +1,26 @@
 <script>
 	import { flip } from 'svelte/animate';
-	export let imageWidth = 530;
-	export let imageSpacing = '0px';
-	export let transitionSpeed = 500;
+	import Slide1 from './Slide1.svelte';
+	import Slide2 from './Slide2.svelte';
+	import Slide3 from './Slide3.svelte';
+	import Slide4 from './Slide4.svelte';
 
-	let images = [
-		{ path: 'https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg', id: 'image1' },
-		{ path: 'https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg', id: 'image2' },
-		{ path: 'https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg', id: 'image3' },
-		{ path: 'https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg', id: 'image4' },
-		{ path: 'https://yesweb.se/sfab/img/mockup/aesthetic-phone2.jpeg', id: 'image5' }
-	];
+	let slide = 1;
 
 	const rotateLeft = (e) => {
-		const transitioningImage = images[images.length - 1];
-		document.getElementById(transitioningImage.id).style.opacity = 0;
-		images = [images[images.length - 1], ...images.slice(0, images.length - 1)];
-		setTimeout(() => {
-			document.getElementById(transitioningImage.id).style.opacity = 1;
-		}, transitionSpeed);
+		if (slide <= 1) {
+			slide = 4;
+		} else {
+			slide--;
+		}
 	};
 
 	const rotateRight = (e) => {
-		const transitioningImage = images[0];
-		document.getElementById(transitioningImage.id).style.opacity = 0;
-		images = [...images.slice(1, images.length), images[0]];
-		setTimeout(() => {
-			document.getElementById(transitioningImage.id).style.opacity = 1;
-		}, transitionSpeed);
+		if (slide >= 4) {
+			slide = 1;
+		} else {
+			slide++;
+		}
 	};
 </script>
 
@@ -49,97 +42,19 @@
 					/></svg
 				>
 			</div>
-			<div
-				id="center-box"
-				class="h-full w-[50%] grid grid-rows-2 lg:grid-rows-1 lg:w-full lg:grid-cols-3 lg:max-w-4xl"
-			>
-				<div
-					id="first-box-part"
-					class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg"
-				>
-					<div
-						id=" download-icon"
-						class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-[90px] lg:h-[90px]"
-					>
-						<!-- * Svg-icon to be used inside the rotating text -->
-						<!-- <svg
-							fill="#000000"
-							width="50px"
-							height="50px"
-							viewBox="0 0 24 24"
-							id="inbox-in"
-							data-name="Line Color"
-							xmlns="http://www.w3.org/2000/svg"
-							class="icon line-color"
-							stroke="#000000"
-						>
-							<g id="SVGRepo_bgCarrier" stroke-width="0" />
+			{#if slide === 1}
+				<Slide1 />
+			{/if}
+			{#if slide === 2}
+				<Slide2 />
+			{/if}
+			{#if slide === 3}
+				<Slide3 />
+			{/if}
+			{#if slide === 4}
+				<Slide4 />
+			{/if}
 
-							<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-
-							<g id="SVGRepo_iconCarrier">
-								<line
-									id="secondary"
-									x1="12"
-									y1="3"
-									x2="12"
-									y2="12"
-									style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"
-								/>
-
-								<polyline
-									id="secondary-2"
-									data-name="secondary"
-									points="9 9 12 12 15 9"
-									style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"
-								/>
-
-								<path
-									id="primary"
-									d="M8,5H6L4,15H7.38a1,1,0,0,1,.9.55l.44.9a1,1,0,0,0,.9.55h4.76a1,1,0,0,0,.9-.55l.44-.9a1,1,0,0,1,.9-.55H20L18,5H16"
-									style="fill: none; stroke: #000000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"
-								/>
-
-								<path
-									id="primary-2"
-									data-name="primary"
-									d="M8.28,15.55l.44.9a1,1,0,0,0,.9.55h4.76a1,1,0,0,0,.9-.55l.44-.9a1,1,0,0,1,.9-.55H20v5a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15H7.38A1,1,0,0,1,8.28,15.55Z"
-									style="fill: none; stroke: #000000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"
-								/>
-							</g>
-						</svg> -->
-						<img
-							src="https://yesweb.se/sfab/img/mockup/download-app-icon.svg"
-							width="120px"
-							alt=""
-						/>
-						<h6 class="hidden text-center whitespace-nowrap pt-14 lg:flex">
-							Honest | Smooth | Desirable
-						</h6>
-					</div>
-					<button
-						id="join-button"
-						class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
-					>
-						<h5>Join Slowfashion</h5>
-					</button>
-				</div>
-				<div class="lg:col-span-2 lg:col-start-2">
-					<div id="carousel-container">
-						<div id="carousel-images">
-							{#each images as image (image.id)}
-								<img
-									src={image.path}
-									alt={image.id}
-									id={image.id}
-									style={`width: ${imageWidth}px; margin: 0 ${imageSpacing};`}
-									animate:flip={{ duration: transitionSpeed }}
-								/>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div>
 			<div
 				on:click={rotateRight}
 				class="right-box-arrow  hidden lg:flex items-center justify-center h-[90%] w-[5rem] bg-secondary rounded-lg"
