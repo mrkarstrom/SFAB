@@ -10,7 +10,8 @@
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
-	let scroll;
+	let scroll ;
+
 </script>
 
 <svelte:window bind:scrollY={scroll} />
@@ -22,20 +23,20 @@
 
 <ArrowBlock --blockHeight="14rem" --circleColor="black" --arrowColor="black" />
 {#if scroll >= 590}
-	<div class="block" transition:fly={{ y: 200, duration: 1500 }}>
+	<div class="block" transition:fly={{ once:true, y: 700, duration: 2500 }}>
 		<AppWindow />
 	</div>
 {/if}
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
-{#if scroll >= 2700}
-	<div class="block" transition:fly={{ y: 200, duration: 1500 }}>
+{#if scroll >= 2500}
+	<div class="block" transition:fly={{ y: 700, duration: 2500 }}>
 		<EasySteps />
 	</div>
 {/if}
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
 
-{#if scroll >= 3900}
-	<div class="block" transition:fly={{ y: 200, duration: 1500 }}>
+{#if scroll >= 3600}
+	<div class="block" transition:fly={{ y: 700, duration: 2500 }}>
 		<Mission1 />
 	</div>
 {/if}

@@ -75,7 +75,7 @@
 					</button>
 				</div>
 				<div class="lg:col-span-2 lg:col-start-2">
-					<h2>Image3</h2>
+					<img src="src\lib\images\aesthetic-phone.png" alt="">
 				</div>
 			</div>
 			
