@@ -1,25 +1,25 @@
 <script>
-	import { flip } from 'svelte/animate';
+	import { fly } from 'svelte/transition';
 	import Slide1 from './Slide1.svelte';
 	import Slide2 from './Slide2.svelte';
 	import Slide3 from './Slide3.svelte';
 	import Slide4 from './Slide4.svelte';
 
-	let slide = 1;
+	let slider = 1;
 
 	const rotateLeft = (e) => {
-		if (slide <= 1) {
-			slide = 4;
+		if (slider <= 1) {
+			slider = 4;
 		} else {
-			slide--;
+			slider--;
 		}
 	};
 
 	const rotateRight = (e) => {
-		if (slide >= 4) {
-			slide = 1;
+		if (slider >= 4) {
+			slider = 1;
 		} else {
-			slide++;
+			slider++;
 		}
 	};
 </script>
@@ -42,17 +42,41 @@
 					/></svg
 				>
 			</div>
-			{#if slide === 1}
-				<Slide1 />
+			{#if slider === 1}
+				<div
+					class="w-full h-full"
+					in:fly={{ x: -200, duration: 1000 }}
+					out:fly={{ x: 200, duration: 1000 }}
+				>
+					<Slide1 />
+				</div>
 			{/if}
-			{#if slide === 2}
-				<Slide2 />
+			{#if slider === 2}
+				<div
+					class="w-full h-full"
+					in:fly={{ x: -200, duration: 1000 }}
+					out:fly={{ x: 200, duration: 1000 }}
+				>
+					<Slide2 />
+				</div>
 			{/if}
-			{#if slide === 3}
-				<Slide3 />
+			{#if slider === 3}
+				<div
+					class="w-full h-full"
+					in:fly={{ x: -200, duration: 1000 }}
+					out:fly={{ x: 200, duration: 1000 }}
+				>
+					<Slide3 />
+				</div>
 			{/if}
-			{#if slide === 4}
-				<Slide4 />
+			{#if slider === 4}
+				<div
+					class="w-full h-full"
+					in:fly={{ x: -200, duration: 1000 }}
+					out:fly={{ x: 200, duration: 1000 }}
+				>
+					<Slide4 />
+				</div>
 			{/if}
 
 			<div
@@ -69,19 +93,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	#carousel-container {
-		width: 100%;
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		overflow-x: hidden;
-	}
-
-	#carousel-images {
-		display: flex;
-		justify-content: center;
-		flex-wrap: nowrap;
-	}
-</style>

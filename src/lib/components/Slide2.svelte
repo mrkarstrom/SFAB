@@ -75,7 +75,7 @@
 					</button>
 				</div>
 				<div class="lg:col-span-2 lg:col-start-2">
-					<h2>Image</h2>
+					<h2>Image2</h2>
 				</div>
 			</div>
 			
