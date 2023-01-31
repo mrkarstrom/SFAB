@@ -17,20 +17,19 @@
 			class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-[90px] lg:h-[90px]"
 		>
 			<div class="relative flex items-center justify-center">
-            <img
-				id="spinning-circle"
-				src="src\lib\images\download-app-text-svg.svg"
-				width="120px"
-				alt=""
-			/>
-            <img
-                class="z-10 absolute"
-				src="src\lib\images\download-box-icon-svg.svg"
-				width="40px"
-				alt=""
-			/>
-
-        </div>
+				<img
+					id="spinning-circle"
+					src="src\lib\images\download-app-text-svg.svg"
+					width="120px"
+					alt=""
+				/>
+				<img
+					class="z-10 absolute"
+					src="src\lib\images\download-box-icon-svg.svg"
+					width="40px"
+					alt=""
+				/>
+			</div>
 			<h6 class="hidden text-center whitespace-nowrap pt-14 lg:flex">
 				Honest | Smooth | Desirable
 			</h6>
@@ -43,7 +42,10 @@
 		</button>
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
-		<img src="src\lib\images\aesthetic-phone.png" alt="" />
+		<img
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone.png?raw=true"
+			alt=""
+		/>
 	</div>
 </div>
 <a
@@ -57,10 +59,6 @@
 		animation-name: spinning-circle;
 		animation-duration: 4s;
 		animation-iteration-count: infinite;
-	}
-	#spinning-circle img {
-		width: 100%;
-		height: auto;
 	}
 
 	@keyframes spinning-circle {
