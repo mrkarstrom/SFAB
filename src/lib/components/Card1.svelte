@@ -19,13 +19,13 @@
 			<div class="relative flex items-center justify-center">
 				<img
 					id="spinning-circle"
-					src="https://raw.githubusercontent.com/mrkarstrom/sfab/ef0956ccc281ba0a3e6ce082b0565273d7ffaf7e/src/lib/images/download-app-text-svg.svg"
+					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-app-text-svg.svg?raw=true"
 					width="120px"
 					alt=""
 				/>
 				<img
 					class="z-10 absolute"
-					src="https://raw.githubusercontent.com/mrkarstrom/sfab/ef0956ccc281ba0a3e6ce082b0565273d7ffaf7e/src/lib/images/download-box-icon-svg.svg"
+					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-icon-svg.svg?raw=true"
 					width="40px"
 					alt=""
 				/>
@@ -43,7 +43,7 @@
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone.png?raw=true"
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone2.jpeg?raw=true"
 			alt=""
 		/>
 	</div>
