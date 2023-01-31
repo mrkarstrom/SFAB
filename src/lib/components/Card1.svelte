@@ -19,13 +19,13 @@
 			<div class="relative flex items-center justify-center">
 				<img
 					id="spinning-circle"
-					src="src\lib\images\download-app-text-svg.svg"
+					src="https://raw.githubusercontent.com/mrkarstrom/sfab/ef0956ccc281ba0a3e6ce082b0565273d7ffaf7e/src/lib/images/download-app-text-svg.svg"
 					width="120px"
 					alt=""
 				/>
 				<img
 					class="z-10 absolute"
-					src="src\lib\images\download-box-icon-svg.svg"
+					src="https://raw.githubusercontent.com/mrkarstrom/sfab/ef0956ccc281ba0a3e6ce082b0565273d7ffaf7e/src/lib/images/download-box-icon-svg.svg"
 					width="40px"
 					alt=""
 				/>
@@ -57,8 +57,9 @@
 <style>
 	#spinning-circle {
 		animation-name: spinning-circle;
-		animation-duration: 4s;
+		animation-duration: 8s;
 		animation-iteration-count: infinite;
+		animation-timing-function: linear;
 	}
 
 	@keyframes spinning-circle {
