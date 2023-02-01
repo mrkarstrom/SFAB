@@ -36,10 +36,10 @@
 
 	@keyframes bounce-up-down {
 		from {
-			transform: translate3d(0, 20px, 0);
+			transform: translate3d(0, 10px, 0);
 		}
 		to {
-			transform: translate3d(0, -20px, 0);
+			transform: translate3d(0, -10px, 0);
 		}
 	}
 </style>
