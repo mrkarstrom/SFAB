@@ -42,10 +42,3 @@
 <ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
 <Subscribe1 />
 <Footer />
-<!-- 
-<style>
-	.slide-in-bottom {
-		-webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 500ms;
-		animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 500ms;
-	}
-</style> -->

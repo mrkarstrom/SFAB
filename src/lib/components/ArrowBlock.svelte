@@ -1,6 +1,6 @@
 <div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-base-100 z-100 ">
 	<div
-		id="arrow"
+		id="bounce-up-down"
 		class="flex justify-center items-center border-[var(--circleColor)] border w-14 h-14 rounded-full "
 	>
 		<svg
@@ -26,5 +26,20 @@
 		--bgColor: '#fff';
 		--arrowColor: #555;
 		--circleColor: #555;
+	}
+
+	#bounce-up-down {
+		animation: bounce-up-down 0.7s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes bounce-up-down {
+		from {
+			transform: translate3d(0, 20px, 0);
+		}
+		to {
+			transform: translate3d(0, -20px, 0);
+		}
 	}
 </style>

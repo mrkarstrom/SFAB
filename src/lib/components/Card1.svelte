@@ -62,6 +62,8 @@
 		animation-timing-function: linear;
 	}
 
+	
+
 	@keyframes spinning-circle {
 		0% {
 			-webkit-transform: rotate(0deg);
@@ -73,9 +75,5 @@
 		}
 	}
 
-	@keyframes bounce {
-		0% {
-			
-		}
-	}
+	
 </style>
