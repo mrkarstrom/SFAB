@@ -36,7 +36,7 @@
 		</div>
 		<button
 			id="join-button"
-			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
+			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-black hover:text-white transition duration-300 hover:ease-in-out"
 		>
 			<h5>Join Slowfashion</h5>
 		</button>
@@ -70,6 +70,12 @@
 		100% {
 			-webkit-transform: rotate(360deg);
 			transform: rotate(360deg);
+		}
+	}
+
+	@keyframes bounce {
+		0% {
+			
 		}
 	}
 </style>
