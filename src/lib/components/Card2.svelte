@@ -18,7 +18,7 @@
 		</h6>
 		<button
 			id="join-button"
-			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
+			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-black hover:text-white transition duration-300 hover:ease-in-out"
 		>
 			<h5>Join Slowfashion</h5>
 		</button>
@@ -32,8 +32,8 @@
 				alt=""
 			/>
 			<img
-				class="z-10 absolute"
-				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-iconbeige.png?raw=true"
+				class="z-10 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-icon-beige.png?raw=true"
 				width="40px"
 				alt=""
 			/>
