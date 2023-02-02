@@ -24,11 +24,11 @@
 		</button>
 	</div>
 	<div class="relative h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
-		<div class="absolute flex items-center justify-center">
+		<div class="absolute left-1/2 -translate-x-1/2 bottom-12">
 			<img
 				id="spinning-circle"
 				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-spinner.png?raw=true"
-				width="120px"
+				width="110px"
 				alt=""
 			/>
 			<img
