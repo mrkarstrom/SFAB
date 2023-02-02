@@ -13,15 +13,10 @@
 		id="left-box-part"
 		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg"
 	>
-		<div
-			id=" download-icon"
-			class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-[90px] lg:h-[90px]"
-		>
-			<img src="https://yesweb.se/sfab/img/mockup/download-app-icon.svg" width="120px" alt="" />
-			<h6 class="hidden text-center whitespace-nowrap pt-14 lg:flex">
-				Honest | Smooth | Desirable
+		
+			<h6 class="hidden text-center w-32 whitespace-wrap pt-14 lg:flex">
+				Give someone the opportunity to love what you don't use anymore.
 			</h6>
-		</div>
 		<button
 			id="join-button"
 			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
@@ -33,7 +28,7 @@
 		<div class="absolute flex items-center justify-center">
 			<img
 				id="spinning-circle"
-				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-app-text-svg.svg?raw=true"
+				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-spinner.png?raw=true"
 				width="120px"
 				alt=""
 			/>
@@ -55,3 +50,23 @@
 	href="#slide3"
 	on:click={() => animateScroll.scrollTo({ element: '#slide3', offset: -300 })}
 />
+
+<style>
+	#spinning-circle {
+		animation-name: spinning-circle;
+		animation-duration: 8s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	@keyframes spinning-circle {
+		0% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+</style>
