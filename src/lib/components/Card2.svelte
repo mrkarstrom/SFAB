@@ -30,7 +30,7 @@
 		</button>
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
-		<img src="src\lib\images\aesthetic-phone.png" alt="" />
+		<img src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone2.jpeg?raw=true" alt="" />
 	</div>
 </div>
 <a
