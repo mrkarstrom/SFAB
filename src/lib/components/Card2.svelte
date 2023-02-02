@@ -13,10 +13,9 @@
 		id="left-box-part"
 		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg"
 	>
-		
-			<h6 class="hidden text-center w-32 whitespace-wrap pt-14 lg:flex">
-				Give someone the opportunity to love what you don't use anymore.
-			</h6>
+		<h6 class="hidden text-center w-32 whitespace-wrap pt-14 lg:flex">
+			Give someone the opportunity to love what you don't use anymore.
+		</h6>
 		<button
 			id="join-button"
 			class="bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-accent"
@@ -34,7 +33,7 @@
 			/>
 			<img
 				class="z-10 absolute"
-				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-icon-svg.svg?raw=true"
+				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-iconbeige.png?raw=true"
 				width="40px"
 				alt=""
 			/>
