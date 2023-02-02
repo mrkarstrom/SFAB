@@ -43,7 +43,7 @@
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/aesthetic-phone2.jpeg?raw=true"
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true"
 			alt=""
 		/>
 	</div>
@@ -62,8 +62,6 @@
 		animation-timing-function: linear;
 	}
 
-	
-
 	@keyframes spinning-circle {
 		0% {
 			-webkit-transform: rotate(0deg);
@@ -74,6 +72,4 @@
 			transform: rotate(360deg);
 		}
 	}
-
-	
 </style>
