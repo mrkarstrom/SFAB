@@ -40,7 +40,7 @@
 				>
 			</a>
 		</li>
-		<li class="flex items-center justify-center p-4 border border-white rounded-full">
+		<li class="hover:pulse flex items-center justify-center p-4 border border-white rounded-full">
 			<a href="https://twitter.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -72,3 +72,35 @@
 		</li>
 	</ul>
 </div>
+
+<style>
+	.pulse {
+		animation-name: pulse;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	@-webkit-keyframes pulse {
+		0% {
+			-webkit-transform: scale(0, 0);
+		}
+		50% {
+			-webkit-transform: scale(1, 1);
+		}
+		100% {
+			-webkit-transform: scale(0, 0);
+		}
+	}
+	@keyframes pulse {
+		0% {
+			transform: scale(0, 0);
+		}
+		50% {
+			transform: scale(1, 1);
+		}
+		100% {
+			transform: scale(0, 0);
+		}
+	}
+</style>
