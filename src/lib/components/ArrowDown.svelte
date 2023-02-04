@@ -20,18 +20,4 @@
 		--arrowColor: #000;
 		--circleColor: #000;
 	}
-	.bounce-up-down {
-		animation: bounce-up-down 0.4s;
-		animation-direction: alternate;
-		animation-iteration-count: infinite;
-	}
-
-	@keyframes bounce-up-down {
-		from {
-			transform: translate3d(0, 10px, 0);
-		}
-		to {
-			transform: translate3d(0, -10px, 0);
-		}
-	}
 </style>

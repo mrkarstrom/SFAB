@@ -1,7 +1,7 @@
 <div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-base-100 z-100 ">
 	<div
-		id="bounce-up-down"
-		class="flex justify-center items-center border-[var(--circleColor)] border w-14 h-14 rounded-full "
+		id="arrow-down"
+		class="bounce-up-down flex justify-center items-center border-[var(--circleColor)] border w-14 h-14 rounded-full "
 	>
 		<svg
 			width="18px"
@@ -28,7 +28,7 @@
 		--circleColor: #555;
 	}
 
-	#bounce-up-down {
+	/* #bounce-up-down {
 		animation: bounce-up-down 0.4s;
 		animation-direction: alternate;
 		animation-iteration-count: infinite;
@@ -41,5 +41,5 @@
 		to {
 			transform: translate3d(0, -10px, 0);
 		}
-	}
+	} */
 </style>
