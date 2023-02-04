@@ -64,7 +64,7 @@ p {
 }
 
 .bounce-up-down {
-    animation: bounce-up-down 1.3s;
+    animation: bounce-up-down 0.4s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
