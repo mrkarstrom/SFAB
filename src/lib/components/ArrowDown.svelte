@@ -1,5 +1,5 @@
 <div
-	class="circle-arrow flex justify-center items-center border-[var(--circleColor)] border w-16 h-16 rounded-full "
+	class="bounce-up-down flex justify-center items-center border-[var(--circleColor)] border w-16 h-16 rounded-full "
 >
 	<svg
 		width="18px"
@@ -7,7 +7,6 @@
 		viewBox="0 0 16 16"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="white"
-		class="arrow-down"
 	>
 		<path
 			fill-rule="evenodd"
