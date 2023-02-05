@@ -2,7 +2,9 @@
 	<ul
 		class="flex flex-row space-x-5 lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
 	>
-		<li class="flex items-center justify-center p-4 border border-white rounded-full">
+		<li
+			class="flex hover:[.pulsate]  items-center justify-center p-4 border border-white rounded-full"
+		>
 			<a href="https://linkedin.com">
 				<svg
 					width="24px"
@@ -14,7 +16,6 @@
 					stroke-width="1.5"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="feather feather-linkedin"
 					><path
 						d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
 					/><rect x="2" y="9" fill="none" stroke="white" width="4" height="12" /><circle
@@ -72,35 +73,3 @@
 		</li>
 	</ul>
 </div>
-
-<style>
-	.pulse {
-		animation-name: pulse;
-		animation-duration: 0.5s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-
-	@-webkit-keyframes pulse {
-		0% {
-			-webkit-transform: scale(0, 0);
-		}
-		50% {
-			-webkit-transform: scale(1, 1);
-		}
-		100% {
-			-webkit-transform: scale(0, 0);
-		}
-	}
-	@keyframes pulse {
-		0% {
-			transform: scale(0, 0);
-		}
-		50% {
-			transform: scale(1, 1);
-		}
-		100% {
-			transform: scale(0, 0);
-		}
-	}
-</style>

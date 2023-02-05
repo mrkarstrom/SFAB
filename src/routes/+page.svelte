@@ -1,5 +1,6 @@
 <script>
 	import { fly } from 'svelte/transition';
+	import * as animateScroll from 'svelte-scrollto';
 	import TopbarPlain from '$lib/components/TopbarPlain.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import DownloadApp from '$lib/components/DownloadApp.svelte';

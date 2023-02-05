@@ -69,6 +69,27 @@ p {
     animation-iteration-count: infinite;
 }
 
+.pulsate {
+    animation: pulsate 1s infinite;
+    /* animation-timing-function: linear; */
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
 @keyframes bounce-up-down {
     from {
         transform: translate3d(0, 10px, 0);
