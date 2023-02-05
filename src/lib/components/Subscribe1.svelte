@@ -1,3 +1,4 @@
+
 <div
 	id="newsletter-wrapper"
 	class="hidden w-full justify-between h-[500px] border-y-2 border-black overflow-hidden lg:flex"
