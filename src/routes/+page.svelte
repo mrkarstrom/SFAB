@@ -13,21 +13,20 @@
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-
 </script>
 
 <TopbarPlain />
 <Hero />
 <DownloadApp />
 
-<ArrowBlock --blockHeight="14rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock --blockHeight="14rem"/>
 <AppWindow />
-<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock />
 <EasySteps />
-<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock />
 <Discover />
-<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock />
 <Mission1 />
-<ArrowBlock --blockHeight="20rem" --circleColor="black" --arrowColor="black" />
+<ArrowBlock />
 <Subscribe1 />
 <Footer />

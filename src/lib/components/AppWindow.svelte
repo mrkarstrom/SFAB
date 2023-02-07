@@ -20,8 +20,10 @@
 				<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 					<div id="title-wrap">
 						<div id="title" class="flex flex-row justify-between">
-							<p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p>
-							<div class="flex flex-row items-center justify-center w-auto space-x-3 mr-10">
+							<p class="slide-in-right text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p>
+							<div
+								class="flex bounce-right flex-row items-center justify-center w-auto space-x-3 mr-10"
+							>
 								<h5>View All</h5>
 								<svg
 									width="20px"

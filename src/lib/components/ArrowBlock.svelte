@@ -1,4 +1,4 @@
-<div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-base-100 z-100 ">
+<div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-inherit z-100 ">
 	<div
 		id="arrow-down"
 		class="bounce-up-down flex justify-center items-center border-[var(--circleColor)] border w-14 h-14 rounded-full "
@@ -22,10 +22,9 @@
 
 <style>
 	:root {
-		--blockHeight: 12rem;
-		--bgColor: '#fff';
-		--arrowColor: #555;
-		--circleColor: #555;
+		--blockHeight: 20rem;
+		--arrowColor: #000;
+		--circleColor: #000;
 	}
 
 	/* #bounce-up-down {
