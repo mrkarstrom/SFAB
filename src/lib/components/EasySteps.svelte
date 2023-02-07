@@ -32,7 +32,7 @@
 								>
 									<h4>1</h4>
 								</div>
-								<p class="text-lg whitespace-normal w-36">
+								<p class="text-lg whitespace-normal w-40 hover:font-medium">
 									Search for SLOWFASHION in App Store or Google Play.
 								</p>
 							</div>
@@ -46,7 +46,9 @@
 								>
 									<h4>2</h4>
 								</div>
-								<p class="text-lg whitespace-normal w-36 pb-8">Install and start to explore.</p>
+								<p class="text-lg whitespace-normal w-40 hover:font-medium pb-8">
+									Install and start to explore.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -147,7 +149,7 @@
 								</div>
 								<h6 class="download-text pl-4 text-black">Download App</h6>
 							</button>
-							<div id="scan-me" class="w-56">
+							<div id="scan-me" class="w-56 bounce-left">
 								<img
 									src="https://yesweb.se/sfab/img/mockup/scan-me.jpeg"
 									alt="Scan-me"
