@@ -69,6 +69,12 @@ p {
     animation-iteration-count: infinite;
 }
 
+.bounce-right {
+    animation: bounce-right 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
 .pulsate {
     animation: pulsate 1s infinite;
     /* animation-timing-function: linear; */
@@ -97,6 +103,36 @@ p {
 
     to {
         transform: translate3d(0, -10px, 0);
+    }
+}
+
+@-webkit-keyframes bounce-up-down {
+    from {
+        -webkit-transform: translate3d(0, 10px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10px, 0);
+    }
+}
+
+@keyframes bounce-right {
+    from {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0px, 0, 0);
+    }
+}
+
+@-webkit-keyframes bounce-right {
+    from {
+        -webkit-transform: translate3d(5px, 0, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0px, 0, 0);
     }
 }
 
