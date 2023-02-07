@@ -69,6 +69,18 @@ p {
     animation-iteration-count: infinite;
 }
 
+.bounce-left {
+    animation: bounce-left 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.bounce-right {
+    animation: bounce-right 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
 .pulsate {
     animation: pulsate 1s infinite;
     /* animation-timing-function: linear; */
@@ -120,7 +132,7 @@ p {
     }
 }
 
-@keyframes bounce-right {
+@keyframes bounce-left {
     from {
         transform: translate3d(5px, 0, 0);
     }
@@ -130,7 +142,7 @@ p {
     }
 }
 
-@-webkit-keyframes bounce-right {
+@-webkit-keyframes bounce-left {
     from {
         -webkit-transform: translate3d(5px, 0, 0);
     }
