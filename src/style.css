@@ -144,21 +144,21 @@ p {
 
 @keyframes bounce-left {
     from {
-        transform: translate3d(-5px, 0, 0);
+        transform: translate3d(0px, 0, 0);
     }
 
     to {
-        transform: translate3d(5px, 0, 0);
+        transform: translate3d(8px, 0, 0);
     }
 }
 
 @-webkit-keyframes bounce-left {
     from {
-        -webkit-transform: translate3d(-5px, 0, 0);
+        -webkit-transform: translate3d(0px, 0, 0);
     }
 
     to {
-        -webkit-transform: translate3d(5px, 0, 0);
+        -webkit-transform: translate3d(8px, 0, 0);
     }
 }
 

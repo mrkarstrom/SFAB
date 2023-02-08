@@ -149,12 +149,19 @@
 								</div>
 								<h6 class="download-text pl-4 text-black">Download App</h6>
 							</button>
-							<div id="scan-me" class="w-56 bounce-left">
+							<div id="scan-me" class="w-56 flex items-center justify-center">
 								<img
-									src="https://yesweb.se/sfab/img/mockup/scan-me.jpeg"
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/QR.png?raw=true"
+									alt="QR"
+									class="w-20"
+									id="QR-img"
+								/>
+								<img
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
+									class="bounce-left h-12"
 								/>
 							</div>
 						</div>
