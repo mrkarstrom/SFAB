@@ -11,8 +11,8 @@
 	}}
 >
 	{#if isInView}
-		<div in:fly={{ x: 50, duration: 1500, delay: 1000 }}>
-			<slot/>
+		<div in:fly={{ x: 50, duration: 2000, delay: 1000 }}>
+			<slot />
 		</div>
 	{/if}
 </div>
