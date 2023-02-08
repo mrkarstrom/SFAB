@@ -1,6 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
+	import Title from './Title.svelte';
 
 	let isInView;
 </script>
@@ -16,7 +17,9 @@
 			<div id="discover-container" class="w-full h-auto hidden lg:flex justify-center">
 				<div id="discover-box" class="px-20 w-full">
 					<div id="discover-title">
-						<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
+						<Title>
+							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
+						</Title>
 						<h5 class="mt-5 lg:w-[620px] whitespace-normal">
 							Find your unique expression by matching pieces from SlowFashion's newly arrived items
 							now available in the app.

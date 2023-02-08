@@ -1,7 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-
+	import Title from './Title.svelte';
 	let isInView;
 </script>
 
@@ -19,7 +19,9 @@
 					style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
 				/>
 				<div class="right-side bg-secondary flex flex-col items-center justify-between h-full">
-					<p class="text-2xl mt-12">Our Mission</p>
+					<Title>
+						<p class="text-2xl mt-12">Our Mission</p>
+					</Title>
 					<p class="max-w-[70%] text-center mb-20">
 						Making circular fashion exclusive, fun & rewarding.
 					</p>

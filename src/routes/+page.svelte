@@ -19,14 +19,14 @@
 <Hero />
 <DownloadApp />
 
-<ArrowBlock --blockHeight="14rem"/>
+<ArrowBlock --blockHeight="14rem" />
 <AppWindow />
 <ArrowBlock />
 <EasySteps />
 <ArrowBlock />
-<Discover />
-<ArrowBlock />
 <Mission1 />
+<ArrowBlock />
+<Discover />
 <ArrowBlock />
 <Subscribe1 />
 <Footer />
