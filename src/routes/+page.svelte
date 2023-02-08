@@ -13,6 +13,9 @@
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import { browser } from '$app/environment';
+
+	import Modal from 'svelte-simple-modal';
 </script>
 
 <TopbarPlain />
@@ -24,9 +27,14 @@
 <ArrowBlock />
 <EasySteps />
 <ArrowBlock />
-<Mission1 />
-<ArrowBlock />
 <Discover />
 <ArrowBlock />
+<Mission1 />
+<ArrowBlock />
 <Subscribe1 />
-<Footer />
+
+{#if browser}
+	<Modal>
+		<Footer />
+	</Modal>
+{/if}
