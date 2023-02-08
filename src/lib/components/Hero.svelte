@@ -6,7 +6,7 @@
 <div
 	id="backdrop"
 	class="flex flex-col items-center justify-start w-full bg-no-repeat bg-cover bg-center m-0 pt-48 relative h-[800px]"
-	style="background-image: url('https://yesweb.se/sfab/img/mockup/hero-couple.png')"
+	style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"
 >
 	<LinkbarHero />
 	<div class="hero-text flex flex-col items-center justify-center">

@@ -54,22 +54,3 @@
 	on:click={() => animateScroll.scrollTo({ element: '#slide2', offset: -300 })}
 />
 
-<style>
-	#spinning-circle {
-		animation-name: spinning-circle;
-		animation-duration: 8s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-
-	@keyframes spinning-circle {
-		0% {
-			-webkit-transform: rotate(0deg);
-			transform: rotate(0deg);
-		}
-		100% {
-			-webkit-transform: rotate(360deg);
-			transform: rotate(360deg);
-		}
-	}
-</style>

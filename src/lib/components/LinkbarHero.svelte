@@ -3,7 +3,7 @@
 		class="flex flex-row space-x-5 lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
 	>
 		<li
-			class="flex hover:[.pulsate]  items-center justify-center p-4 border border-white rounded-full"
+			class="flex animate-pulse one items-center justify-center p-4 border border-white rounded-full"
 		>
 			<a href="https://linkedin.com">
 				<svg
@@ -26,7 +26,9 @@
 				>
 			</a>
 		</li>
-		<li class="flex items-center justify-center p-4 border border-white rounded-full">
+		<li
+			class="flex animate-pulse two items-center justify-center p-4 border border-white rounded-full"
+		>
 			<a href="https://instagram.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +43,9 @@
 				>
 			</a>
 		</li>
-		<li class="hover:pulse flex items-center justify-center p-4 border border-white rounded-full">
+		<li
+			class="animate-pulse three flex items-center justify-center p-4 border border-white rounded-full"
+		>
 			<a href="https://twitter.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +60,9 @@
 				>
 			</a>
 		</li>
-		<li class="flex items-center justify-center p-4 border border-white rounded-full">
+		<li
+			class="flex animate-pulse four items-center justify-center p-4 border border-white rounded-full"
+		>
 			<a href="#contact">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -73,3 +79,34 @@
 		</li>
 	</ul>
 </div>
+
+<style>
+	.animate-pulse {
+		animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	}
+
+	.one {
+		animation-delay: 0;
+	}
+	.two {
+		animation-delay: 500ms;
+	}
+	.three {
+		animation-delay: 800ms;
+	}
+	.four {
+		animation-delay: 1000ms;
+	}
+
+	@keyframes pulse {
+		0% {
+			opacity: 1;
+		}
+		/* 50% {
+			opacity: 0;
+		} */
+		100% {
+			opacity: 0.5;
+		}
+	}
+</style>

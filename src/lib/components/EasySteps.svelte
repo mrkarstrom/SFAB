@@ -2,7 +2,6 @@
 	import Title from './Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-	import Title from './Title.svelte';
 	let isInView;
 </script>
 
@@ -122,11 +121,10 @@
 								/>
 								<img
 									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
-									class="bounce-left w-20"
+									class="bounce-left w-32"
 								/>
 							</div>
 						</div>
