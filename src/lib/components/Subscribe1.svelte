@@ -18,7 +18,12 @@
 		</div>
 		<div id="join-text" class="font-semibold">
 			<h5 class="pb-4">Join our community and be part of the exciting launch</h5>
-			<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" class="bounce-right"
+			<svg
+				width="31px"
+				height="31px"
+				viewBox="0 0 21 21"
+				xmlns="http://www.w3.org/2000/svg"
+				class="bounce-right"
 				><g
 					fill="none"
 					fill-rule="evenodd"
@@ -32,7 +37,7 @@
 		<div id="links" class="flex items-center space-x-4 max-w-fit flex-1">
 			<div
 				id="linked-in-link"
-				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+				class="animate-pulse one rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
 				<svg
 					width="24px"
@@ -52,7 +57,7 @@
 			</div>
 			<div
 				id="twitter-link"
-				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+				class="animate-pulse two rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="black" width="20px" viewBox="0 0 512 512">
 					<path
@@ -62,7 +67,7 @@
 			</div>
 			<div
 				id="instagram-link"
-				class="rounded-full flex items-center justify-center bg-secondary h-16 w-16"
+				class="animate-pulse three rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="black" width="20px" viewBox="0 0 448 512">
 					<path
@@ -80,3 +85,31 @@
 		/>
 	</div>
 </div>
+
+<style>
+	.animate-pulse {
+		animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	}
+
+	.one {
+		animation-delay: 0;
+	}
+	.two {
+		animation-delay: 500ms;
+	}
+	.three {
+		animation-delay: 800ms;
+	}
+
+	@keyframes pulse {
+		0% {
+			opacity: 1;
+		}
+		/* 50% {
+			opacity: 0;
+		} */
+		100% {
+			opacity: 0.7;
+		}
+	}
+</style>
