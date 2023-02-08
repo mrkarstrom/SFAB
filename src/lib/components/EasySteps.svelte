@@ -1,4 +1,5 @@
 <script>
+	import Title from './Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 
@@ -17,7 +18,9 @@
 				<div class="w-full h-auto bg-white flex flex-col">
 					<div id="title-wrap">
 						<div class="title flex flex-row justify-between">
-							<p class="text-4xl ml-16 pb-16 font-normal text-black">2 Easy STEPS</p>
+							<Title>
+								<p class="text-4xl ml-16 pb-12 font-normal text-black">2 Easy STEPS</p>
+							</Title>
 						</div>
 					</div>
 					<div id="two-steps-container" class="h-56 w-full flex items-center justify-center z-10">
@@ -105,56 +108,24 @@
 												/></g
 											></svg
 										>
-										<!-- <div
-								id="arrow-box"
-								class="absolute w-4 h-13 z-10 left-[50%] top-[48%] -translate-x-[50%] -translate-y-[100%] bg-secondary"
-							>
-								<svg
-									class="arrow-down"
-									xmlns="http://www.w3.org/2000/svg"
-									width="1rem"
-									height="1rem"
-									fill="#000"
-									viewBox="0 0 384 512"
-									>
-									<path
-										d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-									/></svg
-								>
-							</div>
-							<svg
-								class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
-								width="35px"
-								height="35px"
-								viewBox="0 0 24 24"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M2 12H7.5L8.6094 13.6641C9.1658 14.4987 10.1025 15 11.1056 15H12H12.8944C13.8975 15 14.8342 14.4987 15.3906 13.6641L16.5 12H22V18.5C22 19.0523 21.5523 19.5 21 19.5H3C2.44772 19.5 2 19.0523 2 18.5L2 12Z"
-									stroke="#333333"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-								<path
-									d="M22 12L19.4867 5.29775C19.1939 4.51715 18.4477 4 17.614 4H6.386C5.55231 4 4.80607 4.51715 4.51334 5.29775L2 12"
-									stroke="#333333"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-							</svg> -->
 									</div>
 								</div>
 								<h6 class="download-text pl-4 text-black">Download App</h6>
 							</button>
-							<div id="scan-me" class="w-56 bounce-left">
+							<div id="scan-me" class="flex items-center justify-center w-56 ">
 								<img
-									src="https://yesweb.se/sfab/img/mockup/scan-me.jpeg"
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/QR.png?raw=true"
+									alt="QR-code"
+									style="object-fill"
+									id="QR-code"
+									class="w-24"
+								/>
+								<img
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
+									class="bounce-left w-20"
 								/>
 							</div>
 						</div>
