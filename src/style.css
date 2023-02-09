@@ -20,40 +20,50 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
-/* body {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-} */
+a {
+    cursor: pointer;
+}
 
 h1 {
     font-size: 5rem;
+    cursor: default;
 }
 
 h2 {
     font-size: xx-large;
+    cursor: default;
 }
 
 h3 {
     font-size: x-large;
+
 }
 
 h4 {
     font-size: larger;
+
 }
 
 h5 {
     font-size: medium;
+
 }
 
 h6 {
     font-size: small;
+
 }
 
 p {
     color: #000;
+    cursor: default;
+}
+
+button>p {
+    cursor: pointer;
 }
 
 .slide-in-right {

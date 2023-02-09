@@ -3,20 +3,20 @@
 </script>
 
 <div
-	class="grid h-[40px] bg-secondary grid-cols-[50px_auto_60px] w-full items-center justify-between"
+	class="grid h-[40px] bg-secondary grid-cols-[50px_auto_50px] pr-8 w-full items-center justify-between"
 >
 	<div />
 	<div>
-		<p class="flex font-normal text-sm">
+		<p class="flex font-normal text-sm cursor-default ">
 			We Are The Marketplace for Pre-Owned High Quality Fashion
 		</p>
 	</div>
-	<div class="flex w-24 items-center justify-center">
+	<div class="flex w-24 items-center justify-center cursor-pointer">
 		{currentLang}
 		<img
 			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/chevron-down.svg?raw=true"
 			alt="Chevron-down"
-			class="w-14"
+			class="w-4"
 		/>
 	</div>
 </div>
