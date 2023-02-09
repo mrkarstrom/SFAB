@@ -2,17 +2,17 @@
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 	import Title from './Title.svelte';
-	import Slide1 from './Slide1.svelte';
-	import Slide2 from './Slide2.svelte';
-	import Slide3 from './Slide3.svelte';
-	import Slide4 from './Slide4.svelte';
+	// import Slide1 from './Slide1.svelte';
+	// import Slide2 from './Slide2.svelte';
+	// import Slide3 from './Slide3.svelte';
+	// import Slide4 from './Slide4.svelte';
 
 	let isInView;
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 	const swipeConfig = {
 		autoplay: false,
-		delay: 2000,
-		showIndicators: true,
+		delay: 3000,
+		showIndicators: false,
 		transitionDuration: 1000,
 		defaultIndex: 0
 	};
@@ -35,27 +35,227 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div class="h-[400px] w-full">
+			<div class="h-[28rem] w-full">
 				<Swipe {...swipeConfig} bind:this={SwipeComp}>
 					<SwipeItem>
-						<Slide1 />
+						<div
+							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
+						>
+							<div
+								class="left-side w-full bg-cover bg-center lg:h-full"
+								style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
+							/>
+							<div
+								class="right-side bg-secondary flex flex-col items-center justify-between h-full"
+							>
+								<Title>
+									<p class="text-2xl mt-12">Our Mission</p>
+								</Title>
+								<p class="max-w-[70%] text-center mb-20">
+									Making circular fashion exclusive, fun & rewarding.
+								</p>
+								<div class="pb-8 text-center">
+									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
+									<h6>Made in Sweden</h6>
+								</div>
+								<div
+									class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+								>
+									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
+										<div
+											on:click={prevSlide}
+											id="slide1-left-pointer"
+											class="opacity-[0.6] w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(3 6)"
+													><path d="m4.499.497-3.999 4.002 4 4.001" /><path d="m13.5 4.5h-13" /></g
+												></svg
+											>
+										</div>
+										<div
+											on:click={nextSlide}
+											id="slide1-right-pointer"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(4 6)"
+													><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></g
+												></svg
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</SwipeItem>
-
-					<SwipeItem>
-						<Slide2 />
+					<SwipeItem data-sveltekit-prefetch>
+						<div
+							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
+						>
+							<div class="left-side bg-secondary flex flex-col items-center justify-between h-full">
+								<p class="text-2xl mt-12">Our Mission</p>
+								<p class="max-w-[70%] text-center mb-20">
+									We offer a simple to use, responsive, rewarding & trustworthy platform & we make
+									circularity in fashion trendy
+								</p>
+								<div class="pb-8 text-center">
+									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
+									<h6>Made in Sweden</h6>
+								</div>
+								<div
+									class="button-container hidden absolute right-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+								>
+									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
+										<div
+											on:click={prevSlide}
+											id="slide2-left-pointer"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(3 6)"
+													><path d="m4.499.497-3.999 4.002 4 4.001" /><path d="m13.5 4.5h-13" /></g
+												></svg
+											>
+										</div>
+										<div
+											on:click={nextSlide}
+											id="slide2-right-pointer"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(4 6)"
+													><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></g
+												></svg
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="right-side w-full bg-cover bg-center lg:h-full"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
+							/>
+						</div>
 					</SwipeItem>
-
 					<SwipeItem>
-						<Slide3 />
-					</SwipeItem>
-
-					<SwipeItem>
-						<Slide4 />
+						<div
+							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
+						>
+							<div
+								class="left-side w-full bg-cover bg-center lg:h-full"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
+							/>
+							<div
+								class="right-side bg-secondary flex flex-col items-center justify-between h-full"
+							>
+								<p class="text-2xl mt-12">Our Mission</p>
+								<p class="max-w-[70%] text-center mb-20">
+									We believe in circularity fashion doesn't need to exist only in fast trends.
+								</p>
+								<div class="pb-8 text-center">
+									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
+									<h6>Made in Sweden</h6>
+								</div>
+								<div
+									class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+								>
+									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
+										<div
+											on:click={prevSlide}
+											id="slide3-left-pointer"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(3 6)"
+													><path d="m4.499.497-3.999 4.002 4 4.001" /><path d="m13.5 4.5h-13" /></g
+												></svg
+											>
+										</div>
+										<div
+											on:click={nextSlide}
+											id="slide3-right-pointer"
+											class="opacity-[0.6]  w-full h-full flex flex-col items-center justify-center"
+										>
+											<svg
+												width="31px"
+												height="31px"
+												viewBox="0 0 21 21"
+												xmlns="http://www.w3.org/2000/svg"
+												><g
+													fill="none"
+													fill-rule="evenodd"
+													stroke="currentColor"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													transform="translate(4 6)"
+													><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></g
+												></svg
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</SwipeItem>
 				</Swipe>
-				<button type="button" on:click={prevSlide}>Prev</button>
-				<button type="button" on:click={nextSlide}>Next</button>
 			</div>
 		</div>
 	{/if}
 </div>
+
+<style>
+	.has-pointer-event {
+		pointer-events: fill;
+	}
+</style>

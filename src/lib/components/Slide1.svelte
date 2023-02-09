@@ -1,7 +1,3 @@
-<script>
-	import Title from './Title.svelte';
-</script>
-
 <div class="h-[23rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2">
 	<div
 		class="left-side w-full bg-cover bg-center lg:h-full"
@@ -20,7 +16,11 @@
 			class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
 		>
 			<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
-				<div class="left-pointer w-full h-full flex flex-col items-center justify-center">
+				<div
+					on:click={prevSlide}
+					id="slide1-left-pointer"
+					class="w-full h-full flex flex-col items-center justify-center"
+				>
 					<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
 						><g
 							fill="none"
@@ -33,7 +33,11 @@
 						></svg
 					>
 				</div>
-				<div class="right-pointer w-full h-full flex flex-col items-center justify-center">
+				<div
+					on:click={nextSlide}
+					id="slide1-right-pointer"
+					class="w-full h-full flex flex-col items-center justify-center"
+				>
 					<svg width="31px" height="31px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"
 						><g
 							fill="none"
