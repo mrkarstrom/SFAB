@@ -3,7 +3,7 @@
 		class="flex flex-row space-x-5 lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
 	>
 		<li
-			class="flex animate-pulse one items-center justify-center p-4 border border-white rounded-full"
+			class="flex animate-pulse one p-[10px] items-center justify-center border border-white rounded-full"
 		>
 			<a href="https://linkedin.com">
 				<svg
@@ -27,7 +27,7 @@
 			</a>
 		</li>
 		<li
-			class="flex animate-pulse two items-center justify-center p-4 border border-white rounded-full"
+			class="flex animate-pulse two items-center justify-center p-[10px] border border-white rounded-full"
 		>
 			<a href="https://instagram.com">
 				<svg
@@ -44,7 +44,7 @@
 			</a>
 		</li>
 		<li
-			class="animate-pulse three flex items-center justify-center p-4 border border-white rounded-full"
+			class="animate-pulse three flex items-center justify-center p-[10px] border border-white rounded-full"
 		>
 			<a href="https://twitter.com">
 				<svg
@@ -61,7 +61,7 @@
 			</a>
 		</li>
 		<li
-			class="flex animate-pulse four items-center justify-center p-4 border border-white rounded-full"
+			class="flex animate-pulse four items-center justify-center p-[10px] border border-white rounded-full"
 		>
 			<a href="#contact">
 				<svg

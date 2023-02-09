@@ -18,7 +18,8 @@
 		>
 			<div class="relative flex items-center justify-center">
 				<img
-					id="spinning-circle"
+					id="rotating-circle"
+					class="animate-spin"
 					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-app-text-svg.svg?raw=true"
 					width="120px"
 					alt=""
@@ -53,4 +54,3 @@
 	href="#slide2"
 	on:click={() => animateScroll.scrollTo({ element: '#slide2', offset: -300 })}
 />
-
