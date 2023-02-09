@@ -82,7 +82,7 @@
 
 <style>
 	.animate-pulse {
-		animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+		animation: pulse 1.5s alternate infinite;
 	}
 
 	.one {
@@ -100,13 +100,13 @@
 
 	@keyframes pulse {
 		0% {
-			opacity: 1;
+			opacity: 0.5;
 		}
 		/* 50% {
-			opacity: 0;
+			opacity: 0.8;
 		} */
 		100% {
-			opacity: 0.5;
+			opacity: 1;
 		}
 	}
 </style>
