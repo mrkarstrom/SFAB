@@ -116,8 +116,7 @@
 							<div class="left-side bg-secondary flex flex-col items-center justify-between h-full">
 								<p class="text-2xl mt-12">Our Mission</p>
 								<p class="max-w-[70%] text-center mb-20">
-									We offer a simple to use, responsive, rewarding & trustworthy platform & we make
-									circularity in fashion trendy
+									We believe circularity fashion doesn't need to exist only in fast trends.
 								</p>
 								<div class="pb-8 text-center">
 									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
@@ -174,7 +173,7 @@
 							</div>
 							<div
 								class="right-side w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
 							/>
 						</div>
 					</SwipeItem>
@@ -184,14 +183,15 @@
 						>
 							<div
 								class="left-side w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
 							/>
 							<div
 								class="right-side bg-secondary flex flex-col items-center justify-between h-full"
 							>
 								<p class="text-2xl mt-12">Our Mission</p>
 								<p class="max-w-[70%] text-center mb-20">
-									We believe in circularity fashion doesn't need to exist only in fast trends.
+									We offer a simple to use, responsive, rewarding & trustworthy platform & we make
+									circularity in fashion trendy
 								</p>
 								<div class="pb-8 text-center">
 									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>

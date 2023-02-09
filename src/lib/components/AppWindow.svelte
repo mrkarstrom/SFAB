@@ -49,9 +49,13 @@
 						<div class="left-side flex flex-col items-center w-full">
 							<div class="DG-card h-auto p-4 w-full">
 								<div class="title-text font-medium leading-6 pb-1">
-									<h4 class="w-60 whitespace-normal ">DANCING in Dolce & Gabbana</h4>
+									<h4 class="w-60 whitespace-normal pb-1 ">DANCING in Dolce & Gabbana</h4>
 								</div>
-								<img src="https://yesweb.se/sfab/img/mockup/desert-man.png" alt="Desert Man" />
+								<img
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/desert-man.png?raw=true"
+									alt="Desert Man"
+									class="hover:-translate-y-2 transition ease-in-out delay-150"
+								/>
 								<h6 class="pt-1.5">Sweden</h6>
 								<h5>Spring 2023</h5>
 							</div>
@@ -60,8 +64,9 @@
 									<h4 class="pb-1">WEEK Fashion</h4>
 								</div>
 								<img
-									src="https://yesweb.se/sfab/img/mockup/woman-white-rose.svg"
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-white-rose.svg?raw=true"
 									alt="Woman Rose"
+									class="hover:-translate-y-2 transition ease-in-out delay-150"
 								/>
 								<h6 class="pt-1.5">Stockholm</h6>
 								<h5>February 2023</h5>
@@ -74,8 +79,9 @@
 										<h4 class="pb-1">STYLE & Fashion</h4>
 									</div>
 									<img
-										src="https://yesweb.se/sfab/img/mockup/face-cover-reading.jpg"
+										src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/face-cover-reading.jpg?raw=true"
 										alt="Cover Reading"
+										class="hover:-translate-y-2 transition ease-in-out delay-150"
 									/>
 									<h6 class="pt-1.5">Sweden</h6>
 									<h5>Summer 2023</h5>
@@ -86,7 +92,11 @@
 									<div class="title-text font-medium leading-6 pb-1">
 										<h4 class="pb-1">ONE Eye</h4>
 									</div>
-									<img src="https://yesweb.se/sfab/img/mockup/woman-gray-coat.png" alt="One Eye" />
+									<img
+										src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-gray-coat.png?raw=true"
+										alt="One Eye"
+										class="hover:-translate-y-2 transition ease-in-out delay-150"
+									/>
 									<h6 class="pt-1.5">Stockholm</h6>
 									<h5>September 2023</h5>
 								</div>
