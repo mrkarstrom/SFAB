@@ -80,26 +80,6 @@ p {
     animation-iteration-count: infinite;
 }
 
-/* 
-@keyframes bounce-up-down {
-    from {
-        transform: translate3d(0, 10px, 0);
-    }
-
-    to {
-        transform: translate3d(0, -10px, 0);
-    }
-}
-
-@-webkit-keyframes bounce-up-down {
-    from {
-        -webkit-transform: translate3d(0, 10px, 0);
-    }
-
-    to {
-        -webkit-transform: translate3d(0, -10px, 0);
-    }
-} */
 
 @keyframes bounce-left {
     from {

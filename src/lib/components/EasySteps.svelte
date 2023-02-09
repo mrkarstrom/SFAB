@@ -61,7 +61,7 @@
 						<div id="left-box" class="flex flex-col items-center justify-center space-y-20">
 							<button
 								id="download-button"
-								class="rounded flex items-center justify-center bg-secondary w-[14rem] h-[3.5rem] drop-shadow-[-8px_20px_10px_rgba(0,0,0,0.25)]"
+								class="rounded slide-in-right flex items-center justify-center bg-secondary w-[14rem] h-[3.5rem] drop-shadow-[-8px_20px_10px_rgba(0,0,0,0.25)]"
 							>
 								<div class="icon">
 									<div
@@ -117,7 +117,7 @@
 									alt="QR-code"
 									style="object-fill"
 									id="QR-code"
-									class="w-24"
+									class="w-20"
 								/>
 								<img
 									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
@@ -133,7 +133,7 @@
 							<img
 								class="object-fit"
 								id="mobile-image"
-								src="https://yesweb.se/sfab/img/mockup/mobile-download2.jpeg"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mobile-download2.jpeg?raw=true"
 								alt="Mobile Phone"
 							/>
 						</div>
