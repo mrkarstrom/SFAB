@@ -1,7 +1,7 @@
 <div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-inherit z-100 ">
 	<div
 		id="arrow-down"
-		class="animate-bounce flex justify-center items-center border-[var(--circleColor)] border w-14 h-14 rounded-full "
+		class="animate-bounce flex justify-center items-center border-[var(--circleColor)] border w-[50px] h-[50px] rounded-full "
 	>
 		<svg
 			width="18px"

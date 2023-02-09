@@ -1,5 +1,5 @@
 <div
-	class="animate-bounce flex justify-center items-center border-[var(--circleColor)] border w-16 h-16 rounded-full "
+	class="animate-bounce flex justify-center items-center border-[var(--circleColor)] border w-[50px] h-[50px] rounded-full "
 >
 	<svg
 		width="18px"
