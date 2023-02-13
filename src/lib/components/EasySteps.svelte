@@ -75,7 +75,7 @@
 										id="inbox-in"
 										data-name="Line Color"
 										xmlns="http://www.w3.org/2000/svg"
-										class="icon line-color hover:svg-hover-black"
+										class="icon line-color"
 										stroke="currentColor"
 										><g id="SVGRepo_bgCarrier" stroke-width="0" /><g
 											id="SVGRepo_tracerCarrier"

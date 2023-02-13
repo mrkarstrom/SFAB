@@ -82,7 +82,7 @@
 
 <style>
 	.animate-pulse {
-		animation: pulse 1.5s alternate infinite;
+		animation: pulse 1s alternate infinite;
 	}
 
 	.one {
@@ -100,7 +100,7 @@
 
 	@keyframes pulse {
 		0% {
-			opacity: 0.5;
+			opacity: 0.3;
 		}
 		/* 50% {
 			opacity: 0.8;

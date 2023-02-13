@@ -10,19 +10,19 @@
 	bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 >
 	<ul
-		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-gray-500 w-full md:flex md:flex-row md:items-center md:justify-center md:space-x-7 "
+		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-black w-full md:flex md:flex-row md:items-center md:justify-center"
 	>
-		<li>
-			<a on:click={showSurprise} class="uppercase hover:text-gray-900 cursor-pointer">About us</a>
+		<li class="w-32">
+			<a on:click={showSurprise} class="uppercase hover:font-semibold cursor-pointer">About us</a>
 		</li>
-		<li>
-			<a href="#" class="uppercase hover:text-gray-900">Contact us</a>
+		<li class="w-32">
+			<a href="#" class="uppercase hover:font-semibold">Contact us</a>
 		</li>
-		<li>
-			<a href="#" class="uppercase hover:text-gray-900">Product Care</a>
+		<li class="w-32">
+			<a href="#" class="uppercase hover:font-semibold ">Product Care</a>
 		</li>
-		<li>
-			<a href="#" class="uppercase hover:text-gray-900">App</a>
+		<li class="w-32">
+			<a href="#" class="uppercase hover:font-semibold">App</a>
 		</li>
 	</ul>
 </div>

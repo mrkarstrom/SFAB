@@ -63,13 +63,13 @@
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
-											on:click={prevSlide}
+											on:click={SwipeComp.goTo(2)}
 											id="slide1-left-pointer"
-											class="opacity-[0.6] w-full h-full flex flex-col items-center justify-center"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
@@ -89,8 +89,8 @@
 											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
@@ -132,8 +132,8 @@
 											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
@@ -153,8 +153,8 @@
 											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
@@ -207,8 +207,8 @@
 											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
@@ -223,13 +223,13 @@
 											>
 										</div>
 										<div
-											on:click={nextSlide}
+											on:click={SwipeComp.goTo(0)}
 											id="slide3-right-pointer"
-											class="opacity-[0.6]  w-full h-full flex flex-col items-center justify-center"
+											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
-												width="31px"
-												height="31px"
+												width="21px"
+												height="21px"
 												viewBox="0 0 21 21"
 												xmlns="http://www.w3.org/2000/svg"
 												><g
