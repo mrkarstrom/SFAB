@@ -13,10 +13,15 @@
 			class="absolute left-0 top-1/2 -translate-y-1/2  justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-0"
 		>
 			<div class="flex items-center justify-center h-full w-full">
-				<svg xmlns="http://www.w3.org/2000/svg" height="1rem" fill="black" viewBox="0 0 512 512">
-					<path
-						d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"
-					/></svg
+				<!-- arrow-left-svgrepo-com -->
+				<svg
+					width="2.5rem"
+					class="bounce-left"
+					viewBox="0 0 64 64"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					stroke="#000000"
+					><polyline points="20 24 12 32 20 40" /><line x1="52" y1="32" x2="12" y2="32" /></svg
 				>
 			</div>
 		</div>
@@ -63,13 +68,16 @@
 			class="absolute right-0 top-1/2 -translate-y-1/2 justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-0"
 		>
 			<div class="flex items-center justify-center h-full w-full">
-				<svg xmlns="http://www.w3.org/2000/svg" height="1rem" fill="black" viewBox="0 0 512 512">
-					<path
-						d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
-					/></svg
+				<svg
+					width="2.5rem"
+					class="bounce-right"
+					viewBox="0 0 64 64"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					stroke="#000000"
+					><polyline points="44 40 52 32 44 24" /><line x1="52" y1="32" x2="12" y2="32" /></svg
 				>
 			</div>
 		</div>
 	</div>
 </div>
-

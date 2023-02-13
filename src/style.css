@@ -79,13 +79,13 @@ button>p {
 }
 
 .bounce-left {
-    animation: bounce-left 0.4s;
+    animation: bounce-left 0.8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
 
 .bounce-right {
-    animation: bounce-right 0.4s;
+    animation: bounce-right 0.8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }

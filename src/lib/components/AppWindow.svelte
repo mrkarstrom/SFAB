@@ -26,21 +26,22 @@
 							</Title>
 							<!-- <p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p> -->
 							<div
-								class="bounce-right flex flex-row items-center justify-center w-auto space-x-3 mr-10"
+								class="bounce-right flex flex-row items-center justify-center w-auto space-x-2 mr-6"
 							>
 								<h5>View All</h5>
 								<svg
-									width="20px"
-									height="20px"
-									viewBox="0 0 20 20"
-									version="1.1"
+									width="40px"
+									height="auto"
+									viewBox="0 0 64 64"
 									xmlns="http://www.w3.org/2000/svg"
-									><g id="layer1"
-										><path
-											d="M 14 7 L 17 10 L 0 10 L 0 11 L 17 11 L 14 14 L 15.5 14 L 19 10.5 L 15.5 7 L 14 7 z "
-											style="fill:#222222; fill-opacity:1; stroke:none; stroke-width:0px;"
-										/></g
-									></svg
+									fill="none"
+									stroke="#000000"
+									><polyline points="44 40 52 32 44 24" /><line
+										x1="52"
+										y1="32"
+										x2="12"
+										y2="32"
+									/></svg
 								>
 							</div>
 						</div>
