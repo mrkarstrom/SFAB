@@ -16,4 +16,10 @@
 	</div>
 </div>
 
-
+<style>
+	@font-face {
+    font-family: 'Steelfish';
+    src: url('./fonts/steelfish-rg.otf');
+    color: #fff;
+}
+</style>
