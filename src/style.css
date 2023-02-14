@@ -74,7 +74,7 @@ button>p {
 }
 
 .bounce-up-down {
-    animation: bounce-up-down 0.4s;
+    animation: bounce-up-down 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }

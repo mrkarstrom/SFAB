@@ -24,40 +24,59 @@
 							now available in the app.
 						</h5>
 					</div>
-					<div class="image-container grid grid-cols-3 gap-4 h-96 pt-8">
-						<div id="image-box1" class="relative">
+					<div class="image-container grid grid-cols-3 gap-4 h-96 pt-8 ">
+						<div
+							id="image-box1"
+							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover"
+						>
 							<div
 								id="textbox1"
-								class="absolute top-2 items-center justify-center w-[90%] h-auto bg-accent mx-3 py-2 px-4 rounded"
+								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
 							>
-								<p class="font-semibold text-xs">Michael Kors watches in beautiful gold</p>
-								<p class="font-thin text-[10px]">
+								<p class="w-full font-semibold text-xs text-left">
+									Michael Kors watches in beautiful gold
+								</p>
+								<p class="w-full font-thin text-[12px] text-left">
 									It's easy to elevate any outfit and add a bit of flair
 								</p>
 							</div>
-							<img src="https://yesweb.se/sfab/img/mockup/perfume.svg" alt="Perfume" />
 						</div>
-						<div id="image-box2" class="relative">
+						<div
+							id="image-box2"
+							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true')] bg-cover"
+						>
 							<div
 								id="textbox2"
-								class="absolute top-2 items-center justify-center w-[90%] h-auto bg-accent mx-3 py-2 px-4 rounded"
+								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
 							>
-								<p class="font-semibold text-xs">
+								<p class="w-full font-semibold text-xs text-left">
 									Prada exclusive bag decorated with sparkling metal accents
 								</p>
-								<p class="font-thin text-[10px]">Express your elegance and modernism</p>
+								<p class="w-full font-thin text-[12px] text-left">
+									Express your elegance and modernism
+								</p>
 							</div>
-							<img src="https://yesweb.se/sfab/img/mockup/bag-watch-coat.svg" alt="Prada Bag" />
 						</div>
-						<div id="image-box3" class="relative">
+						<div
+							id="image-box3"
+							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true')] bg-cover"
+						>
 							<div
 								id="textbox3"
-								class="absolute top-2 items-center justify-center w-[90%] h-auto bg-accent mx-3 py-2 px-4 rounded"
+								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
 							>
-								<p class="font-semibold text-xs">Exclusive leather GUCCI&reg; Bags</p>
-								<p class="font-thin text-[10px]">Influential, Innovative, Progressive</p>
+								<p class="w-full font-semibold text-xs text-left">
+									Exclusive leather GUCCI&reg; Bags
+								</p>
+								<p class="w-full font-thin text-[12px] text-left">
+									Influential, Innovative, Progressive
+								</p>
 							</div>
-							<img src="https://yesweb.se/sfab/img/mockup/gucci-bag-black.svg" alt="Gucci Bag" />
+							<!-- <img
+								src="https://yesweb.se/sfab/img/mockup/gucci-bag-black.svg"
+								alt="Gucci Bag"
+								class="w-full"
+							/> -->
 						</div>
 					</div>
 				</div>
