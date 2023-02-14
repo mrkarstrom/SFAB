@@ -14,8 +14,8 @@
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
 			<div id="discover-container" class="w-full h-auto hidden lg:flex justify-center">
-				<div id="discover-box" class="px-20 w-full">
-					<div id="discover-title">
+				<div id="discover-box" class=" px-10">
+					<div id="discover-title" class="">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
@@ -24,7 +24,7 @@
 							now available in the app.
 						</h5>
 					</div>
-					<div class="image-container grid grid-cols-3 gap-4 h-96 pt-8 ">
+					<div id="image-container" class="grid grid-cols-3 gap-4 h-96 pt-8 w-full ">
 						<div
 							id="image-box1"
 							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover"
@@ -36,7 +36,7 @@
 								<p class="w-full font-semibold text-xs text-left">
 									Michael Kors watches in beautiful gold
 								</p>
-								<p class="w-full font-thin text-[12px] text-left">
+								<p class="w-full font-thin text-xs text-left">
 									It's easy to elevate any outfit and add a bit of flair
 								</p>
 							</div>
@@ -52,7 +52,7 @@
 								<p class="w-full font-semibold text-xs text-left">
 									Prada exclusive bag decorated with sparkling metal accents
 								</p>
-								<p class="w-full font-thin text-[12px] text-left">
+								<p class="w-full font-thin text-xs text-left">
 									Express your elegance and modernism
 								</p>
 							</div>
@@ -68,7 +68,7 @@
 								<p class="w-full font-semibold text-xs text-left">
 									Exclusive leather GUCCI&reg; Bags
 								</p>
-								<p class="w-full font-thin text-[12px] text-left">
+								<p class="w-full font-thin text-xs text-left">
 									Influential, Innovative, Progressive
 								</p>
 							</div>
