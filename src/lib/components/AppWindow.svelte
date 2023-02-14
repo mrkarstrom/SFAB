@@ -14,10 +14,7 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div
-				id="wrapper"
-				class="opacity-[var(--op)] hidden w-full justify-center items-center lg:flex"
-			>
+			<div id="wrapper" class="opacity-[var(--op)] w-full justify-center items-center lg:flex">
 				<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">

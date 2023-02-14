@@ -16,11 +16,4 @@
 	</div>
 </div>
 
-<style>
-	/* Online */
-	@font-face {
-		font-family: 'Steelfish';
-		src: url('steelfish-rg.otf');
-		color: #000;
-	}
-</style>
+

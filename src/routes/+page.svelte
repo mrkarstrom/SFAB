@@ -34,7 +34,7 @@
 <Subscribe1 />
 
 {#if browser}
-	<Modal >
+	<Modal>
 		<Footer />
 	</Modal>
 {/if}

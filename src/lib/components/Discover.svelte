@@ -13,9 +13,9 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div id="discover-container" class="w-full h-auto hidden lg:flex justify-center">
+			<div id="discover-container" class="w-full h-auto flex justify-center">
 				<div id="discover-box" class=" px-10">
-					<div id="discover-title" class="">
+					<div id="discover-title" class="px-6">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>

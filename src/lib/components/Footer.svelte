@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="hidden lg:flex h-auto w-full active:text-gray-900 text-center 
+	class="flex h-auto w-full active:text-gray-900 text-center 
 	bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 >
 	<ul

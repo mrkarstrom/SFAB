@@ -27,6 +27,7 @@
 		<div class="absolute left-1/2 -translate-x-1/2 bottom-12">
 			<img
 				id="spinning-circle"
+				class="animate-spin"
 				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-spinner.png?raw=true"
 				width="110px"
 				alt=""
@@ -49,23 +50,3 @@
 	href="#slide3"
 	on:click={() => animateScroll.scrollTo({ element: '#slide3', offset: -300 })}
 />
-
-<style>
-	#spinning-circle {
-		animation-name: spinning-circle;
-		animation-duration: 8s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-
-	@keyframes spinning-circle {
-		0% {
-			-webkit-transform: rotate(0deg);
-			transform: rotate(0deg);
-		}
-		100% {
-			-webkit-transform: rotate(360deg);
-			transform: rotate(360deg);
-		}
-	}
-</style>
