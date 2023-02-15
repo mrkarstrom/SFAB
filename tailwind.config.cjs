@@ -4,6 +4,16 @@ module.exports = {
 	plugins: [require('daisyui')],
 
 	theme: {
+		container: {
+			center: true,
+			padding: {
+				DEFAULT: '1rem',
+				sm: '2rem',
+				lg: '0px',
+				xl: '0px',
+				'2xl': '0px'
+			}
+		},
 		extend: {
 			animation: {
 				spin: 'spin 20s linear infinite',
