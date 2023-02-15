@@ -16,10 +16,10 @@
 	</div>
 </div>
 
-<style>
+<!-- <style>
 	@font-face {
 		font-family: 'Steelfish';
 		src: url('./steelfish-rg.otf');
 		color: #fff;
 	}
-</style>
+</style> -->

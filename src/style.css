@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 /* * Vercel version */
-@font-face {
+/* @font-face {
     font-family: 'Steelfish';
     src: url('https://github.com/mrkarstrom/sfab/blob/main/static/fonts/steelfish-rg.otf');
     color: #000;
-}
+} */
 
 /* * Local version */
 @font-face {
     font-family: 'Steelfish';
-    src: url('./static/fonts/steelfish-rg.otf');
+    src: url('/fonts/steelfish-rg.otf');
     color: #000;
 }
 
@@ -131,7 +131,6 @@ button>p {
         -webkit-transform: translate3d(-5px, 0, 0);
     }
 }
-
 
 
 @-webkit-keyframes slide-in-right {
