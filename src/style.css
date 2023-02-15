@@ -5,14 +5,14 @@
 /* * Vercel version */
 @font-face {
     font-family: 'Steelfish';
-    src: url('https://github.com/mrkarstrom/sfab/blob/main/static/fonts/steelfish-rg.otf?raw=true');
+    src: url('https://github.com/mrkarstrom/sfab/blob/main/static/fonts/steelfish-rg.otf');
     color: #000;
 }
 
 /* * Local version */
 @font-face {
     font-family: 'Steelfish';
-    src: url('./fonts/steelfish-rg.otf');
+    src: url('./static/fonts/steelfish-rg.otf');
     color: #000;
 }
 
