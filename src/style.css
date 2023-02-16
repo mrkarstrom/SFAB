@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * Vercel version */
-/* @font-face {
-    font-family: 'Steelfish';
-    src: url('https://github.com/mrkarstrom/sfab/blob/main/static/fonts/steelfish-rg.otf');
-    color: #000;
-} */
 
 /* * Local version */
 @font-face {
@@ -28,7 +22,7 @@ a {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     cursor: default;
 }
 

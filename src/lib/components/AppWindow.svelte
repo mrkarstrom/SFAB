@@ -21,7 +21,6 @@
 							<Title>
 								<p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p>
 							</Title>
-							<!-- <p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p> -->
 							<div
 								class="bounce-right flex flex-row items-center justify-center w-auto space-x-2 mr-6"
 							>
