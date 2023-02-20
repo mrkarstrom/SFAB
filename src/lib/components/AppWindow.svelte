@@ -106,8 +106,3 @@
 	{/if}
 </div>
 
-<style>
-	:root {
-		--op: 1;
-	}
-</style>
