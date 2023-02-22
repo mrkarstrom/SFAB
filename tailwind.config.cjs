@@ -4,6 +4,14 @@ module.exports = {
 	plugins: [require('daisyui')],
 
 	theme: {
+		screens: {
+			sm: '576px',
+
+			md: '960px',
+
+			lg: '1440px',
+
+		},
 		container: {
 			center: true,
 			padding: {
