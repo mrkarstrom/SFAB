@@ -3,14 +3,35 @@
 	import Card4 from './Card4.svelte';
 	import Card2 from './Card2.svelte';
 	import Card1 from './Card1.svelte';
+	import { Swipe, SwipeItem } from 'svelte-swipe';
+	const swipeConfig = {
+		autoplay: false,
+		showIndicators: false,
+		transitionDuration: 1500,
+		defaultIndex: 0
+	};
+	let SwipeComp;
+
+	function nextSlide() {
+		SwipeComp.nextItem();
+	}
+
+	function prevSlide() {
+		SwipeComp.prevItem();
+	}
 </script>
 
 <div id="spacer" class="w-full h-[200px] flex justify-center items-center  ">
-	<div class="relative items-center drop-shadow-xl -translate-y-[200px] md:h-[400px] md:w-[950px] ">
+	<div
+		class="flex  items-center justify-center drop-shadow-xl -translate-y-[200px] 
+				md:h-[400px] md:w-[950px]
+				lg:h-[400px] lg:w-[950px] "
+	>
 		<!-- Left Arrow Box -->
 		<div
 			id="left-arrow-box"
-			class="absolute left-0 top-1/2 -translate-y-1/2  justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-0"
+			class="justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-10"
+			on:click={prevSlide}
 		>
 			<div class="flex items-center justify-center h-full w-full">
 				<!-- arrow-left-svgrepo-com -->
@@ -27,45 +48,39 @@
 		</div>
 
 		<!-- Carousel start -->
-		<div class="carousel w-full h-full z-10">
-			<!-- Slide 1 Start -->
-			<div id="slide1" class="carousel-item items-center">
-				<div class="flex items-center justify-center w-full h-full">
+		<div class="w-[880px] h-full z-10 ">
+			<Swipe {...swipeConfig} bind:this={SwipeComp}>
+				<!-- Slide 1 Start -->
+				<SwipeItem>
 					<Card1 />
-				</div>
-			</div>
-			<!-- Slide1 End -->
-
-			<!-- Slide 2 Start -->
-			<div id="slide2" class="carousel-item items-center">
-				<div class="flex items-center justify-center w-full h-full">
+				</SwipeItem>
+				<!-- Slide1 End -->
+				<!-- Slide 2 Start -->
+				<SwipeItem>
 					<Card2 />
-				</div>
-			</div>
-			<!-- Slide2 End -->
+				</SwipeItem>
+				<!-- Slide2 End -->
 
-			<!-- Slide 3 Start -->
-			<div id="slide3" class="carousel-item items-center">
-				<div class="flex items-center justify-center w-full h-full">
+				<!-- Slide 3 Start -->
+				<SwipeItem>
 					<Card3 />
-				</div>
-			</div>
-			<!-- Slide3 End -->
+				</SwipeItem>
+				<!-- Slide3 End -->
 
-			<!-- Slide 4 Start -->
-			<div id="slide4" class="carousel-item items-center">
-				<div class="flex items-center justify-center w-full h-full">
+				<!-- Slide 4 Start -->
+				<SwipeItem>
 					<Card4 />
-				</div>
-			</div>
-			<!-- Slide4 End -->
+				</SwipeItem>
+				<!-- Slide4 End -->
+			</Swipe>
 		</div>
 		<!-- Carousel end -->
 
 		<!-- Right Arrow Box -->
 		<div
 			id="right-arrow-box"
-			class="absolute right-0 top-1/2 -translate-y-1/2 justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-0"
+			class="absolute right-0 top-1/2 -translate-y-1/2 justify-center h-[90%] w-[70px] bg-secondary rounded-lg z-10"
+			on:click={nextSlide}
 		>
 			<div class="flex items-center justify-center h-full w-full">
 				<svg

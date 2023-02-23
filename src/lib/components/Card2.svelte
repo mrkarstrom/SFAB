@@ -1,19 +1,3 @@
-<script>
-	import { cubicInOut } from 'svelte/easing';
-	import * as animateScroll from 'svelte-scrollto';
-</script>
-
-<a
-	class="flex items-center justify-center h-[90%] w-[70px] bg-inherit rounded-lg z-20"
-	href="#slide1"
-	on:click={() =>
-		animateScroll.scrollTo({
-			element: '#slide1',
-			offset: -300,
-			duration: 1500,
-			easing: { cubicInOut }
-		})}
-/>
 
 <div id="center-box" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
 	<div
@@ -52,14 +36,3 @@
 		/>
 	</div>
 </div>
-<a
-	class="flex items-center justify-center h-[90%] w-[70px] bg-inherit rounded-lg z-20"
-	href="#slide3"
-	on:click={() =>
-		animateScroll.scrollTo({
-			element: '#slide3',
-			offset: -300,
-			duration: 1500,
-			easing: { cubicInOut }
-		})}
-/>
