@@ -9,23 +9,22 @@
 <div
 	id="backdrop"
 	on:click={handleClick}
-	class="w-screen h-screen fixed bottom-0 left-0 opacity-[0.9] bg-black"
+	class="w-full h-full fixed bottom-0 left-0  opacity-[0.9] bg-black z-30"
 >
 	<div class="w-full h-full flex items-center justify-center">
 		<div
 			id="popup-modal"
 			on:click={handleClick}
-			class="w-1/2 h-80 bg-secondary flex flex-col items-center justify-center rounded p-6"
+			class="w-1/2 h-auto bg-white flex flex-col items-center justify-center rounded p-6 opacity-100 z-50 lg:w-[80%]"
 		>
 			<h2 class="p-4">About Us</h2>
-			<p class="p-4">
-				We believe circularity fashion doesn't need to exist only in fast virgin trends. <br />We
-				all need to take responsibility to decrease the virgin production of things, the consumerism
-				of this society doesn't help the earth or ourselves. <br />We are only, on average, using
-				about 10% of our wardrobes clothes, jewellery, shoes and bags. There was no alternative of a
-				boutique platform to buy and sell mid to high end pieces, so we made one. <br />We encourage
-				everyone to be part of circularity and if you can encourage and inspire someone else to do
-				the same then we have an impactful movement.
+			<p class="p-4  whitespace-normal lg:text-xl xl:text-2xl 2xl:text-4xl">
+				We believe circularity fashion doesn't need to exist only in fast virgin trends. We all need
+				to take responsibility to decrease the virgin production of things, the consumerism of this
+				society doesn't help the earth or ourselves.<br /> We are only, on average, using about 10% of
+				our wardrobes clothes, jewellery, shoes and bags. There was no alternative of a boutique platform
+				to buy and sell mid to high end pieces, so we made one. We encourage everyone to be part of circularity
+				and if you can encourage and inspire someone else to do the same then we have an impactful movement.
 			</p>
 		</div>
 	</div>

@@ -1,7 +1,4 @@
 <script>
-	import { fly, fade } from 'svelte/transition';
-	import { inview } from 'svelte-inview';
-	import * as animateScroll from 'svelte-scrollto';
 	import TopbarPlain from '$lib/components/TopbarPlain.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import DownloadApp from '$lib/components/DownloadApp.svelte';
@@ -19,7 +16,6 @@
 <TopbarPlain />
 <Hero />
 <DownloadApp />
-
 <ArrowBlock --blockHeight="14rem" />
 <AppWindow />
 <ArrowBlock />
@@ -30,7 +26,7 @@
 <Mission1 />
 <ArrowBlock />
 <Subscribe1 />
-<Footer id="aboutus" />
+<Footer />
 {#if $showModal}
 	<Modal />
 {/if}

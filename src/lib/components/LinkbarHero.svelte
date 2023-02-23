@@ -1,4 +1,4 @@
-<div class="absolute top-16 lg:left-8 ">
+<div class="absolute top-16 md:left-8 ">
 	<ul
 		class="flex flex-row space-x-5 lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
 	>

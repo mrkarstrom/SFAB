@@ -6,7 +6,7 @@
 	};
 </script>
 
-<div
+<div 
 	class="flex h-auto w-full active:text-gray-900 text-center 
 bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 >
@@ -14,7 +14,7 @@ bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-black w-full md:flex md:flex-row md:items-center md:justify-center"
 	>
 		<li class="w-32">
-			<a on:click={handleClick} href="#aboutus" class="uppercase hover:font-semibold cursor-pointer"
+			<a on:click={handleClick} href="#aboutus" id="#aboutus" class="uppercase hover:font-semibold cursor-pointer"
 				>About us</a
 			>
 		</li>

@@ -11,7 +11,7 @@
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
 	<LinkbarHero />
-	<div id="hero-text" class="flex flex-col items-center justify-center lg:mb-48">
+	<div id="hero-text" class="flex flex-col items-center justify-center md:mb-48">
 		<h3 class="mb-1 text-white uppercase">Be the change</h3>
 		<h1 class="mb-24 text-white font-['Steelfish'] uppercase ">Slowfashion</h1>
 		<ArrowDown --arrowColor="white" --circleColor="white" />
