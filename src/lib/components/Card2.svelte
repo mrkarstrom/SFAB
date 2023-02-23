@@ -1,4 +1,3 @@
-
 <div id="center-box" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
 	<div
 		id="left-box-part"
@@ -31,7 +30,7 @@
 			/>
 		</div>
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpeg?raw=true"
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
 			alt=""
 		/>
 	</div>
