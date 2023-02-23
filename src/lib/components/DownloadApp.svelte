@@ -6,7 +6,7 @@
 </script>
 
 <div id="spacer" class="w-full h-[200px] flex justify-center items-center  ">
-	<div class="relative items-center h-[400px] w-[950px] drop-shadow-xl -translate-y-[200px] ">
+	<div class="relative items-center drop-shadow-xl -translate-y-[200px] md:h-[400px] md:w-[950px] ">
 		<!-- Left Arrow Box -->
 		<div
 			id="left-arrow-box"
