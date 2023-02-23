@@ -1,7 +1,7 @@
 <script>
 	import { showModal } from '../../stores/store';
+
 	const handleClick = () => {
-		window.scrollTo(0, document.body.scrollHeight);
 		showModal.set(false);
 	};
 </script>
@@ -9,7 +9,7 @@
 <div
 	id="backdrop"
 	on:click={handleClick}
-	class="w-screen h-full absolute bottom-0 opacity-[0.9] bg-black z-50"
+	class="w-screen h-screen fixed bottom-0 left-0 opacity-[0.9] bg-black"
 >
 	<div class="w-full h-full flex items-center justify-center">
 		<div

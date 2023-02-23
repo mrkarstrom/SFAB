@@ -2,7 +2,6 @@
 	import { showModal } from '../../stores/store';
 
 	const handleClick = () => {
-		window.scrollTo(0, document.body.scrollHeight);
 		showModal.set(true);
 	};
 </script>
@@ -15,7 +14,9 @@ bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
 		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-black w-full md:flex md:flex-row md:items-center md:justify-center"
 	>
 		<li class="w-32">
-			<a on:click={handleClick} class="uppercase hover:font-semibold cursor-pointer">About us</a>
+			<a on:click={handleClick} href="#aboutus" class="uppercase hover:font-semibold cursor-pointer"
+				>About us</a
+			>
 		</li>
 		<li class="w-32">
 			<a href="#" class="uppercase hover:font-semibold">Contact us</a>

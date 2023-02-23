@@ -12,6 +12,8 @@
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '../lib/components/Footer.svelte';
+	import { showModal } from './../stores/store.js';
+	import Modal from '../lib/components/Modal.svelte';
 </script>
 
 <TopbarPlain />
@@ -28,6 +30,7 @@
 <Mission1 />
 <ArrowBlock />
 <Subscribe1 />
-<Footer />
-
-
+<Footer id="aboutus" />
+{#if $showModal}
+	<Modal />
+{/if}
