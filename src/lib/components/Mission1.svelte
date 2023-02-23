@@ -2,10 +2,6 @@
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 	import Title from './Title.svelte';
-	// import Slide1 from './Slide1.svelte';
-	// import Slide2 from './Slide2.svelte';
-	// import Slide3 from './Slide3.svelte';
-	// import Slide4 from './Slide4.svelte';
 
 	let isInView;
 	import { Swipe, SwipeItem } from 'svelte-swipe';
@@ -109,7 +105,7 @@
 							</div>
 						</div>
 					</SwipeItem>
-					<SwipeItem data-sveltekit-prefetch>
+					<SwipeItem>
 						<div
 							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
 						>

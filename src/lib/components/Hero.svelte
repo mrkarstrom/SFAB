@@ -4,7 +4,7 @@
 </script>
 
 <div
-	id="backdrop"
+	id="hero-backdrop"
 	class="hero h-[1000px]"
 	style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"
 >
