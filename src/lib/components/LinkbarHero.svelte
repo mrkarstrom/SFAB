@@ -1,14 +1,14 @@
 <div
-	class="flex h-full w-full
+	class="flex h-full w-full border-2
 			lg:relative"
 >
 	<div
 		class="flex items-center justify-center w-full mt-12 
-				md:absolute md:left-8
+				md:absolute
 				lg:w-auto"
 	>
 		<ul
-			class="flex flex-row space-x-5
+			class="flex flex-row justify-center space-x-5 m-0 p-0
 					lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
 		>
 			<li
