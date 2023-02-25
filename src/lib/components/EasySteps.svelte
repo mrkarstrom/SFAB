@@ -16,7 +16,7 @@
 			<div class="w-full lg:flex flex-row justify-center">
 				<div class="w-full h-auto bg-white flex flex-col">
 					<div id="title-wrap">
-						<div class="title flex flex-row justify-between">
+						<div class="title flex flex-row justify-between px-20">
 							<Title>
 								<p class="text-4xl ml-16 pb-12 font-normal text-black">2 Easy STEPS</p>
 							</Title>

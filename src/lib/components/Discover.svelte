@@ -19,7 +19,7 @@
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
-						<h5 class="mt-5 lg:w-[620px] whitespace-normal">
+						<h5 class="mt-5 w-[620px] whitespace-normal">
 							Find your unique expression by matching pieces from SlowFashion's newly arrived items
 							now available in the app.
 						</h5>
