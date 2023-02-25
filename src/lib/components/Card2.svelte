@@ -1,14 +1,16 @@
 <div id="center-box" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
 	<div
 		id="left-box-part"
-		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg"
+		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg 
+				lg:pt-24 lg:pb-6 lg:rounded-lg"
 	>
-		<h6 class="hidden text-center w-32 whitespace-wrap pt-14 lg:flex">
+		<h6 class="text-center w-32 whitespace-wrap flex">
 			Give someone the opportunity to love what you don't use anymore.
 		</h6>
 		<button
 			id="join-button"
-			class="has-pointer-events bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary hover:bg-black hover:text-white transition duration-300 hover:ease-in-out"
+			class="has-pointer-events bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary
+				hover:bg-black hover:text-white transition duration-300 hover:ease-in-out"
 		>
 			<h5>Join Slowfashion</h5>
 		</button>

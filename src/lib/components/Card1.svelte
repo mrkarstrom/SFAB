@@ -4,11 +4,9 @@
 >
 	<div
 		id="left-box-part"
-		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg lg:pt-24 lg:pb-6 lg:rounded-lg z-40"
+		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg pt-24 pb-6"
 	>
-		<div
-			class="w-full h-full flex flex-col items-center justify-center pt-12 lg:w-[90px] lg:h-[90px]"
-		>
+		<div class="flex flex-col items-center justify-center pt-12 w-[90px] h-[90px]">
 			<div class="relative flex items-center justify-center">
 				<img
 					id="rotating-circle"

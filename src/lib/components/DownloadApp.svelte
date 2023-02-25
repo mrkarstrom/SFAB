@@ -4,7 +4,7 @@
 	import Card2 from './Card2.svelte';
 	import Card1 from './Card1.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
-	import { cardNumber } from '../../stores/card';
+	import { cardNumber } from '../../stores/store';
 
 	const swipeConfig = {
 		autoplay: false,
