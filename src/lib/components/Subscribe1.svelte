@@ -1,6 +1,6 @@
 <div
 	id="newsletter-wrapper"
-	class="hidden w-full justify-between h-[500px] border-y border-gray-400 overflow-hidden lg:flex"
+	class="flex w-full justify-between h-[500px] border-y border-gray-400 overflow-hidden"
 >
 	<section class="flex flex-col align-start items-between space-y-20 py-10 pl-20">
 		<div class="newsletter-signup">

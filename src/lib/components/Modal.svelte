@@ -15,8 +15,22 @@
 		<div
 			id="popup-modal"
 			on:click={handleClick}
-			class="w-1/2 h-auto bg-white flex flex-col items-center justify-center rounded p-6 opacity-100 z-50 lg:w-[80%]"
+			class="relative h-auto bg-white flex flex-col items-center justify-center rounded p-6 opacity-100 z-50 w-[80%]"
 		>
+			<div class="absolute right-4 top-4 hover:cursor-pointer">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="stroke-current flex-shrink-0 h-10 w-10"
+					fill="none"
+					viewBox="0 0 24 24"
+					><path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="1"
+						d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+					/></svg
+				>
+			</div>
 			<h2 class="p-4">About Us</h2>
 			<p class="p-4  whitespace-normal lg:text-xl xl:text-2xl 2xl:text-4xl">
 				We believe circularity fashion doesn't need to exist only in fast virgin trends. We all need

@@ -34,13 +34,15 @@
 			<div class="h-[28rem] w-full">
 				<Swipe {...swipeConfig} bind:this={SwipeComp}>
 					<SwipeItem>
-						<div class="h-[28rem] relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2">
+						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
 							<div
-								class="left-side w-full bg-cover bg-center lg:h-full"
+								id="left-side1"
+								class="w-full bg-cover bg-center h-full"
 								style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
 							/>
 							<div
-								class="right-side bg-secondary flex flex-col items-center justify-between h-full"
+								id="right-side1"
+								class="bg-secondary flex flex-col items-center justify-between h-full"
 							>
 								<Title>
 									<p class="text-2xl mt-12">Our Mission</p>
@@ -53,7 +55,7 @@
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+									class="button-container absolute left-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12 "
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
@@ -80,7 +82,7 @@
 										<div
 											on:click={nextSlide}
 											id="slide1-right-pointer"
-											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+											class="has-pointer-events cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
 												width="21px"
@@ -104,10 +106,11 @@
 						</div>
 					</SwipeItem>
 					<SwipeItem>
-						<div
-							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
-						>
-							<div class="left-side bg-secondary flex flex-col items-center justify-between h-full">
+						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
+							<div
+								id="left-side2"
+								class="bg-secondary flex flex-col items-center justify-between h-full"
+							>
 								<p class="text-2xl mt-12">Our Mission</p>
 								<p class="max-w-[70%] text-center mb-20">
 									We believe circularity fashion doesn't need to exist only in fast trends.
@@ -117,7 +120,7 @@
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container hidden absolute right-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+									class="button-container absolute right-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12"
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
@@ -166,21 +169,22 @@
 								</div>
 							</div>
 							<div
-								class="right-side w-full bg-cover bg-center lg:h-full"
+								id="right-side2"
+								class="w-full bg-cover bg-center lg:h-full"
 								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
 							/>
 						</div>
 					</SwipeItem>
 					<SwipeItem>
-						<div
-							class="h-[28rem] hidden relative lg:grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2"
-						>
+						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
 							<div
-								class="left-side w-full bg-cover bg-center lg:h-full"
+								id="left-side3"
+								class="w-full bg-cover bg-center lg:h-full"
 								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
 							/>
 							<div
-								class="right-side bg-secondary flex flex-col items-center justify-between h-full"
+								id="right-side3"
+								class="bg-secondary flex flex-col items-center justify-between h-full"
 							>
 								<p class="text-2xl mt-12">Our Mission</p>
 								<p class="max-w-[70%] text-center mb-20">
@@ -192,7 +196,7 @@
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container hidden absolute left-[50%] bottom-0 z-100  bg-accent lg:h-12 lg:w-44 lg:flex"
+									class="button-container absolute left-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12"
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
