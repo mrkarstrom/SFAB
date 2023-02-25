@@ -23,12 +23,10 @@ a {
 
 h1 {
     font-size: 6rem;
-    cursor: default;
 }
 
 h2 {
     font-size: xx-large;
-    cursor: default;
 }
 
 h3 {
@@ -53,12 +51,12 @@ h6 {
 
 p {
     color: #000;
-    cursor: default;
 }
 
-button>p {
-    cursor: pointer;
+.has-pointer-events {
+    pointer-events: fill;
 }
+
 
 
 .slide-in-right {
@@ -150,4 +148,3 @@ button>p {
         opacity: 1;
     }
 }
-
