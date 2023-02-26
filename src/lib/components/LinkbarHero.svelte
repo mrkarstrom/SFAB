@@ -1,10 +1,11 @@
 <div
-	class="flex h-full w-full border-2
+	class="flex h-full w-full
 			lg:relative"
 >
 	<div
 		class="flex items-center justify-center w-full mt-12 
 				md:absolute
+				md:pl-8
 				lg:w-auto"
 	>
 		<ul
