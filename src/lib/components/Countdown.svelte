@@ -20,9 +20,30 @@
 	});
 </script>
 
-<div class="w-full h-full flex flex-col items-center justify-center">
+<div class="w-full h-full flex flex-col items-center justify-center border-2">
 	<h3>Countdown to Launch</h3>
-	<h2>
-		{d < 10 ? '0' + d : d}:{h < 10 ? '0' + h : h}:{m < 10 ? '0' + m : m}:{s < 10 ? '0' + s : s}
-	</h2>
+	<div class="grid grid-cols-3 grid-rows-1 w-full h-full">
+		<div class="grid grid-cols-2 grid-rows-2">
+			<div>0</div>
+			<div>1</div>
+			<div class="col-span-2">
+				<h4>Days</h4>
+			</div>
+		</div>
+		<div class="grid grid-cols-2 grid-rows-2">
+			<div>0</div>
+			<div>1</div>
+			<div class="col-span-2">
+				<h4>Hours</h4>
+			</div>
+		</div>
+		<div class="grid grid-cols-2 grid-rows-2">
+			<div>0</div>
+			<div>1</div>
+			<div class="col-span-2">
+				<h4>Minutes</h4>
+			</div>
+		</div>
+	</div>
+	<!-- {d < 10 ? '0' + d : d}:{h < 10 ? '0' + h : h}:{m < 10 ? '0' + m : m}:{s < 10 ? '0' + s : s} -->
 </div>
