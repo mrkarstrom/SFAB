@@ -1,9 +1,8 @@
 <script>
+	import Card1Countdown from './Card1Countdown.svelte';
 	import Card3 from './Card3.svelte';
 	import Card4 from './Card4.svelte';
 	import Card2 from './Card2.svelte';
-	// import Card1 from './Card1.svelte';
-	import Card1Countdown from './Card1Countdown.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 	import { cardNumber } from '../../stores/store';
 

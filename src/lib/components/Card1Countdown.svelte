@@ -26,12 +26,9 @@
 					alt=""
 				/>
 			</div>
-			<h6 class="text-center whitespace-nowrap pt-14 lg:flex">Honest | Smooth | Desirable</h6>
+			<h6 class="text-center whitespace-nowrap pt-14 ">Honest | Smooth | Desirable</h6>
 		</div>
-		<div>
-			<h3 >Countdown to Launch</h3>
-			<Countdown />
-		</div>
+		<Countdown />
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
 		<img
