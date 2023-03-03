@@ -1,18 +1,16 @@
 <script>
 	import { onMount } from 'svelte';
 	let time = new Date();
-	const goalDate = new Date('May 07 2023 01:12:00');
+	const goalDate = new Date('May 07 2023 00:00:00');
 
 	$: diff = goalDate - time;
 	$: d = Math.floor(diff / 1000 / 60 / 60 / 24);
 	$: h = Math.floor(diff / 1000 / 60 / 60) % 24;
 	$: m = Math.floor(diff / 1000 / 60) % 60;
-	$: s = Math.floor(diff / 1000) % 60;
 
 	$: days = d;
 	$: hours = h < 10 ? '0' + h : h;
 	$: minutes = m < 10 ? '0' + m : m;
-	$: seconds = s < 10 ? '0' + s : s;
 
 	onMount(() => {
 		const interval = setInterval(() => {
@@ -25,7 +23,7 @@
 </script>
 
 <div class="w-full h-52 flex flex-col items-center justify-center">
-	<p class="text-[2.5rem] whitespace-normal text-center leading-none ">Countdown to launch</p>
+	<p class="text-[2.3rem] whitespace-normal text-center leading-none ">Countdown to launch</p>
 	<div class="grid grid-cols-3 grid-rows-1 gap-x-10 pb-10 m-0 w-[80%] h-full">
 		<div class="flex flex-col items-center">
 			<p
