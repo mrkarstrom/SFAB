@@ -27,6 +27,7 @@
 <ArrowBlock />
 <Subscribe1 />
 <Footer />
+<!-- TODO: Make modal from svelte.dev/examples/modal -->
 {#if $showModal}
 	<Modal />
 {/if}
