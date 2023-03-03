@@ -1,46 +1,43 @@
 <script>
-	const currentYear = new Date().getFullYear();
-	const newYearTime = new Date(`May 04 ${currentYear + 1} 00:00:00`);
-	let days;
-	let hours;
-	let minutes;
-	let seconds;
+	import { onMount } from 'svelte';
+	let time = new Date();
+	const goalDate = new Date('May 07 2023 00:00:00');
 
-	function updateCountdown() {
-		const currentTime = new Date();
-		const diff = newYearTime - currentTime;
+	$: diff = goalDate - time;
+	$: d = Math.floor(diff / 1000 / 60 / 60 / 24);
+	$: h = Math.floor(diff / 1000 / 60 / 60) % 24;
+	$: m = Math.floor(diff / 1000 / 60) % 60;
+	$: s = Math.floor(diff / 1000) % 60;
 
-		const d = Math.floor(diff / 1000 / 60 / 60 / 24);
-		const h = Math.floor(diff / 1000 / 60 / 60) % 24;
-		const m = Math.floor(diff / 1000 / 60) % 60;
-		const s = Math.floor(diff / 1000) % 60;
+	$: days = d;
+	$: hours = h < 10 ? '0' + h : h;
+	$: minutes = m < 10 ? '0' + m : m;
+	$: seconds = s < 10 ? '0' + s : s;
 
-		let days = d;
-		let hours = h < 10 ? '0' + h : h;
-		let minutes = m < 10 ? '0' + m : m;
-		let seconds = s < 10 ? '0' + s : s;
-	}
-
-	setInterval(updateCountdown, 1000);
+	onMount(() => {
+		const interval = setInterval(() => {
+			time = new Date();
+		}, 1000);
+		return () => {
+			clearInterval(interval);
+		};
+	});
 </script>
 
-<div class="w-full h-24">
-	<div >
-		<div>
-			<h3 class="font-['Digit']">{days}</h3>
+<div class="w-full h-52 flex flex-col items-center justify-center">
+	<p class="text-[2.5rem] whitespace-normal text-center w-60 leading-none ">Countdown to launch</p>
+	<div class="grid grid-cols-3 grid-rows-1 gap-0 p-0 m-0 w-auto h-full">
+		<div class="flex flex-col items-center">
+			<h2 class="font-['Digit']">{days}</h2>
 			<small>days</small>
 		</div>
-		<div>
-			<h2 class="font-['Digit']">00</h2>
+		<div class="flex flex-col items-center">
+			<h2 class="font-['Digit']">{hours}</h2>
 			<small>hours</small>
 		</div>
-		<div>
-			<h2 id="minutes">00</h2>
+		<div class="flex flex-col items-center">
+			<h2 class="font-['Digit']">{minutes}</h2>
 			<small>minutes</small>
-		</div>
-		<div>
-			<h2 id="seconds">00</h2>
-			<small>seconds</small>
 		</div>
 	</div>
 </div>

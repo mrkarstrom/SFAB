@@ -8,9 +8,9 @@
 >
 	<div
 		id="left-box-part"
-		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg pt-24 pb-6"
+		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg pt-12"
 	>
-		<div class="flex flex-col items-center justify-center pt-12 w-[90px] h-[90px]">
+		<div class="flex flex-col items-center justify-center pt-2 w-[90px] h-[90px]">
 			<div class="relative flex items-center justify-center">
 				<img
 					id="rotating-circle"
@@ -26,7 +26,7 @@
 					alt=""
 				/>
 			</div>
-			<h6 class="text-center whitespace-nowrap pt-14 ">Honest | Smooth | Desirable</h6>
+			<h6 class="text-center whitespace-nowrap pt-4 ">Honest | Smooth | Desirable</h6>
 		</div>
 		<Countdown />
 	</div>
