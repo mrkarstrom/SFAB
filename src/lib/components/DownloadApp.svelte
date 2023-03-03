@@ -2,7 +2,8 @@
 	import Card3 from './Card3.svelte';
 	import Card4 from './Card4.svelte';
 	import Card2 from './Card2.svelte';
-	import Card1 from './Card1.svelte';
+	// import Card1 from './Card1.svelte';
+	import Card1Countdown from './Card1Countdown.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 	import { cardNumber } from '../../stores/store';
 
@@ -63,11 +64,11 @@
 		</button>
 
 		<!-- Carousel start -->
-		<div class="w-[810px] h-full">
+		<div class="w-[600px] h-[500px] lg:w-[810px] lg:h-full ">
 			<Swipe {...swipeConfig} bind:this={SwipeComp}>
 				<!-- Slide 1 Start -->
 				<SwipeItem>
-					<Card1 />
+					<Card1Countdown />
 				</SwipeItem>
 				<!-- Slide1 End -->
 				<!-- Slide 2 Start -->

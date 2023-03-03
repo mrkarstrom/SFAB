@@ -3,9 +3,9 @@
 			lg:relative"
 >
 	<div
-		class="flex items-center justify-center w-full mt-12 
-				md:absolute
-				md:pl-8
+		class="absolute items-center justify-center w-full mt-12 
+				lg:flex
+				lg:pl-8
 				lg:w-auto"
 	>
 		<ul
