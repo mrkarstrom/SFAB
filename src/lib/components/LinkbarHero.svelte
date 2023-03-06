@@ -4,7 +4,7 @@
 				lg:pl-8
 				lg:w-auto
 				lg:left-4
-				lg:mt-8"
+				lg:top-6"
 >
 	<ul
 		class="flex flex-row justify-center space-x-7 m-0 p-0
