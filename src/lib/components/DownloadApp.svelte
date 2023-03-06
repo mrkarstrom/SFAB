@@ -36,7 +36,7 @@
 	}
 </script>
 
-<div id="spacer" class="w-full h-[200px] flex justify-center items-center  ">
+<div id="spacer" class="w-full h-[200px] hidden lg:flex justify-center items-center  ">
 	<div
 		class="flex items-center justify-center drop-shadow-xl -translate-y-[200px] w-[880px] 
 				md:h-[400px] md:w-[850px]
