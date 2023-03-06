@@ -1,19 +1,27 @@
-<div
-	class="flex h-full w-full
-			lg:relative"
->
+<div class="h-full w-full relative">
 	<div
-		class="absolute items-center justify-center w-full mt-12 
+		class="absolute left-8 mt-12 
 				lg:flex
 				lg:pl-8
-				lg:w-auto"
+				lg:w-auto
+				lg:left-4
+				lg:mt-8"
 	>
 		<ul
-			class="flex flex-row justify-center space-x-5 m-0 p-0
-					lg:flex-col lg:items-center lg:justify-center lg:mt-16 lg:space-y-8 lg:space-x-0 lg:h-64 lg:w-10"
+			class="flex flex-row justify-center space-x-7 m-0 p-0
+					lg:flex-col 
+					lg:items-center 
+					lg:justify-center 
+					lg:mt-16 
+					lg:space-y-8 
+					lg:space-x-0 
+					lg:h-64 
+					lg:w-10"
 		>
 			<li
-				class="flex animate-pulse one p-[10px] items-center justify-center border border-white rounded-full"
+				class="flex scale-125 animate-pulse one p-[10px] items-center justify-center border border-white rounded-full 
+				lg:scale-100
+				"
 			>
 				<a href="https://linkedin.com">
 					<svg
@@ -37,7 +45,8 @@
 				</a>
 			</li>
 			<li
-				class="flex animate-pulse two items-center justify-center p-[10px] border border-white rounded-full"
+				class="flex scale-125 animate-pulse two items-center justify-center p-[10px] border border-white rounded-full 
+				lg:scale-100"
 			>
 				<a href="https://instagram.com">
 					<svg
@@ -54,7 +63,8 @@
 				</a>
 			</li>
 			<li
-				class="animate-pulse three flex items-center justify-center p-[10px] border border-white rounded-full"
+				class="flex scale-125 animate-pulse three items-center justify-center p-[10px] border border-white rounded-full 
+				lg:scale-100"
 			>
 				<a href="https://twitter.com">
 					<svg
@@ -71,7 +81,8 @@
 				</a>
 			</li>
 			<li
-				class="flex animate-pulse four items-center justify-center p-[10px] border border-white rounded-full"
+				class="flex scale-125 animate-pulse four items-center justify-center p-[10px] border border-white rounded-full 
+				lg:scale-100"
 			>
 				<a href="#contact">
 					<svg
