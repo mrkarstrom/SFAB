@@ -39,9 +39,10 @@
 <div id="spacer" class="w-full h-[50px] flex justify-center items-center 
 					lg:h-[200px]">
 	<div
-		class="flex items-center justify-center drop-shadow-xl w-[880px] 
+		class="hidden items-center justify-center drop-shadow-xl w-[880px] 
 				md:h-[400px] 
 				md:w-[850px]
+				lg:flex
 				lg:h-[400px] 
 				lg:w-[950px] 
 				lg:-translate-y-[200px]
