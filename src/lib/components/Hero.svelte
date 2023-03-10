@@ -12,9 +12,8 @@
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
 	<LinkbarHero />
-	<div id="hero-text" class="flex flex-col items-center justify-center pb-48
-								lg:
-		">
+	<div id="hero-text" class="flex flex-col items-center justify-center 
+								lg:pb-48">
 		<h3
 			class="mb-1 mt-10 text-white uppercase text-center whitespace-normal w-52 leading-[50px] text-[40px] lg:text-xl"
 		>

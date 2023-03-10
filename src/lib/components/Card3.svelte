@@ -1,5 +1,5 @@
 
-<div id="center-box" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
+<div id="container-box3" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
 	<div
 		id="left-box-part"
 		class="bg-white flex flex-col items-center justify-around w-full h-full rounded-lg "
