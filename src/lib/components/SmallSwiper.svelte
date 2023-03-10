@@ -49,19 +49,19 @@
 			<SwipeItem>
 				<div
 					id="swipe2"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true')]"
+					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true')]"
 				/>
 			</SwipeItem>
 			<SwipeItem>
 				<div
 					id="swipe3"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true')]"
+					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true')]"
 				/>
 			</SwipeItem>
 			<SwipeItem>
 				<div
 					id="swipe4"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true')]"
+					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true')]"
 				/>
 			</SwipeItem>
 		</Swipe>
