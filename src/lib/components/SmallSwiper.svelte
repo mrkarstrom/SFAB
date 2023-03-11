@@ -20,7 +20,8 @@
 <div class="w-full h-screen flex justify-center items-center">
 	<div
 		id="small-swiper"
-		class="w-[650px] h-screen flex items-center justify-center relative -translate-y-64 drop-shadow-lg rounded-box z-20
+		class="w-screen h-screen flex items-center justify-center relative -translate-y-64 drop-shadow-lg rounded-box z-20
+									sm:w-[650px]
                                     lg:hidden"
 	>
 		<button id="left-arrow" class="absolute bg-inherit left-10 z-10" on:click={prevSlide}>
