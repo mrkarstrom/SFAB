@@ -6,6 +6,7 @@
 </script>
 
 <div
+	class="w-full h-auto"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
@@ -14,12 +15,12 @@
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
 			<div id="discover-container" class="w-full h-auto flex justify-center">
-				<div id="discover-box" class=" px-10">
-					<div id="discover-title" class="px-6">
+				<div id="discover-box" class="lg:px-10">
+					<div id="discover-title" class="lg:px-6">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
-						<h5 class="mt-5 w-[620px] whitespace-normal">
+						<h5 class="mt-5 lg:w-[620px] whitespace-normal">
 							Find your unique expression by matching pieces from SlowFashion's newly arrived items
 							now available in the app.
 						</h5>

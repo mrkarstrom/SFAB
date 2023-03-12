@@ -17,11 +17,10 @@
 	}
 </script>
 
-<div class="w-full h-screen flex justify-center items-center">
+<div class="w-[100vw] h-screen flex justify-center items-center">
 	<div
 		id="small-swiper"
-		class="w-screen h-screen flex items-center justify-center relative -translate-y-64 drop-shadow-lg rounded-box z-20
-									sm:w-[650px]
+		class="w-[90vw] h-screen flex items-center justify-center relative -translate-y-64 drop-shadow-lg rounded-box z-20
                                     lg:hidden"
 	>
 		<button id="left-arrow" class="absolute bg-inherit left-10 z-10" on:click={prevSlide}>
