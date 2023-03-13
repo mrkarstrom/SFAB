@@ -6,16 +6,26 @@
 	};
 </script>
 
-<div 
-	class="flex h-auto w-full active:text-gray-900 text-center 
-bg-white md:flex md:flex-col md:items-center md:justify-center md:h-[70px] "
+<div
+	class="flex flex-row items-center justify-center h-auto w-full active:text-gray-900 text-center  bg-white 
+		md:flex-col 
+		md:items-center 
+		md:justify-center 
+		md:h-[70px] "
 >
 	<ul
-		class="block py-2 space-y-2 font-normal md:py-0 md:space-y-0 text-black w-full md:flex md:flex-row md:items-center md:justify-center"
+		class="flex flex-col py-2 space-y-2 font-normal items-center justify-center text-black w-full
+				md:py-0 
+				md:space-y-0  
+				md:flex-row 
+			"
 	>
 		<li class="w-32">
-			<a on:click={handleClick} href="#aboutus" id="#aboutus" class="uppercase hover:font-semibold cursor-pointer"
-				>About us</a
+			<a
+				on:click={handleClick}
+				href="#aboutus"
+				id="#aboutus"
+				class="uppercase hover:font-semibold cursor-pointer">About us</a
 			>
 		</li>
 		<li class="w-32">

@@ -14,9 +14,13 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div id="discover-container" class="w-full h-auto flex justify-center">
-				<div id="discover-box" class="lg:px-10">
-					<div id="discover-title" class="lg:px-6">
+			<div
+				id="discover-container"
+				class="h-full flex items-center w-full justify-center
+												"
+			>
+				<div id="discover-box" class="px-10">
+					<div id="discover-title" class="w-full lg:px-6 border-2 border-red-600">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
@@ -25,10 +29,20 @@
 							now available in the app.
 						</h5>
 					</div>
-					<div id="image-container" class="grid grid-cols-3 gap-4 h-96 pt-8 w-full ">
+					<div
+						id="image-container"
+						class="flex flex-col justify-center items-center h-full w-full border-2 border-black
+													md:grid
+													md:gap-4
+													md:grid-rows-1
+													md:grid-cols-3
+													md:h-96
+													"
+					>
 						<div
 							id="image-box1"
-							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover"
+							class="relative aspect-square m-5 w-2/3 bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover md:w-72
+							md:m-0"
 						>
 							<div
 								id="textbox1"
@@ -44,7 +58,9 @@
 						</div>
 						<div
 							id="image-box2"
-							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true')] bg-cover"
+							class="relative w-2/3 m-5 aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true')] bg-cover  
+							md:w-72
+							md:m-0"
 						>
 							<div
 								id="textbox2"
@@ -60,7 +76,9 @@
 						</div>
 						<div
 							id="image-box3"
-							class="relative max-w-md aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true')] bg-cover"
+							class="relative w-2/3 m-5 aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true')] bg-cover 
+							md:w-72
+							md:m-0"
 						>
 							<div
 								id="textbox3"
