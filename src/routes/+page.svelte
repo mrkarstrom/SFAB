@@ -10,14 +10,12 @@
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '../lib/components/Footer.svelte';
-	import { showModal } from './../stores/store.js';
-	import Modal from '../lib/components/Modal.svelte';
 </script>
 
 <TopbarPlain />
 <Hero />
 <DownloadApp />
-<SmallSwiper/>
+<SmallSwiper />
 <ArrowBlock --blockHeight="14rem" />
 <AppWindow />
 <ArrowBlock />
@@ -29,7 +27,3 @@
 <ArrowBlock />
 <Subscribe1 />
 <Footer />
-<!-- TODO: Make modal from svelte.dev/examples/modal -->
-{#if $showModal}
-	<Modal />
-{/if}
