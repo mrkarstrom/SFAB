@@ -1,9 +1,10 @@
 <script>
 	import { Swipe, SwipeItem } from 'svelte-swipe';
+	import CountdownSmall from './CountdownSmall.svelte';
 	const swipeConfig = {
 		autoplay: false,
 		showIndicators: false,
-		transitionDuration: 500,
+		transitionDuration: 1500,
 		defaultIndex: 0
 	};
 	let SwipeComp;
@@ -17,14 +18,21 @@
 	}
 </script>
 
-<div class="w-[100vw] h-screen flex justify-center items-center">
+<div
+	id="block-container"
+	class="w-full h-[550px] flex flex-col relative justify-end items-center border-2 border-green-700
+			lg:hidden"
+>
 	<div
-		id="small-swiper"
-		class="w-[90vw] h-screen flex items-center justify-center relative -translate-y-64 drop-shadow-lg rounded-box z-20
-                                    lg:hidden"
+		id="swiper-and-countdown-container"
+		class="w-[90vw] h-[800px] flex flex-col items-center justify-center border-2 border-red-600 absolute drop-shadow-lg z-20"
 	>
-		<button id="left-arrow" class="absolute bg-inherit left-10 z-10" on:click={prevSlide}>
-			<div class="flex items-center justify-center h-full w-full">
+		<div id="swiper-container" class="relative w-full flex flex-start h-full">
+			<button
+				id="left-arrow"
+				class="absolute left-10 top-1/2 -translate-y-1/2 z-10"
+				on:click={prevSlide}
+			>
 				<!-- arrow-left-svgrepo-com -->
 				<svg
 					width="2.5rem"
@@ -35,39 +43,47 @@
 					stroke="#000000"
 					><polyline points="20 24 12 32 20 40" /><line x1="52" y1="32" x2="12" y2="32" /></svg
 				>
-			</div>
-		</button>
-
-		<Swipe {...swipeConfig} bind:this={SwipeComp}>
-			<!-- Slide 1 Start -->
-			<SwipeItem>
-				<div
-					id="swipe1"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true')]"
-				/>
-			</SwipeItem>
-			<SwipeItem>
-				<div
-					id="swipe2"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true')]"
-				/>
-			</SwipeItem>
-			<SwipeItem>
-				<div
-					id="swipe3"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true')]"
-				/>
-			</SwipeItem>
-			<SwipeItem>
-				<div
-					id="swipe4"
-					class="w-full h-screen bg-cover bg-center rounded-box bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true')]"
-				/>
-			</SwipeItem>
-		</Swipe>
-		<button id="right-arrow" class="absolute bg-inherit right-10 z-10" on:click={nextSlide}>
-			<div class="flex items-center justify-center h-full w-full">
-				<!-- arrow-left-svgrepo-com -->
+			</button>
+			<Swipe {...swipeConfig} bind:this={SwipeComp}>
+				<!-- Slide 1 Start -->
+				<SwipeItem>
+					<img
+						id="swipe-1"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true"
+						alt=""
+						class="rounded-box"
+					/>
+				</SwipeItem>
+				<SwipeItem>
+					<img
+						id="swipe-1"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
+						alt=""
+						class="rounded-box"
+					/>
+				</SwipeItem>
+				<SwipeItem>
+					<img
+						id="swipe-1"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true"
+						alt=""
+						class="rounded-box"
+					/>
+				</SwipeItem>
+				<SwipeItem>
+					<img
+						id="swipe-1"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true"
+						alt=""
+						class="rounded-box"
+					/>
+				</SwipeItem>
+			</Swipe>
+			<button
+				id="right-arrow"
+				class="absolute top-1/2 -translate-y-1/2 right-10 z-20"
+				on:click={nextSlide}
+			>
 				<svg
 					width="2.5rem"
 					class="bounce-right"
@@ -77,7 +93,8 @@
 					stroke="#000000"
 					><polyline points="44 40 52 32 44 24" /><line x1="52" y1="32" x2="12" y2="32" /></svg
 				>
-			</div>
-		</button>
+			</button>
+		</div>
+		<CountdownSmall />
 	</div>
 </div>

@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="w-full h-auto"
+	class="w-full h-auto flex justify-center items-center"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;

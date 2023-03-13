@@ -18,7 +18,7 @@
 					lg:w-10"
 	>
 		<li
-			class="flex scale-125 animate-pulse one p-[10px] items-center justify-center border border-white rounded-full 
+			class="flex scale-110 animate-pulse one p-[10px] items-center justify-center border border-white rounded-full 
 				lg:scale-100
 				"
 		>
@@ -44,7 +44,7 @@
 			</a>
 		</li>
 		<li
-			class="flex scale-125 animate-pulse two items-center justify-center p-[10px] border border-white rounded-full 
+			class="flex scale-110 animate-pulse two items-center justify-center p-[10px] border border-white rounded-full 
 				lg:scale-100"
 		>
 			<a href="https://instagram.com">
@@ -62,7 +62,7 @@
 			</a>
 		</li>
 		<li
-			class="flex scale-125 animate-pulse three items-center justify-center p-[10px] border border-white rounded-full 
+			class="flex scale-110 animate-pulse three items-center justify-center p-[10px] border border-white rounded-full 
 				lg:scale-100"
 		>
 			<a href="https://twitter.com">
@@ -80,7 +80,7 @@
 			</a>
 		</li>
 		<li
-			class="flex scale-125 animate-pulse four items-center justify-center p-[10px] border border-white rounded-full 
+			class="flex scale-110 animate-pulse four items-center justify-center p-[10px] border border-white rounded-full 
 				lg:scale-100"
 		>
 			<a href="#contact">
