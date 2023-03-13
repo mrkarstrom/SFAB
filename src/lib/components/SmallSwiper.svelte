@@ -20,12 +20,12 @@
 
 <div
 	id="block-container"
-	class="w-full h-[550px] flex flex-col relative justify-end items-center border-2 border-green-700
+	class="w-full h-[550px] flex flex-col relative justify-end items-center 
 			lg:hidden"
 >
 	<div
 		id="swiper-and-countdown-container"
-		class="w-[90vw] h-[800px] flex flex-col items-center justify-center border-2 border-red-600 absolute drop-shadow-lg z-20"
+		class="w-[90vw] min-h-[820px] h-[820px] flex flex-col items-center justify-center absolute drop-shadow-lg z-20"
 	>
 		<div id="swiper-container" class="relative w-full flex flex-start h-full">
 			<button
@@ -56,7 +56,7 @@
 				</SwipeItem>
 				<SwipeItem>
 					<img
-						id="swipe-1"
+						id="swipe-2"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
@@ -64,7 +64,7 @@
 				</SwipeItem>
 				<SwipeItem>
 					<img
-						id="swipe-1"
+						id="swipe-3"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
@@ -72,7 +72,7 @@
 				</SwipeItem>
 				<SwipeItem>
 					<img
-						id="swipe-1"
+						id="swipe-4"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true"
 						alt=""
 						class="rounded-box"
