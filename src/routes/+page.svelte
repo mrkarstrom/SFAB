@@ -9,7 +9,7 @@
 	import Discover from '$lib/components/Discover.svelte';
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
-	import Footer from '../lib/components/Footer.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <TopbarPlain />

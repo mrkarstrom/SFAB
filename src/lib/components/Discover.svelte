@@ -6,21 +6,21 @@
 </script>
 
 <div
-	class="w-full h-auto flex justify-center items-center"
+	class="flex flex-col items-center justify-center w-full h-full"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
 	}}
 >
 	{#if isInView}
-		<div in:fly={{ y: 500, duration: 1500 }}>
+		<div in:fly={{ y: 500, duration: 1500 }} class="flex flex-col items-center justify-center w-full h-full">
 			<div
 				id="discover-container"
-				class="h-full flex items-center w-full justify-center
+				class=" flex items-center justify-center w-full h-full
 												"
 			>
-				<div id="discover-box" class="px-10">
-					<div id="discover-title" class="w-full lg:px-6 border-2 border-red-600">
+				<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-20">
+					<div id="discover-title" class="w-full">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
@@ -31,7 +31,7 @@
 					</div>
 					<div
 						id="image-container"
-						class="flex flex-col justify-center items-center h-full w-full border-2 border-black
+						class="flex flex-col justify-center items-center h-full w-full
 													md:grid
 													md:gap-4
 													md:grid-rows-1
@@ -41,17 +41,23 @@
 					>
 						<div
 							id="image-box1"
-							class="relative aspect-square m-5 w-2/3 bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover md:w-72
-							md:m-0"
+							class="relative aspect-square m-5 bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover 
+							md:w-6xl
+							md:max-w-6xl
+							md:min-w-4xl
+							md:m-0
+							"
 						>
 							<div
 								id="textbox1"
-								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
+								class="hidden flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
+								md:flex
+								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
 									Michael Kors watches in beautiful gold
 								</p>
-								<p class="w-full font-thin text-xs text-left">
+								<p class="hidden w-full font-thin text-xs text-left lg:flex">
 									It's easy to elevate any outfit and add a bit of flair
 								</p>
 							</div>

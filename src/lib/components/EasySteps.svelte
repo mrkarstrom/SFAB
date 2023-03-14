@@ -109,7 +109,7 @@
 								</div>
 								<h6 class="download-text pl-4 text-inherit">Download App</h6>
 							</button>
-							<div id="scan-me" class="flex items-center justify-center w-56 ">
+							<div id="scan-me" class="flex items-center justify-between w-[230px]">
 								<img
 									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/QR.png?raw=true"
 									alt="QR-code"
@@ -122,7 +122,7 @@
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
-									class="bounce-left w-32"
+									class="bounce-left w-36"
 								/>
 							</div>
 						</div>
