@@ -34,8 +34,8 @@
 	});
 </script>
 
-<div class="w-full h-80 flex flex-col items-center justify-center">
-	<p class="text-[2.3rem] whitespace-normal text-center leading-none mb-8">Countdown to launch</p>
+<div class="w-full h-100 flex flex-col items-center justify-center">
+	<p class="text-[2.3rem] whitespace-normal text-center leading-none mb-4">Countdown to launch</p>
 	<div class="grid grid-cols-3 grid-rows-1 gap-x-1 pb-10 w-full pl-4 pr-3 h-full ">
 		<div class="flex flex-col items-center">
 			<div class="flex items-center space-x-2">
