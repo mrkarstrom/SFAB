@@ -22,11 +22,8 @@
 				class=" flex items-center justify-center w-full h-full
 												"
 			>
-				<div
-					id="discover-box"
-					class="flex flex-col items-center justify-center w-full h-full px-20"
-				>
-					<div id="discover-title" class="w-full">
+				<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
+					<div id="discover-text" class="w-full px-8">
 						<Title>
 							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
 						</Title>
@@ -38,24 +35,24 @@
 					<div
 						id="image-container"
 						class="flex flex-col justify-center items-center h-full w-full
-													md:grid
-													md:gap-4
-													md:grid-rows-1
-													md:grid-cols-3
-													md:h-96
+													lg:grid
+													lg:gap-4
+													lg:grid-rows-1
+													lg:grid-cols-3
+													lg:h-96
 													"
 					>
-						<div class="card w-92 rounded-sm items-center">
+						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
 							<div
 								id="textbox1"
-								class="hidden absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								md:flex
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
+								lg:flex
 								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
 									Michael Kors watches in beautiful gold
 								</p>
-								<p class="hidden w-full font-thin text-xs text-left lg:flex">
+								<p class="w-full font-thin text-xs text-left lg:flex">
 									It's easy to elevate any outfit and add a bit of flair
 								</p>
 							</div>
@@ -66,80 +63,12 @@
 								/>
 							</figure>
 						</div>
-						<div class="card w-92 rounded-sm items-center">
+						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
 							<div
 								id="textbox2"
-								class="hidden absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								md:flex
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
+								lg:flex
 								"
-							>
-								<p class="w-full font-semibold text-xs text-left">
-									Michael Kors watches in beautiful gold
-								</p>
-								<p class="hidden w-full font-thin text-xs text-left lg:flex">
-									It's easy to elevate any outfit and add a bit of flair
-								</p>
-							</div>
-							<figure>
-								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
-									alt="Perfume"
-								/>
-							</figure>
-						</div>
-						<div class="card w-92 rounded-sm items-center">
-							<div
-								id="textbox3"
-								class="hidden absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								md:flex
-								"
-							>
-								<p class="w-full font-semibold text-xs text-left">
-									Michael Kors watches in beautiful gold
-								</p>
-								<p class="hidden w-full font-thin text-xs text-left lg:flex">
-									It's easy to elevate any outfit and add a bit of flair
-								</p>
-							</div>
-							<figure>
-								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
-									alt="Perfume"
-								/>
-							</figure>
-						</div>
-						<!-- <div
-							id="image-box1"
-							class="relative aspect-square m-5 bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true')] bg-cover 
-							md:w-6xl
-							md:max-w-6xl
-							md:min-w-4xl
-							md:m-0
-							"
-						>
-							<div
-								id="textbox1"
-								class="hidden flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								md:flex
-								"
-							>
-								<p class="w-full font-semibold text-xs text-left">
-									Michael Kors watches in beautiful gold
-								</p>
-								<p class="hidden w-full font-thin text-xs text-left lg:flex">
-									It's easy to elevate any outfit and add a bit of flair
-								</p>
-							</div>
-						</div> -->
-						<!-- <div
-							id="image-box2"
-							class="relative w-2/3 m-5 aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true')] bg-cover  
-							md:w-72
-							md:m-0"
-						>
-							<div
-								id="textbox2"
-								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
 							>
 								<p class="w-full font-semibold text-xs text-left">
 									Prada exclusive bag decorated with sparkling metal accents
@@ -148,16 +77,19 @@
 									Express your elegance and modernism
 								</p>
 							</div>
+							<figure>
+								<img
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true"
+									alt="Bag, Watch, Coat"
+								/>
+							</figure>
 						</div>
-						<div
-							id="image-box3"
-							class="relative w-2/3 m-5 aspect-square bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true')] bg-cover 
-							md:w-72
-							md:m-0"
-						>
+						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
 							<div
 								id="textbox3"
-								class="flex flex-col flex-start items-center justify-center w-auto h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded"
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
+								lg:flex
+								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
 									Exclusive leather GUCCI&reg; Bags
@@ -166,12 +98,13 @@
 									Influential, Innovative, Progressive
 								</p>
 							</div>
-							<!-- <img
-								src="https://yesweb.se/sfab/img/mockup/gucci-bag-black.svg"
-								alt="Gucci Bag"
-								class="w-full"
-							/> -->
-						<!-- </div>  -->
+							<figure>
+								<img
+									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true'"
+									alt="Gucci Bag"
+								/>
+							</figure>
+						</div>
 					</div>
 				</div>
 			</div>
