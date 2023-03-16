@@ -19,7 +19,7 @@
 		>
 			<div
 				id="discover-container"
-				class=" flex items-center justify-center w-full h-full
+				class=" flex items-center justify-center w-full h-full md:px-24
 												"
 			>
 				<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
@@ -33,8 +33,8 @@
 						</h5>
 					</div>
 					<div
-						id="image-container"
-						class="flex flex-col justify-center items-center h-full w-full
+						id="three-images-container"
+						class="flex flex-col justify-center items-center h-full w-full max-w-[1000px]
 													lg:grid
 													lg:gap-4
 													lg:grid-rows-1
@@ -42,11 +42,16 @@
 													lg:h-96
 													"
 					>
-						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
+						<div
+							class="card max-w-80 min-w-[380px] rounded-sm items-center m-0 
+									lg:min-w-full
+									lg:m-0"
+						>
 							<div
 								id="textbox1"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								lg:flex
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+								lg:mx-1
+								lg:px-2
 								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
@@ -63,11 +68,16 @@
 								/>
 							</figure>
 						</div>
-						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
+						<div
+							class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
+									lg:min-w-full
+									lg:m-0"
+						>
 							<div
 								id="textbox2"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								lg:flex
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+								lg:mx-1
+								lg:px-2
 								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
@@ -84,11 +94,16 @@
 								/>
 							</figure>
 						</div>
-						<div class="card w-80 rounded-sm items-center m-4 lg:m-0">
+						<div
+							class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
+									lg:min-w-full
+									lg:m-0"
+						>
 							<div
 								id="textbox3"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-3 mt-2 py-2 px-4 rounded 
-								lg:flex
+								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+								lg:mx-1
+								lg:px-2
 								"
 							>
 								<p class="w-full font-semibold text-xs text-left">
