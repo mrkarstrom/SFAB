@@ -20,12 +20,12 @@
 
 <div
 	id="block-container"
-	class="w-full h-[550px] flex flex-col relative justify-end items-center 
+	class="w-full h-[650px] flex flex-col relative justify-end items-center 
 			lg:hidden"
 >
 	<div
 		id="swiper-and-countdown-container"
-		class="w-[90vw] min-h-[820px] h-[820px] flex flex-col items-center justify-center absolute drop-shadow-lg z-20"
+		class="w-[90vw] min-h-[820px] -translate-y-[90px] h-[820px] flex flex-col items-center justify-center absolute drop-shadow-lg z-20"
 	>
 		<div id="swiper-container" class="relative w-full flex flex-start h-full">
 			<button

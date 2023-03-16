@@ -34,18 +34,18 @@
 	});
 </script>
 
-<div class="w-full h-100 flex flex-col items-center justify-center">
-	<p class="text-[2.3rem] whitespace-normal text-center leading-none mb-4">Countdown to launch</p>
-	<div class="grid grid-cols-3 grid-rows-1 gap-x-1 pb-10 w-full pl-4 pr-3 h-full ">
+<div class="w-full h-[250px] flex flex-col items-center justify-center py-24">
+	<p class="text-[2.3rem] whitespace-normal text-center leading-none mb-8">Countdown to launch</p>
+	<div class="grid grid-cols-3 grid-rows-1 gap-x-1 pb-10 w-[600px] pl-4 pr-3 h-full ">
 		<div class="flex flex-col items-center">
-			<div class="flex items-center space-x-2">
+			<div class="flex items-center mx-4">
 				<p
-					class="font-['Digit'] min-w-[5rem] text-center text-white text-[8rem] bg-secondary my-4 rounded-sm p-2 leading-none"
+					class="font-['Digit'] min-w-[5rem] text-center text-white text-[8rem] bg-secondary my-4 mx-1 rounded-sm p-2 leading-none"
 				>
 					{d10}
 				</p>
 				<p
-					class="font-['Digit'] min-w-[5rem] text-center text-white text-[8rem] bg-secondary my-4 rounded-sm p-2 leading-none"
+					class="font-['Digit'] min-w-[5rem] text-center text-white text-[8rem] bg-secondary my-4 mx-1 rounded-sm p-2 leading-none"
 				>
 					{d1}
 				</p>

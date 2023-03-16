@@ -15,16 +15,16 @@ module.exports = {
 
 			'2xl': '1536px'
 		},
-		container: {
-			center: true,
-			padding: {
-				DEFAULT: '1rem',
-				sm: '2rem',
-				lg: '0px',
-				xl: '0px',
-				'2xl': '0px'
-			}
-		},
+		// container: {
+		// 	center: true,
+		// 	padding: {
+		// 		DEFAULT: '0px',
+		// 		sm: '0px',
+		// 		lg: '0px',
+		// 		xl: '0px',
+		// 		'2xl': '0px'
+		// 	}
+		// },
 		extend: {
 			animation: {
 				spin: 'spin 20s linear infinite',
