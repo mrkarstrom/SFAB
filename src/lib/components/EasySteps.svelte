@@ -2,6 +2,7 @@
 	import Title from './Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
+	import CountdownSmall from './CountdownSmall.svelte';
 	let isInView;
 </script>
 
@@ -13,7 +14,7 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div class="w-full lg:flex flex-row justify-center">
+			<div class="w-full flex flex-row justify-center">
 				<div class="w-full h-auto bg-white flex flex-col">
 					<div id="title-wrap">
 						<div class="title flex flex-row justify-between px-20">
@@ -23,10 +24,13 @@
 						</div>
 					</div>
 					<div id="two-steps-container" class="h-56 w-full flex items-center justify-center z-10">
-						<div id="two-steps" class="grid grid-rows-2 w-full grid-cols-1 h-full 
+						<div
+							id="two-steps"
+							class="grid grid-rows-2 w-full grid-cols-1 h-full 
 													md:grid-cols-2
 													md:grid-rows-1  
-													md:max-w-[600px]">
+													md:max-w-[600px]"
+						>
 							<div
 								id="box-one"
 								class="border-black border-y flex items-end justify-center pb-8 px-4 space-x-6 w-full
@@ -146,6 +150,9 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="flex items-center justify-center h-[400px] w-full lg:hidden">
+				<CountdownSmall />
 			</div>
 		</div>
 	{/if}
