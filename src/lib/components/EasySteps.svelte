@@ -23,10 +23,16 @@
 						</div>
 					</div>
 					<div id="two-steps-container" class="h-56 w-full flex items-center justify-center z-10">
-						<div id="two-steps" class="grid grid-cols-2 lg:w-[600px] h-full ">
+						<div id="two-steps" class="grid grid-rows-2 w-full grid-cols-1 h-full 
+													md:grid-cols-2
+													md:grid-rows-1  
+													md:max-w-[600px]">
 							<div
 								id="box-one"
-								class="border-black border-l flex items-end justify-center border-left pb-8 px-4 space-x-6 w-full"
+								class="border-black border-y flex items-end justify-center pb-8 px-4 space-x-6 w-full
+										md:border-x
+										md:border-y-0
+										"
 							>
 								<div
 									id="ring-one"
@@ -40,7 +46,10 @@
 							</div>
 							<div
 								id="box-two"
-								class="border-black border-x flex items-end justify-center border-left pb-8 space-x-6 w-full"
+								class="border-black border-b flex items-end justify-center min-h-[130px] pb-8 space-x-6 w-full
+										md:border-r
+										md:border-y-0
+										"
 							>
 								<div
 									id="ring-two"

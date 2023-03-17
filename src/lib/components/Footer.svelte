@@ -1,13 +1,13 @@
 <input type="checkbox" id="my-modal" class="modal-toggle" />
 <div class="modal">
-	<div class="modal-box relative">
+	<div class="modal-box relative max-w-[85%] md:max-w-[70%]">
 		<label for="my-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
 		<h2 class="p-4">About Us</h2>
-		<p class="p-4 whitespace-normal lg:text-xl xl:text-2xl 2xl:text-4xl">
-			We believe circularity - fashion doesn't need to exist only in fast virgin trends. We all need
-			to take responsibility to decrease the virgin production of things, the consumerism of this
-			society doesn't help the earth or ourselves.<br /> We are only, on average, using about 10% of
-			our wardrobes clothes, jewellery, shoes and bags. There was no alternative of a boutique platform
+		<p class="p-4 whitespace-normal lg:text-xl xl:text-2xl">
+			We believe in circularity - Fashion doesn't need to exist only in fast virgin trends. We all
+			need to take responsibility to decrease the virgin production of things, the consumerism of
+			this society doesn't help the earth or ourselves.<br /> We are only, on average, using about 10%
+			of our wardrobes clothes, jewellery, shoes and bags. There was no alternative of a boutique platform
 			to buy and sell mid to high end pieces, so we made one. We encourage everyone to be part of circularity
 			and if you can encourage and inspire someone else to do the same then we have an impactful movement.
 		</p>
