@@ -22,8 +22,8 @@
 </script>
 
 <div
-id="discover-container"	
-class="flex flex-col items-center justify-center w-full h-[600px]"
+	id="discover-container"
+	class="flex flex-col items-center justify-center w-full h-[600px]"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
@@ -40,243 +40,277 @@ class="flex flex-col items-center justify-center w-full h-[600px]"
 				class=" flex flex-col items-center justify-center  border-green-700  w-full h-full px-24
 												"
 			> -->
-				<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
-					<div id="discover-text" class="w-full">
-						<Title>
-							<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
-						</Title>
-						<h5 class="mt-5 lg:w-[620px] whitespace-normal">
-							Find your unique expression by matching pieces from SlowFashion's newly arrived items
-							now available in the app.
-						</h5>
-					</div>
+			<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
+				<div id="discover-text" class="w-full">
+					<Title>
+						<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
+					</Title>
+					<h5 class="mt-5 lg:w-[620px] whitespace-normal">
+						Find your unique expression by matching pieces from SlowFashion's newly arrived items
+						now available in the app.
+					</h5>
+				</div>
 
-					<!-- Swiper-outer starts here -->
+				<!-- Swiper-outer starts here -->
 
-					<div
-						id="block-container"
-						class="w-full h-full flex flex-col justify-end items-center 
+				<div
+					id="block-container"
+					class="w-full h-full flex flex-col justify-end items-center 
 						lg:hidden"
-					>
+				>
+					<div id="swiper" class="w-[80%] h-full flex flex-col items-center justify-center">
 						<div
-							id="swiper"
-							class="w-[80%] h-full flex flex-col items-center justify-center"
+							id="swiper-container"
+							class="relative w-full flex items-center justify-center h-full mt-4"
 						>
-							<div id="swiper-container" class="relative w-full flex items-center justify-center h-full mt-4">
-								<button
-									id="left-arrow"
-									class="absolute -left-10 top-1/2 -translate-y-1/2 z-10"
-									on:click={prevSlide}
+							<button
+								id="left-arrow"
+								class="absolute -left-10 top-1/2 -translate-y-1/2 z-10"
+								on:click={prevSlide}
+							>
+								<!-- arrow-left-svgrepo-com -->
+								<svg
+									width="2.5rem"
+									class="bounce-left"
+									viewBox="0 0 64 64"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									stroke="#000000"
+									><polyline points="20 24 12 32 20 40" /><line
+										x1="52"
+										y1="32"
+										x2="12"
+										y2="32"
+									/></svg
 								>
-									<!-- arrow-left-svgrepo-com -->
-									<svg
-										width="2.5rem"
-										class="bounce-left"
-										viewBox="0 0 64 64"
-										xmlns="http://www.w3.org/2000/svg"
-										fill="none"
-										stroke="#000000"
-										><polyline points="20 24 12 32 20 40" /><line
-											x1="52"
-											y1="32"
-											x2="12"
-											y2="32"
-										/></svg
-									>
-								</button>
-								<Swipe {...swipeConfig} bind:this={SwipeComp}>
-									<!-- Slide 1 Start -->
-									<SwipeItem>
-										<div
-											id="image-box1"
-											class="flex w-full h-full rounded-sm items-center justify-center 
+							</button>
+							<Swipe {...swipeConfig} bind:this={SwipeComp}>
+								<!-- Slide 1 Start -->
+								<SwipeItem>
+									<div
+										id="image-box1"
+										class="flex w-full h-full rounded-sm items-center justify-center 
 									
 									"
-										>
+									>
 										<img
-													src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
-													alt="Perfume"
-													class="w-full h-full"
-												/>
-											<div
-												id="textbox1"
-												class="absolute top-2 left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent py-2 px-4 rounded 
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
+											alt="Perfume"
+											class="w-full h-full"
+										/>
+										<div
+											id="textbox1"
+											class="absolute top-2 left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent py-2 px-4 rounded 
 								"
-											>
-												<p
-													class="w-full font-semibold text-xs text-left
+										>
+											<p
+												class="w-full font-semibold text-xs text-left
 											xl:text-sm
 											"
-												>
-													Michael Kors watches in beautiful gold
-												</p>
-												<p class="w-full font-thin text-xs text-left lg:flex">
-													It's easy to elevate any outfit and add a bit of flair
-												</p>
-											</div>
-												
+											>
+												Michael Kors watches in beautiful gold
+											</p>
+											<p class="w-full font-thin text-xs text-left lg:flex">
+												It's easy to elevate any outfit and add a bit of flair
+											</p>
 										</div>
-									</SwipeItem>
-									<SwipeItem>
-										<img
-											id="swipe-2"
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
-											alt=""
-											class="rounded-box"
-										/>
-									</SwipeItem>
-									<SwipeItem>
-										<img
-											id="swipe-3"
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true"
-											alt=""
-											class="rounded-box"
-										/>
-									</SwipeItem>
-									<SwipeItem>
-										<img
-											id="swipe-4"
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true"
-											alt=""
-											class="rounded-box"
-										/>
-									</SwipeItem>
-								</Swipe>
-								<button
-									id="right-arrow"
-									class="absolute top-1/2 -translate-y-1/2 -right-10 z-20"
-									on:click={nextSlide}
-								>
-									<svg
-										width="2.5rem"
-										class="bounce-right"
-										viewBox="0 0 64 64"
-										xmlns="http://www.w3.org/2000/svg"
-										fill="none"
-										stroke="#000000"
-										><polyline points="44 40 52 32 44 24" /><line
-											x1="52"
-											y1="32"
-											x2="12"
-											y2="32"
-										/></svg
+									</div>
+								</SwipeItem>
+								<SwipeItem>
+									<div
+										id="image-box2"
+										class="flex w-full h-full rounded-sm items-center justify-center 
+									
+									"
 									>
-								</button>
-							</div>
+										<img
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true"
+											alt="Bag, Watch, Coat"
+											class="w-full h-full"
+										/>
+										<div
+											id="textbox2"
+											class="absolute top-2 left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent py-2 px-4 rounded 
+								"
+										>
+											<p
+												class="w-full font-semibold text-xs text-left
+										xl:text-sm"
+											>
+												Prada exclusive bag decorated with sparkling metal accents
+											</p>
+											<p class="w-full font-thin text-xs text-left">
+												Express your elegance and modernism
+											</p>
+										</div>
+									</div>
+								</SwipeItem>
+								<SwipeItem>
+									<div
+										id="image-box3"
+										class="flex w-full h-full rounded-sm items-center justify-center 
+									
+									"
+									>
+										<img
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true'"
+											alt="Gucci Bag"
+											class="w-full h-full"
+										/>
+										<div
+											id="textbox3"
+											class="absolute top-2 left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent py-2 px-4 rounded 
+								"
+										>
+											<p
+												class="w-full font-semibold text-xs text-left 
+											xl:text-sm"
+											>
+												Exclusive leather GUCCI&reg; Bags
+											</p>
+											<p
+												class="w-full font-thin text-xs text-left
+											"
+											>
+												Influential, Innovative, Progressive
+											</p>
+										</div>
+									</div>
+								</SwipeItem>
+							</Swipe>
+							<button
+								id="right-arrow"
+								class="absolute top-1/2 -translate-y-1/2 -right-10 z-20"
+								on:click={nextSlide}
+							>
+								<svg
+									width="2.5rem"
+									class="bounce-right"
+									viewBox="0 0 64 64"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									stroke="#000000"
+									><polyline points="44 40 52 32 44 24" /><line
+										x1="52"
+										y1="32"
+										x2="12"
+										y2="32"
+									/></svg
+								>
+							</button>
 						</div>
 					</div>
+				</div>
 
-					<!-- Large view starts here -->
-					<div
-						id="three-images-container"
-						class="justify-center items-center h-full w-full max-w-[1300px] pt-8 hidden
+				<!-- Large view starts here -->
+				<div
+					id="three-images-container"
+					class="justify-center items-center h-full w-full max-w-[1300px] pt-8 hidden
 													lg:grid
 													lg:gap-4
 													lg:grid-rows-1
 													lg:grid-cols-3
 													"
-					>
-						<div
-							id="image-box1"
-							class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
+				>
+					<div
+						id="image-box1"
+						class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
 									lg:min-w-full
 									lg:m-0
 									"
-						>
-							<div
-								id="textbox1"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+					>
+						<div
+							id="textbox1"
+							class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
 								lg:mx-1
 								lg:px-2
 								xl:mx-3
 								"
-							>
-								<p
-									class="w-full font-semibold text-xs text-left
+						>
+							<p
+								class="w-full font-semibold text-xs text-left
 											xl:text-sm
 											"
-								>
-									Michael Kors watches in beautiful gold
-								</p>
-								<p class="w-full font-thin text-xs text-left lg:flex">
-									It's easy to elevate any outfit and add a bit of flair
-								</p>
-							</div>
-							<figure>
-								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
-									alt="Perfume"
-								/>
-							</figure>
+							>
+								Michael Kors watches in beautiful gold
+							</p>
+							<p class="w-full font-thin text-xs text-left lg:flex">
+								It's easy to elevate any outfit and add a bit of flair
+							</p>
 						</div>
-						<div
-							id="image-box2"
-							class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
+						<figure>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
+								alt="Perfume"
+							/>
+						</figure>
+					</div>
+					<div
+						id="image-box2"
+						class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
 									lg:min-w-full
 									lg:m-0"
-						>
-							<div
-								id="textbox2"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+					>
+						<div
+							id="textbox2"
+							class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
 								lg:mx-1
 								lg:px-2
 								xl:mx-3
 								"
-							>
-								<p
-									class="w-full font-semibold text-xs text-left
+						>
+							<p
+								class="w-full font-semibold text-xs text-left
 										xl:text-sm"
-								>
-									Prada exclusive bag decorated with sparkling metal accents
-								</p>
-								<p class="w-full font-thin text-xs text-left">
-									Express your elegance and modernism
-								</p>
-							</div>
-							<figure>
-								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true"
-									alt="Bag, Watch, Coat"
-								/>
-							</figure>
+							>
+								Prada exclusive bag decorated with sparkling metal accents
+							</p>
+							<p class="w-full font-thin text-xs text-left">Express your elegance and modernism</p>
 						</div>
-						<div
-							id="image-box3"
-							class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
+						<figure>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true"
+								alt="Bag, Watch, Coat"
+							/>
+						</figure>
+					</div>
+					<div
+						id="image-box3"
+						class="card max-w-80 min-w-[380px] rounded-sm items-center m-4 
 									lg:min-w-full
 									lg:m-0"
-						>
-							<div
-								id="textbox3"
-								class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
+					>
+						<div
+							id="textbox3"
+							class="absolute left-2 right-2 flex-col flex-start items-center justify-center h-auto bg-accent mx-1 mt-2 py-2 px-4 rounded 
 								lg:mx-1
 								lg:px-2
 								xl:mx-3
 								"
-							>
-								<p
-									class="w-full font-semibold text-xs text-left 
+						>
+							<p
+								class="w-full font-semibold text-xs text-left 
 											xl:text-sm"
-								>
-									Exclusive leather GUCCI&reg; Bags
-								</p>
-								<p
-									class="w-full font-thin text-xs text-left
+							>
+								Exclusive leather GUCCI&reg; Bags
+							</p>
+							<p
+								class="w-full font-thin text-xs text-left
 											"
-								>
-									Influential, Innovative, Progressive
-								</p>
-							</div>
-							<figure>
-								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true'"
-									alt="Gucci Bag"
-								/>
-							</figure>
+							>
+								Influential, Innovative, Progressive
+							</p>
 						</div>
+						<figure>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true'"
+								alt="Gucci Bag"
+							/>
+						</figure>
 					</div>
 				</div>
 			</div>
+		</div>
 		<!-- </div> -->
 	{/if}
 </div>
