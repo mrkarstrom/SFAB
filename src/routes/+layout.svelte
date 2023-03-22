@@ -2,6 +2,7 @@
 	import '../style.css';
 	
 </script>
-
-<slot />
+<main class="flex flex-col justify-center items-center w-full">
+	<slot />
+</main>
 

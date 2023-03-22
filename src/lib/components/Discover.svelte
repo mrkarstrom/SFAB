@@ -87,6 +87,7 @@
 							<Swipe {...swipeConfig} bind:this={SwipeComp}>
 								<!-- Slide 1 Start -->
 								<SwipeItem>
+									
 									<div
 										id="image-box1"
 										class="flex w-full h-full rounded-sm items-center justify-center 

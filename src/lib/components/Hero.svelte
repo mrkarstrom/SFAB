@@ -5,7 +5,7 @@
 
 <div
 	id="hero-backdrop"
-	class="grid relative place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
+	class="grid relative w-full place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
 	lg:h-[1000px]"
 	style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"
 >
@@ -14,7 +14,7 @@
 	<LinkbarHero />
 	<div
 		id="hero-text"
-		class="flex flex-col items-center justify-center 
+		class="flex flex-col w-full items-center justify-center 
 								lg:pb-48"
 	>
 		<h3
