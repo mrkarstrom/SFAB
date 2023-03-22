@@ -23,51 +23,51 @@
 							</Title>
 						</div>
 					</div>
-					
-						<div
-							id="two-steps"
-							class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center border-2
+
+					<div
+						id="two-steps"
+						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center
 													lg:grid-cols-2
 													lg:grid-rows-1  
 													lg:max-w-[600px]"
-						>
-							<div
-								id="box-one"
-								class="border-black border-bottom flex items-center justify-center pb-8 px-4 h-full w-96 max-w-96 border-2
+					>
+						<div
+							id="box-one"
+							class="border-black border-b flex gap-8 items-center justify-center h-full w-96 max-w-96 
 										lg:items-end
 										lg:border-x
 										lg:space-x-6
 										lg:border-y-0
 										"
-							>
-								<div
-									id="ring-one"
-									class="border-black border mb-4 min-w-[60px] min-h-[60px] rounded-full flex items-center justify-center"
-								>
-									<h4>1</h4>
-								</div>
-								<p class="text-lg whitespace-normal w-full hover:font-medium lg:w-40 ">
-									Search for SLOWFASHION in App Store or Google Play.
-								</p>
-							</div>
+						>
 							<div
-								id="box-two"
-								class="border-black border-b flex items-end justify-center min-h-[130px] pb-8 space-x-6 w-full
+								id="ring-one"
+								class="border-black border min-w-[60px] min-h-[60px] rounded-full flex items-center justify-center"
+							>
+								<h4>1</h4>
+							</div>
+							<p class="text-lg whitespace-normal w-[180px] hover:font-medium lg:w-40">
+								Search for<br /> SLOWFASHION in App Store or Google Play.
+							</p>
+						</div>
+						<div
+							id="box-two"
+							class="border-black border-b flex items-end justify-center min-h-[130px] pb-8 space-x-6 w-full
 										md:border-r
 										md:border-y-0
 										"
+						>
+							<div
+								id="ring-two"
+								class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
 							>
-								<div
-									id="ring-two"
-									class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
-								>
-									<h4>2</h4>
-								</div>
-								<p class="text-lg whitespace-normal w-40 hover:font-medium pb-8">
-									Install and start to explore.
-								</p>
+								<h4>2</h4>
 							</div>
+							<p class="text-lg whitespace-normal w-40 hover:font-medium pb-8">
+								Install and start to explore.
+							</p>
 						</div>
+					</div>
 					<div
 						id="download-app-container"
 						class="w-full flex flex-row items-center justify-center space-x-24 pl-40"
