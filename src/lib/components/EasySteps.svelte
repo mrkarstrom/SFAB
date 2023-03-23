@@ -26,14 +26,14 @@
 
 					<div
 						id="two-steps"
-						class="grid grid-rows-2 w-full grid-cols-1 divide-y-[50%] h-full justify-items-center content-center
+						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center
 													lg:grid-cols-2
 													lg:grid-rows-1  
 													lg:max-w-[600px]"
 					>
 						<div
 							id="box-one"
-							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8
+							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8 border-b border-black
 										lg:items-end
 										lg:border-x
 										lg:space-x-6
@@ -70,7 +70,8 @@
 					</div>
 					<div
 						id="download-app-container"
-						class="w-full flex flex-row items-center justify-center space-x-24 pl-40"
+						class="w-full hidden flex-row items-center justify-center space-x-24 pl-40 
+								lg:flex"
 					>
 						<div id="left-box" class="flex flex-col items-center justify-center space-y-20">
 							<button
@@ -152,7 +153,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex items-center justify-center h-[400px] w-full lg:hidden">
+			<div class="card rounded-none w-full pt-10 mx-auto lg:hidden">
+				<img
+					class="object-fit"
+					id="mobile-image"
+					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mobile-download2.jpeg?raw=true"
+					alt="Mobile Phone"
+				/>
+			</div>
+			<div class="flex items-center justify-center max-h-[400px] max-w-full w-full lg:hidden">
 				<CountdownSmall />
 			</div>
 		</div>
