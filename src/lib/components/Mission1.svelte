@@ -31,7 +31,7 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div class="h-[28rem] w-full">
+			<div class="h-[28rem] w-screen">
 				<Swipe {...swipeConfig} bind:this={SwipeComp}>
 					<SwipeItem>
 						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
