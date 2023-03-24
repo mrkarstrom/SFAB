@@ -54,11 +54,11 @@
 				<!-- Swiper-outer starts here -->
 
 				<div
-					id="block-container"
-					class="w-[300px] h-[300px] flex flex-col justify-end items-center border-2 border-green-700
+					id="block-container1"
+					class="w-[300px] h-[300px] flex flex-col justify-end items-center 
 						lg:hidden"
 				>
-					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center border-2">
+					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center">
 						<div
 							id="swiper-container"
 							class="relative w-full flex items-center justify-center h-full"
