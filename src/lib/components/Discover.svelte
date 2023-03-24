@@ -55,17 +55,17 @@
 
 				<div
 					id="block-container"
-					class="w-full h-full flex flex-col justify-end items-center 
+					class="w-[300px] h-[300px] flex flex-col justify-end items-center border-2 border-green-700
 						lg:hidden"
 				>
-					<div id="swiper" class="w-[80%] h-full flex flex-col items-center justify-center">
+					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center border-2">
 						<div
 							id="swiper-container"
-							class="relative w-full flex items-center justify-center h-full mt-4"
+							class="relative w-full flex items-center justify-center h-full"
 						>
 							<button
 								id="left-arrow"
-								class="absolute -left-10 top-1/2 -translate-y-1/2 z-10"
+								class="absolute -left-20 top-1/2 -translate-y-1/2 z-10"
 								on:click={prevSlide}
 							>
 								<!-- arrow-left-svgrepo-com -->
@@ -87,7 +87,6 @@
 							<Swipe {...swipeConfig} bind:this={SwipeComp}>
 								<!-- Slide 1 Start -->
 								<SwipeItem>
-									
 									<div
 										id="image-box1"
 										class="flex w-full h-full rounded-sm items-center justify-center 
@@ -97,7 +96,7 @@
 										<img
 											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
 											alt="Perfume"
-											class="w-full h-full"
+											class="object-cover aspect-square w-[400px] h-[400px]"
 										/>
 										<div
 											id="textbox1"
@@ -181,7 +180,7 @@
 							</Swipe>
 							<button
 								id="right-arrow"
-								class="absolute top-1/2 -translate-y-1/2 -right-10 z-20"
+								class="absolute top-1/2 -translate-y-1/2 -right-20 z-20"
 								on:click={nextSlide}
 							>
 								<svg
