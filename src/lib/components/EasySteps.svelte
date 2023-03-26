@@ -27,17 +27,18 @@
 						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center pb-8
 													lg:grid-cols-2
 													lg:grid-rows-1  
-													lg:max-w-[600px]
+													lg:max-w-[500px]
 													"
 					>
 						<div
 							id="box-one"
-							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8 border-b border-black
-										lg:justify-content-center
-										lg:place-items-center
-										lg:px-2
+							class=" flex items-center justify-between h-full m-8 border-b border-black
+										lg:justify-between
+										lg:items-center
+										lg:pl-2
 										lg:border-x
 										lg:border-y-0
+										lg:w-[250px]
 										"
 						>
 							<div
@@ -53,10 +54,12 @@
 						<div
 							id="box-two"
 							class=" flex items-center justify-between h-full w-[250px] m-8 border-black
-										lg:justify-content-center
-										lg:place-items-center
-										lg:pl-2
+										lg:justify-between
+										lg:items-center
 										lg:border-y-0
+										lg:w-[250px]
+										lg:pl-2
+										lg:border-r
 										"
 						>
 							<div
