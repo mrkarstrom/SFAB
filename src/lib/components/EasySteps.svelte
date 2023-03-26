@@ -24,7 +24,7 @@
 
 					<div
 						id="two-steps"
-						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center
+						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center pb-8
 													lg:grid-cols-2
 													lg:grid-rows-1  
 													lg:max-w-[600px]
@@ -52,7 +52,7 @@
 						</div>
 						<div
 							id="box-two"
-							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8 border-r border-black
+							class=" flex items-center justify-between h-full w-[250px] m-8 border-black
 										lg:justify-content-center
 										lg:place-items-center
 										lg:pl-2
