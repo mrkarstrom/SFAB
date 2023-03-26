@@ -15,13 +15,11 @@
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
 			<div class="w-full flex flex-row justify-center">
-				<div class="w-full h-auto bg-white flex flex-col">
-					<div id="title-wrap">
-						<div class="title flex flex-row justify-between px-20">
-							<Title>
-								<p class="text-4xl ml-16 pb-12 font-normal text-black">2 Easy STEPS</p>
-							</Title>
-						</div>
+				<div class="w-full h-auto bg-white flex flex-col items-center justify-center">
+					<div id="title-wrap" class="w-full ">
+						<Title>
+							<p class="text-4xl pb-12 font-normal text-black">2 Easy STEPS</p>
+						</Title>
 					</div>
 
 					<div
@@ -29,14 +27,16 @@
 						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center
 													lg:grid-cols-2
 													lg:grid-rows-1  
-													lg:max-w-[600px]"
+													lg:max-w-[600px]
+													"
 					>
 						<div
 							id="box-one"
 							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8 border-b border-black
-										lg:items-end
+										lg:justify-content-center
+										lg:place-items-center
+										lg:px-2
 										lg:border-x
-										lg:space-x-6
 										lg:border-y-0
 										"
 						>
@@ -52,10 +52,10 @@
 						</div>
 						<div
 							id="box-two"
-							class="flex gap-8 items-center justify-between h-full w-[300px] m-8 
-										lg:items-end
-										lg:border-x
-										lg:space-x-6
+							class=" flex gap-8 items-center justify-between h-full w-[300px] m-8 border-r border-black
+										lg:justify-content-center
+										lg:place-items-center
+										lg:pl-2
 										lg:border-y-0
 										"
 						>
