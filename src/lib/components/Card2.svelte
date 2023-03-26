@@ -1,4 +1,7 @@
-<div id="container-box2" class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center ">
+<div
+	id="container-box2"
+	class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center "
+>
 	<div
 		id="left-box-part"
 		class="bg-white flex flex-col items-center justify-between w-full h-full rounded-lg 
@@ -16,7 +19,7 @@
 		</button>
 	</div>
 	<div class="relative h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
-		<div class="absolute left-1/2 -translate-x-1/2 bottom-12">
+		<div class="absolute left-1/2 -translate-x-1/2 bottom-16">
 			<img
 				id="spinning-circle"
 				class="animate-spin"
