@@ -32,7 +32,7 @@
 					>
 						<div
 							id="box-one"
-							class=" flex items-center justify-between h-full m-8 border-b border-black
+							class=" flex items-center justify-start h-full w-[300px] m-8 gap-4 border-b border-black
 										lg:justify-between
 										lg:items-center
 										lg:pl-2
@@ -53,7 +53,7 @@
 						</div>
 						<div
 							id="box-two"
-							class=" flex items-center justify-between h-full w-[250px] m-8 border-black
+							class=" flex items-center justify-start h-full w-[300px] gap-4 m-8 border-black
 										lg:justify-between
 										lg:items-center
 										lg:border-y-0
