@@ -55,7 +55,7 @@
 
 				<div
 					id="block-container1"
-					class="w-[300px] h-[300px] flex flex-col justify-end items-center 
+					class="w-[400px] h-[400px] flex flex-col justify-end items-center pt-8
 						lg:hidden"
 				>
 					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center">
