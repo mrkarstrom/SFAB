@@ -13,7 +13,7 @@
 	}}
 >
 	{#if isInView}
-		<div in:fly={{ y: 500, duration: 1500 }}>
+		<div class="mb-40" in:fly={{ y: 500, duration: 1500 }}>
 			<div class="w-full flex flex-row justify-center">
 				<div class="w-full h-auto bg-white flex flex-col items-center justify-center">
 					<div id="title-wrap" class="w-full ">

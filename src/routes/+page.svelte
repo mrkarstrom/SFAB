@@ -20,7 +20,7 @@
 <AppWindow />
 <ArrowBlock />
 <EasySteps />
-<ArrowBlock />
+<ArrowBlock --blockHeight="10rem"  />
 <Discover />
 <ArrowBlock />
 <Mission1 />
