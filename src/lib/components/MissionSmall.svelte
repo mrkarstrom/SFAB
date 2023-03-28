@@ -7,7 +7,6 @@
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 	const swipeConfig = {
 		autoplay: false,
-		delay: 3000,
 		showIndicators: false,
 		transitionDuration: 1000,
 		defaultIndex: 0
@@ -23,7 +22,9 @@
 	}
 </script>
 
-<div class="hidden lg:flex"
+<div
+	class="flex h-[800px]
+				lg:hidden"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
@@ -31,31 +32,27 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div class="h-[28rem] w-screen">
+			<div class="h-full w-screen">
 				<Swipe {...swipeConfig} bind:this={SwipeComp}>
 					<SwipeItem>
-						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
+						<div class="grid h-[800px] grid-rows-2 place-content-center grid-cols-1">
 							<div
-								id="left-side1"
-								class="w-full bg-cover bg-center h-full"
-								style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
-							/>
-							<div
-								id="right-side1"
-								class="bg-secondary flex flex-col items-center justify-between h-full"
+								id="top-box1"
+								class="bg-secondary relative flex flex-col items-center justify-between h-full"
 							>
 								<Title>
-									<p class="text-2xl mt-12">Our Mission</p>
+									<p class="text-3xl mt-12">Our Mission</p>
 								</Title>
-								<p class="max-w-[70%] text-center mb-20">
+								<p class="text-xl max-w-[70%] text-center mb-14">
 									Making circular fashion exclusive, fun & rewarding.
 								</p>
-								<div class="pb-8 text-center">
+								<div class="pb-20 text-center">
 									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container absolute left-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12 "
+									id="button-container1"
+									class="absolute left-[50%] -translate-x-1/2 bottom-0 bg-accent h-12 w-44 "
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
@@ -103,24 +100,35 @@
 									</div>
 								</div>
 							</div>
+							<div
+								id="Bottom1"
+								class="w-full bg-cover bg-center h-full"
+								style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
+							/>
 						</div>
 					</SwipeItem>
 					<SwipeItem>
-						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
+						<div class="grid h-[800px] grid-rows-2 place-content-center grid-cols-1">
 							<div
-								id="left-side2"
-								class="bg-secondary flex flex-col items-center justify-between h-full"
+								id="top2"
+								class="w-full bg-cover bg-center h-full"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
+							/>
+							<div
+								id="bottom-box2"
+								class="bg-secondary relative flex flex-col items-center justify-between h-full"
 							>
-								<p class="text-2xl mt-12">Our Mission</p>
-								<p class="max-w-[70%] text-center mb-20">
+								<p class="text-3xl mt-12">Our Mission</p>
+								<p class="text-xl max-w-[70%] text-center mb-14">
 									We believe circularity fashion doesn't need to exist only in fast trends.
 								</p>
-								<div class="pb-8 text-center">
+								<div class="pb-20 text-center">
 									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container absolute right-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12"
+									id="button-container2"
+									class="absolute left-[50%] -translate-x-1/2 bottom-0 bg-accent h-12 w-44 "
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
@@ -147,7 +155,7 @@
 										<div
 											on:click={nextSlide}
 											id="slide2-right-pointer"
-											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+											class="has-pointer-events cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
 												width="21px"
@@ -168,40 +176,31 @@
 									</div>
 								</div>
 							</div>
-							<div
-								id="right-side2"
-								class="w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hand-hold-on-horses.svg?raw=true')"
-							/>
-						</div>
-					</SwipeItem>
+						</div></SwipeItem
+					>
 					<SwipeItem>
-						<div class="h-[28rem] grid grid-rows-1 grid-cols-2">
+						<div class="grid h-[800px] grid-rows-2 place-content-center grid-cols-1">
 							<div
-								id="left-side3"
-								class="w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
-							/>
-							<div
-								id="right-side3"
-								class="bg-secondary flex flex-col items-center justify-between h-full"
+								id="top-box3"
+								class="bg-secondary relative flex flex-col items-center justify-between h-full"
 							>
-								<p class="text-2xl mt-12">Our Mission</p>
-								<p class="max-w-[70%] text-center mb-20">
+								<p class="text-3xl mt-12">Our Mission</p>
+								<p class="text-xl max-w-[70%] text-center mb-14">
 									We offer a simple to use, responsive, rewarding & trustworthy platform & we make
 									circularity in fashion trendy
 								</p>
-								<div class="pb-8 text-center">
+								<div class="pb-20 text-center">
 									<h2 class="font-['Steelfish'] text-black pb-2 uppercase">Slowfashion</h2>
 									<h6>Made in Sweden</h6>
 								</div>
 								<div
-									class="button-container absolute left-[50%] bottom-0 bg-accent h-10 w-32 lg:w-44 lg:h-12"
+									id="button-container3"
+									class="absolute left-[50%] -translate-x-1/2 bottom-0 bg-accent h-12 w-44 "
 								>
 									<div class="grid grid-cols-2 h-full w-full p-0 m-0 align-middle">
 										<div
-											on:click={prevSlide}
-											id="slide3-left-pointer"
+											on:click={SwipeComp.goTo(1)}
+											id="slide2-left-pointer"
 											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
@@ -223,7 +222,7 @@
 										<div
 											on:click={SwipeComp.goTo(0)}
 											id="slide3-right-pointer"
-											class="has-pointer-event cursor-pointer w-full h-full flex flex-col items-center justify-center"
+											class="has-pointer-events cursor-pointer w-full h-full flex flex-col items-center justify-center"
 										>
 											<svg
 												width="21px"
@@ -244,6 +243,11 @@
 									</div>
 								</div>
 							</div>
+							<div
+								id="Bottom3"
+								class="w-full bg-cover bg-center h-full"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/man-glass.svg?raw=true')"
+							/>
 						</div>
 					</SwipeItem>
 				</Swipe>
