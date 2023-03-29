@@ -10,7 +10,8 @@
 	import Mission1 from '$lib/components/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import MissionSmall from '../lib/components/MissionSmall.svelte';
+	import MissionSmall from '$lib/components/MissionSmall.svelte';
+	import SubscribeSmall from '$lib/components/SubscribeSmall.svelte';
 </script>
 
 <TopbarPlain />
@@ -21,11 +22,12 @@
 <AppWindow />
 <ArrowBlock />
 <EasySteps />
-<ArrowBlock --blockHeight="10rem"  />
+<ArrowBlock --blockHeight="10rem" />
 <Discover />
 <ArrowBlock />
-<MissionSmall/>
+<MissionSmall />
 <Mission1 />
 <ArrowBlock />
+<SubscribeSmall />
 <Subscribe1 />
 <Footer />

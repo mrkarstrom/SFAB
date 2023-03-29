@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+:root {
+    --bottomBannerHeight: 300px;
+}
+
 /* * Local version */
 @font-face {
     font-family: 'Steelfish';
