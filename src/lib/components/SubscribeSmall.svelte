@@ -1,6 +1,6 @@
 <div
 	id="newsletter-wrapper"
-	class="flex flex-col w-full justify-center items-center h-full border-2 px-0 py-0
+	class="flex flex-col w-full justify-center items-center h-full px-0 py-0
 			lg:hidden"
 >
 	<figure class="card w-[90%] items-center justify-evenly bg-secondary h-[500px] drop-shadow-md">
@@ -35,7 +35,7 @@
 	</h5>
 	<hr class="border-t-black border-t-1 border-solid w-[550px] h-20 mt-6" />
 
-	<div id="links" class="flex items-center space-x-4 max-w-fit flex-1">
+	<div id="links" class="flex items-center space-x-4 max-w-fit flex-1 mb-12">
 		<a
 			href="#"
 			id="linked-in-link"
