@@ -84,28 +84,26 @@
 
 <style>
 	.animate-pulse {
-		animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+		animation: pulse 1.5s infinite;
 	}
 
-	.one {
-		animation-delay: 0;
-	}
 	.two {
 		animation-delay: 500ms;
 	}
 	.three {
-		animation-delay: 800ms;
+		animation-delay: 1000ms;
 	}
 
 	@keyframes pulse {
 		0% {
 			opacity: 1;
 		}
-		/* 50% {
-			opacity: 0;
-		} */
-		100% {
+		50% {
 			opacity: 0.7;
+			transform: scale(0.95);
+		}
+		100% {
+			opacity: 1;
 		}
 	}
 </style>
