@@ -35,7 +35,7 @@
 	</h5>
 	<hr class="border-t-black border-t-1 border-solid w-[550px] h-20 mt-6" />
 
-	<div id="links" class="flex items-center space-x-4 max-w-fit flex-1 mb-12">
+	<div id="links" class="flex items-center space-x-8 max-w-fit flex-1 mb-12">
 		<a
 			href="#"
 			id="linked-in-link"
