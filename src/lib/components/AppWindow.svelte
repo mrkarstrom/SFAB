@@ -4,6 +4,7 @@
 	import { inview } from 'svelte-inview';
 
 	let isInView;
+	
 </script>
 
 <div
@@ -14,7 +15,7 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div id="wrapper" class="opacity-[var(--op)] w-full justify-center items-center lg:flex">
+			<div id="wrapper" class="opacity-[var(--op)] w-full justify-center items-center flex">
 				<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">
@@ -42,10 +43,51 @@
 							</div>
 						</div>
 					</div>
-					<div class="content-container grid grid-cols-2 h-auto">
+					
+					<div id="Discover-card-slider" class="grid grid-rows-3 grid-cols-1 w-full lg:hidden">
+						<div class="card p-4 w-full">
+							<div id="title-text-small1" class="font-medium pb-6">
+								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">
+									DANCING in Dolce & Gabbana
+								</h4>
+							</div>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/desert-man.png?raw=true"
+								alt="Desert Man"
+								class="hover:-translate-y-2 transition ease-in-out delay-150"
+							/>
+							<h5 class="pt-1.5">Sweden, Spring 2023</h5>
+						</div>
+						<div class="card p-4 w-full">
+							<div id="title-text-small2" class="font-medium pb-6">
+								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">
+									STYLE & Fashion
+								</h4>
+							</div>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-white-rose.svg?raw=true"
+								alt="Woman Rose"
+								class="hover:-translate-y-2 transition ease-in-out delay-150"
+							/>
+							<h5 class="pt-1.5">Sweden, Summer 2023</h5>
+						</div>
+						<div class="card p-4 w-full">
+							<div id="title-text-small3" class="font-medium pb-6">
+								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">ONE Eye</h4>
+							</div>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-gray-coat.png?raw=true"
+								alt="One Eye"
+								class="hover:-translate-y-2 transition ease-in-out delay-150"
+							/>
+							<h5 class="pt-1.5">Stockholm, September 2023</h5>
+						</div>
+					</div>
+
+					<div class="content-container hidden lg:grid grid-cols-2 h-auto">
 						<div class="left-side flex flex-col items-center w-full">
 							<div class="DG-card h-auto p-4 w-full">
-								<div class="title-text font-medium leading-6 pb-1">
+								<div id="title-text" class="font-medium leading-6 pb-1">
 									<h4 class="w-60 whitespace-normal pb-1 ">DANCING in Dolce & Gabbana</h4>
 								</div>
 								<img

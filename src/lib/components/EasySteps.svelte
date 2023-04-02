@@ -2,6 +2,7 @@
 	import Title from './Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
+	import CountdownSmall from './CountdownSmall.svelte';
 	let isInView;
 </script>
 
@@ -12,51 +13,68 @@
 	}}
 >
 	{#if isInView}
-		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div class="w-full lg:flex flex-row justify-center">
-				<div class="w-full h-auto bg-white flex flex-col">
-					<div id="title-wrap">
-						<div class="title flex flex-row justify-between px-20">
-							<Title>
-								<p class="text-4xl ml-16 pb-12 font-normal text-black">2 Easy STEPS</p>
-							</Title>
-						</div>
+		<div class="mb-40" in:fly={{ y: 500, duration: 1500 }}>
+			<div class="w-full flex flex-row justify-center">
+				<div class="w-full h-auto bg-white flex flex-col items-center justify-center">
+					<div id="title-wrap" class="w-full ">
+						<Title>
+							<p class="text-4xl pb-12 font-normal text-black">2 Easy STEPS</p>
+						</Title>
 					</div>
-					<div id="two-steps-container" class="h-56 w-full flex items-center justify-center z-10">
-						<div id="two-steps" class="grid grid-cols-2 lg:w-[600px] h-full ">
+
+					<div
+						id="two-steps"
+						class="grid grid-rows-2 w-full grid-cols-1 h-full justify-items-center content-center pb-8
+													lg:grid-cols-2
+													lg:grid-rows-1  
+													lg:max-w-[500px]
+													"
+					>
+						<div
+							id="box-one"
+							class=" flex items-center justify-start h-full w-[300px] m-8 gap-4 border-b border-black
+										lg:justify-between
+										lg:items-center
+										lg:pl-2
+										lg:border-x
+										lg:border-y-0
+										lg:w-[250px]
+										"
+						>
 							<div
-								id="box-one"
-								class="border-black border-l flex items-end justify-center border-left pb-8 px-4 space-x-6 w-full"
+								id="ring-one"
+								class="border-black border min-w-[60px] min-h-[60px] rounded-full flex items-center justify-center"
 							>
-								<div
-									id="ring-one"
-									class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
-								>
-									<h4>1</h4>
-								</div>
-								<p class="text-lg whitespace-normal w-40 hover:font-medium">
-									Search for SLOWFASHION in App Store or Google Play.
-								</p>
+								<h4>1</h4>
 							</div>
+							<p class="text-lg whitespace-normal  hover:font-medium lg:w-40">
+								Search for<br /> SLOWFASHION in App Store or Google Play.
+							</p>
+						</div>
+						<div
+							id="box-two"
+							class=" flex items-center justify-start h-full w-[300px] gap-4 m-8 border-black
+										lg:justify-between
+										lg:items-center
+										lg:border-y-0
+										lg:w-[250px]
+										lg:pl-2
+										lg:border-r
+										"
+						>
 							<div
-								id="box-two"
-								class="border-black border-x flex items-end justify-center border-left pb-8 space-x-6 w-full"
+								id="ring-two"
+								class="border-black border min-w-[60px] min-h-[60px] rounded-full flex items-center justify-center"
 							>
-								<div
-									id="ring-two"
-									class="border-black border mb-4 w-16 h-16 p-0 rounded-full flex items-center justify-center"
-								>
-									<h4>2</h4>
-								</div>
-								<p class="text-lg whitespace-normal w-40 hover:font-medium pb-8">
-									Install and start to explore.
-								</p>
+								<h4>2</h4>
 							</div>
+							<p class="text-lg hover:font-medium w-full lg:w-40">Install and start to explore.</p>
 						</div>
 					</div>
 					<div
 						id="download-app-container"
-						class="w-full flex flex-row items-center justify-center space-x-24 pl-40"
+						class="w-full hidden flex-row items-center justify-center space-x-24 pl-40 
+								lg:flex"
 					>
 						<div id="left-box" class="flex flex-col items-center justify-center space-y-20">
 							<button
@@ -109,7 +127,7 @@
 								</div>
 								<h6 class="download-text pl-4 text-inherit">Download App</h6>
 							</button>
-							<div id="scan-me" class="flex items-center justify-center w-56 ">
+							<div id="scan-me" class="flex items-center justify-between w-[230px]">
 								<img
 									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/QR.png?raw=true"
 									alt="QR-code"
@@ -122,7 +140,7 @@
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
-									class="bounce-left w-32"
+									class="bounce-left w-36"
 								/>
 							</div>
 						</div>
@@ -137,6 +155,17 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="card rounded-none w-full pt-10 mx-auto lg:hidden">
+				<img
+					class="object-fit"
+					id="mobile-image"
+					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mobile-download2.jpeg?raw=true"
+					alt="Mobile Phone"
+				/>
+			</div>
+			<div class="flex items-center justify-center max-h-[400px] max-w-full w-full lg:hidden">
+				<CountdownSmall />
 			</div>
 		</div>
 	{/if}

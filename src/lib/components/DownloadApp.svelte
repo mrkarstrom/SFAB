@@ -4,7 +4,6 @@
 	import Card4 from './Card4.svelte';
 	import Card2 from './Card2.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
-	import { cardNumber } from '../../stores/store';
 
 	const swipeConfig = {
 		autoplay: false,
@@ -21,7 +20,6 @@
 		} else {
 			n = 0;
 		}
-		$cardNumber = n;
 		SwipeComp.goTo(n);
 	}
 
@@ -31,16 +29,24 @@
 		} else {
 			n = 3;
 		}
-		$cardNumber = n;
 		SwipeComp.goTo(n);
 	}
 </script>
 
-<div id="spacer" class="w-full h-[200px] flex justify-center items-center  ">
+<div
+	id="spacer"
+	class="w-full h-[50px] flex justify-center items-center 
+					lg:h-[200px]"
+>
 	<div
-		class="flex items-center justify-center drop-shadow-xl -translate-y-[200px] w-[880px] 
-				md:h-[400px] md:w-[850px]
-				lg:h-[400px] lg:w-[950px] "
+		class="hidden items-center justify-center drop-shadow-xl w-[880px] 
+				md:h-[400px] 
+				md:w-[850px]
+				lg:flex
+				lg:h-[400px] 
+				lg:w-[950px] 
+				lg:-translate-y-[200px]
+				"
 	>
 		<!-- Left Arrow Box -->
 		<button
@@ -63,7 +69,10 @@
 		</button>
 
 		<!-- Carousel start -->
-		<div class="w-[600px] h-[500px] lg:w-[810px] lg:h-full ">
+		<div
+			class="w-[600px] h-[500px] 
+					lg:w-[810px] lg:h-full "
+		>
 			<Swipe {...swipeConfig} bind:this={SwipeComp}>
 				<!-- Slide 1 Start -->
 				<SwipeItem>

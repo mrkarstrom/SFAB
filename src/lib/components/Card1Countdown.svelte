@@ -3,7 +3,7 @@
 </script>
 
 <div
-	id="container-box"
+	id="container-box-countdown"
 	class="h-full w-auto lg:w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center z-30"
 >
 	<div

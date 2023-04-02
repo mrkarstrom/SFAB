@@ -2,16 +2,13 @@
 	export let currentLang = 'EN';
 </script>
 
-<div
-	class="grid h-[40px] bg-secondary grid-cols-[50px_auto_50px] pr-8 w-full items-center justify-between"
->
+<div class="flex relative h-[40px] bg-secondary w-full items-center justify-center">
 	<div />
-	<div>
-		<p class="flex font-normal text-sm cursor-default ">
-			We Are The Marketplace for Pre-Owned High Quality Fashion
-		</p>
-	</div>
-	<div class="flex w-24 items-center justify-center cursor-pointer">
+	<p class="font-normal text-sm cursor-default ">
+		We Are The Marketplace for Pre-Owned High Quality Fashion
+	</p>
+
+	<div class="absolute flex right-0 items-center mr-8 justify-center cursor-pointer">
 		{currentLang}
 		<img
 			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/chevron-down.svg?raw=true"
@@ -20,11 +17,3 @@
 		/>
 	</div>
 </div>
-<!-- 
-
-<div class="flex w-auto h-[40px] bg-secondary items-center justify-center">
-	<p class="hidden md:flex font-normal text-sm">
-		We Are The Marketplace for Pre-Owned High Quality Fashion
-	</p>
-	<button class="right-[10px]">{currentLang}</button>
-</div> -->
