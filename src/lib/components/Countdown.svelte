@@ -8,7 +8,7 @@
 	let m10;
 	let m1;
 
-	const goalDate = new Date('April 11 2023 02:00:00');
+	const goalDate = new Date('July 04 2023 00:00:00');
 
 	$: diff = goalDate - time;
 	$: d = Math.floor(diff / 1000 / 60 / 60 / 24);
