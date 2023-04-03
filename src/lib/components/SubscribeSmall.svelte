@@ -30,7 +30,7 @@
 			<button class="bg-accent px-6 w-64 h-20 text-3xl rounded-lg m-0">SIGN UP</button>
 		</form>
 	</div>
-	<h5 class="pb-4 text-2xl font-[500] w-full px-10 mt-6 mb-14">
+	<h5 class="pb-4 text-2xl font-[400] w-full px-10 mt-6 mb-14">
 		Join our community and be part of the exciting launch
 	</h5>
 	<hr class="border-t-black border-t-1 border-solid w-[550px] h-20 mt-6" />

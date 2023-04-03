@@ -17,7 +17,7 @@
 				<button class="bg-accent px-6 h-12 rounded m-0">SIGN UP</button>
 			</form>
 		</div>
-		<div id="join-text" class="font-semibold">
+		<div id="join-text" class="font-normal">
 			<h5 class="pb-4">Join our community and be part of the exciting launch</h5>
 			<svg
 				width="31px"

@@ -36,7 +36,7 @@
 
 <div class="w-full h-[250px] flex flex-col items-center justify-center py-20">
 	<p class="text-[2.3rem] whitespace-normal text-center leading-none mb-8">Countdown to launch</p>
-	<div class="grid grid-cols-3 grid-rows-1 gap-x-1 pb-10 w-[600px] pl-4 pr-3 h-full ">
+	<div class="grid grid-cols-3 grid-rows-1 gap-x-1 pb-10 max-w-[600px] pl-4 pr-3 h-full ">
 		<div class="flex flex-col items-center">
 			<div class="flex items-center mx-4">
 				<p
