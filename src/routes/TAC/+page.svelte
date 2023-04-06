@@ -1,8 +1,10 @@
 <script>
-	/** @type {import('./$types').PageData} */
-	export let data;
+	// your script goes here
 </script>
 
-<div>
-	<iframe src="./TAC.pdf" height="200" width="300" />
+<div class="w-full h-full">
+	<iframe
+		src="https://github.com/mrkarstrom/sfab/blob/main/src/routes/tac/tac.pdf?raw=true"
+		class="w-full h-full"
+	/>
 </div>
