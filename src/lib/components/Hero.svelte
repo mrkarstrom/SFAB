@@ -27,7 +27,7 @@
 		lg:text-[6rem]
 		"
 		>
-			Slowfashion
+			<a href="https://github.com/mrkarstrom/sfab/blob/main/src/routes/TAC/TAC.pdf?raw=true">Slowfashion</a> 
 		</h1>
 		<div class="hidden lg:flex">
 			<ArrowDown --arrowColor="white" --circleColor="white" />
