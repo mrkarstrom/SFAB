@@ -27,7 +27,6 @@
 		lg:text-[6rem]
 		"
 		>
-			<!-- https://github.com/mrkarstrom/sfab/blob/main/src/routes/TAC/TAC.pdf?raw=true -->
 			<a href="/tac">Slowfashion</a>
 		</h1>
 		<div class="hidden lg:flex">
