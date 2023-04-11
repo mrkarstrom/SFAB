@@ -23,7 +23,8 @@
 	}
 </script>
 
-<div class="hidden lg:flex"
+<div
+	class="hidden lg:flex"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-10%' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
@@ -38,7 +39,7 @@
 							<div
 								id="left-side1"
 								class="w-full bg-cover bg-center h-full"
-								style="background-image: url('https://yesweb.se/sfab/img/mockup/woman-chair.png')"
+								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images//woman-chair.png?raw=true')"
 							/>
 							<div
 								id="right-side1"
