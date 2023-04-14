@@ -70,7 +70,7 @@
 		</h6>
 	</section>
 	<section id="definitions" class="w-full flex flex-col">
-		<h5 class="pl-6 pt-10 font-bold">1. Definitions</h5>
+		<h5 class="pl-6 py-2 font-bold">1. Definitions</h5>
 		<h6>For the purposes hereof, the terms hereinbelow are defined as follows:</h6>
 		<h6>
 			<br /><strong>“Authentication”</strong>: indicates the procedures defined by the Distributor
@@ -131,7 +131,11 @@
 			in Luxembourg by the Commission de Surveillance du Secteur Financier under reference number
 			3812 and authorised to carry out its activity in all Member States of the European Union. The
 			Issuer appears on the list of electronic money institutions available at
-			http://supervisedentities.cssf.lu/index.html?language=fr#Home
+			<a
+				class="underline text-blue-400"
+				href="http://supervisedentities.cssf.lu/index.html?language=fr#Home"
+				>http://supervisedentities.cssf.lu/index.html?language=fr#Home</a
+			>
 			<br /><strong>“Personal Online Area”</strong>: indicates the environment dedicated to the
 			User, accessible on the Distributor’s Site, allowing them to use the Services
 			<br /><strong>“Registration Form”</strong>: indicates the form to be filled out by anyone
@@ -185,6 +189,88 @@
 			holding Electronic Money recorded in an Account opened in their name, in order to carry out
 			Payment Operations.
 		</h6>
+	</section>
+	<section id="purpose" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">2. Purpose</h5>
+		<h6>
+			The Framework Contract has the purpose of defining the conditions in which the Issuer provides
+			to the User a payment method exclusively accepted by the Beneficiaries in the framework of
+			their relationship established via the Site, in return for the fees described in Article 9
+			hereof.<br />
+			The Payment Method proposed must be systematically prepaid by the User and is not subject to any
+			advance, credit or discount. It is based on Electronic Money issued by the Issuer.<br />
+			The Issuer authorises the Distributor to propose to clients of the Site this payment method, to
+			facilitate entering into this contract and to accompany the Users during their entire relationship
+			with the Issuer. Only the Framework Contract is valid between the Parties in the event of a dispute.<br
+			/>
+		</h6>
+	</section>
+	<section id="registration-for-the-services" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">3. Registration for the Services</h5>
+		<h5 class="pl-6 pb-2 font-bold">3.1 Registration Methods</h5>
+		<h6>
+			The Framework Contract is entered into remotely, according to the terms established by the
+			Distributor under the General Conditions of the Site. To enter into the Framework Contract
+			Online, the client must have the necessary equipment (materials and software), for which they
+			alone are responsible, compatible with this method of entering into a contract. <br />
+			By default, acceptance of the Framework Contract is carried out remotely via the Site and is entered
+			into by electronic signature. The client has the possibility of requesting to sign the Contract
+			by hand. For this purpose, they must print this Contract, sign it, and return it by electronic
+			or postal mail to the Distributor Customer Service, the contact information of which is indicated
+			in the General Conditions of the Site. <br />
+			In the event of a handwritten signature, the date of entering into the Framework Contract is the
+			date indicated on it and if there is no date, it will be the date that the Framework Contract is
+			received by the Distributor. <br />
+			Electronic signing of the Framework Contract is carried out via the Site. The date of entering
+			into the Framework Contract corresponds to the date on which the client has finalised the e-signing
+			process as indicated on the Site. <br />
+			The Framework Contract entered into with the Parties electronically has the same legal status as
+			a Framework Contract on paper.
+		</h6>
+	</section>
+	<section id="contractual-documents" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">3.2 Contractual Documents</h5>
+		<h6>
+			The Framework Contract includes:<br />
+			<ul class="list-inside list-disc pl-4 pb-2">
+				<li>the General Conditions of Use of Electronic Money</li>
+				<li>the Registration Form available on the Site</li>
+				<li>the Price Conditions indicated by the Distributor</li>
+			</ul>
+			These General Conditions of Use of Electronic Money, as well as the Price Conditions, are made
+			available to the User on the Site and downloadable as a Hard Copy according to the methods indicated
+			on the Site. At any time during the contractual relationship, the User may, upon request, receive
+			these documents in paper format.<br />
+			The Issuer will maintain access to the contractual documents for a term of five (5) years from
+			the end of the contractual relationship. The Issuer will end this service at the end of the above-mentioned
+			five- (5) year period.
+		</h6>
+	</section>
+	<section id="opening-an-account" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">4. Opening an Account</h5>
+		<h5 class="pl-6 pb-2 font-bold">4.1 Necessary and Prior Conditions for User Registration</h5>
+		<h6>
+			Any legally capable physical person at least eighteen (18) years of age and any legal person,
+			residing and/or registered in a Member States of the European Union or in a State that is part
+			of the European Economic Area agreement or in a third-party country imposing equivalent
+			obligations in terms of the fight against money laundering and the financing of terrorism, may
+			send a request to open an Account subject to the physical person being referenced on the Site
+			in the capacity of consumer or in the capacity of professional. A legal person may only be
+			referenced as a professional.<br />
+			The User acknowledges from the time of issuing their registration request to the Distributor and
+			during the entire term of the Framework Contract:<br />
+			<ul id="framework-contract" class="list-inside list-disc pl-4 pb-2">
+				<li>that they are at least 18 (eighteen) years of age and legally capable</li>
+				<li>that they are acting on their own behalf</li>
+				<li>
+					that all the information provided upon their registration are true, exact and up-to-date
+				</li>
+			</ul>
+		</h6>
+	</section>
+	<section id="registration-procedure" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">4.2 Registration Procedure and Opening an Account</h5>
+		<h5 class="pl-6 pb-2 font-normal">4.1 Necessary and Prior Conditions for User Registration</h5>
 	</section>
 </section>
 <Footer />
