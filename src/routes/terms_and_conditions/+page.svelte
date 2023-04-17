@@ -624,6 +624,348 @@
 			remains owed, of any nature whatsoever. Funds in the Electronic Money Account may be compensated
 			for any amount due, collectible and unpaid of the User to the Issuer.
 		</h6>
+		<h5 class="pl-6 py-2 font-bold">10. Term and Termination</h5>
+		<h6>
+			The Framework Contract is entered into for an indeterminate period. It enters into force from
+			the time it is accepted by the User.<br />
+			The User may at any time and by respecting an advance notice of thirty (30) calendar days, terminate
+			the Framework Contract. The Issuer may at any time terminate the Framework Contract, by respecting
+			an advance notice of two (2) months provided in Hard Copy format. In this case, the fees irrefutably
+			owed for the Services are due by the User on a pro rata basis for the period elapsed at the termination
+			date. <br />
+			Beyond six (6) months, the Framework Contract may be terminated without costs. In other cases,
+			termination costs may apply, in compliance with the Price Conditions.<br />
+			For these purposes, each Party must notify the termination hereof to the other Party, by registered
+			letter with acknowledgment of receipt, to the postal or email address indicated in the General
+			Conditions of the Site.<br />
+			The User must indicate in the termination message their banking or payment account information
+			allowing the Issuer to reimburse them the Electronic Money available. In the absence of this indication,
+			it is the Issuer’s responsibility to follow the Reimbursement instructions involving reimbursement
+			by crediting the Card that was used to acquire Electronic Money. The Issuer is released from any
+			obligation upon confirmation to the User of the transfer to the account indicated or crediting
+			the Card in the amount of Electronic Money available. <br />
+			In the event of serious breach, fraud, or lack of payment on the part of the User, the Issuer reserves
+			the right to suspend or terminate this Contract by sending an email along with a registered letter
+			with acknowledgment of receipt.<br />
+			In the event a successor to the Issuer is nominated to issue Electronic Money distributed on the
+			Site, it is the Distributor’s responsibility to gather the express written agreement of the User
+			of this change, regarding the amount of Electronic Money available and to indicate to the Issuer
+			the terms for transferring the funds corresponding to the Electronic Money available.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">11. Modification of the Framework Contract</h5>
+		<h6>
+			The Issuer reserves the right, at any time, to modify the Framework Contract. Any draft
+			modification of the Framework Contract is to be provided to the User by the Distributor in
+			Hard Copy format, at the latest two (2) months before the date proposed for its entry into
+			force. Any new service proposed by the Issuer is subject to a modification of the Framework
+			Contract.<br />
+			Any User may refuse the proposed modifications and must notify their refusal to the Distributor
+			Customer Service by registered letter with acknowledgment of receipt 2 months before the proposed
+			modifications enter into force (post office stamp being proof thereof) to the address indicated
+			in the General Conditions of the Site.<br />
+			Lacking notification of refusal before the indicated date that they enter into force, the User
+			will be deemed to have accepted the proposed modifications. <br />
+			The relationship between the Parties after the date of entry into force will then be governed by
+			the new version of the Framework Contract.<br />
+			In the event the User refuses, this refusal will give rise, without fees, to the termination of
+			the Framework Contract, as well as the Reimbursement of the units of Electronic Money belonging
+			to them in a time frame of thirteen (13) months following the date the termination takes effect
+			in order to cover anything contested in the future. <br />
+			Any legislative or regulatory provisions that make modifications necessary to any part of the Framework
+			Contract will be applicable from the date they enter into force, without advance notice. However,
+			the User will be informed thereof.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">12. Security</h5>
+		<h6>
+			The Issuer undertakes to ensure that the services are provided with respect to the applicable
+			laws and regulations and best practices. Specifically, the Issuer shall do what is necessary
+			to ensure the security and confidentiality of the User’s data, in compliance with the
+			regulation in force.<br />
+			The Issuer reserves the right to temporarily suspend access to the online Account for technical,
+			security or maintenance reasons without these operations invoking any right to an indemnity of
+			any kind. It undertakes to limit these types of interruptions to those that are strictly necessary.<br
+			/>
+			However, the Issuer shall not be held responsible to the User for potential errors, omissions,
+			interruptions or delays of operations carried out via the Site that result from unauthorised access
+			by the latter. The Issuer shall not be held responsible for the theft, destruction or unauthorised
+			disclosure of data that results from unauthorised access to the Site. Furthermore, the Issuer remains
+			outside of the scope of the legal relationship between the User and the Beneficiary of the Payment
+			Operation or between the User and the Site. The Issuer will not be held responsible for defaults,
+			breaches or negligence between a User and a Beneficiary, or the Site and a User. <br />
+			If the unique identifier or any other information necessary to carry out a Payment Operation provided
+			by the User is inexact, the Issuer cannot be held responsible for the improper execution of said
+			Service.<br />
+			The Distributor alone is responsible for the security and confidentiality of the data exchanged
+			in the framework of using the Site in compliance with the General Conditions of the Site, the Issuer
+			being responsible for the security and confidentiality of the data that it exchanges with the User
+			in the framework hereof for creating and managing their Account, as well as Payment Operations
+			related to the Account.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">13. Limits to the Issuer’s Liability</h5>
+		<h6>
+			The Issuer is in no way involved in the legal and commercial relationships and potential
+			disputes arising between the Beneficiary and the User or between the User and the Distributor.
+			The Issuer exercises no oversight over the conformity, security, legality, characteristics and
+			the appropriate character of the products subject to a Payment Operation. In this regard, it
+			is the User’s responsibility to gather all useful information in order to carry out the
+			purchase of a product or service, the collections of funds or any other operation required.
+			Every operation carried out by the User gives rise to a contract created directly between
+			themselves and the Beneficiary(ies) who are strangers to the Issuer. Consequently, the latter
+			cannot be held responsible for the non-performance or improper performance of the obligations
+			arising from it, or any potential damages caused to the User in this regard.<br />
+			Notwithstanding any contrary provision in this Contract, the Issuer’s liability in terms of a User
+			is limited to reparations for direct damages as established by regulation.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">14. Commitments of the User</h5>
+		<h6>
+			The User acknowledges that the elements in their Personal Online Area on the Site do not
+			infringe on the rights of a third party and are not contrary to the law, public order, or
+			proper ethics. The User attests to the conformity, legality and appropriate character of the
+			amount granted to the Beneficial Owner, of the purchase of the good by the Beneficial. <br />
+			They undertake to not perform the Framework Contract in an illegal manner or under conditions that
+			may damage, deactivate, overload or alter the Site; They undertake to not usurp the identity of
+			another person or entity, falsify or divulge their identity, their age or create a false identity;<br
+			/>
+			In the event of a breach of these obligations the Issuer reserves the right to take all appropriate
+			measures to bring an end to these actions. It also has the right to suspend, erase and/or block
+			access to the Account. Without prejudice to legal actions undertaken by third parties, the Issuer
+			has the right to personally bring any legal action that seeks to repair the damages that it has
+			personally been subject to due to the User’s breach of their obligations under this Contract.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">15. Withdrawal Right</h5>
+		<h5 class="pl-6 pb-2 font-bold">15.1. Provisions Applicable to All Users</h5>
+		<h6>
+			The User having been initiated under the meaning of Articles L.341-1 et seq. of the Monetary
+			and Financial Code has a time frame of fourteen (14) calendar days to exercise their right of
+			withdrawal, as the case may be subject to responding to the conditions of Article D. 341-1 of
+			this Code, without having to justify the reason or bear the penalty. <br />
+			This time frame for withdrawal begins from the day of their registration as a User.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">15.2. Provisions Applicable to the Consumer User</h5>
+		<h6>
+			Under Article L. 222-7 of the Consumer Code, the consumer User has a right of withdrawal that
+			may be exercised in a time frame of fourteen (14) days without having to justify the reason or
+			bear the penalty. This withdrawal time frame begins either from the day of entering into the
+			Framework Contract, or from the receipt of the contractual conditions and information, if this
+			date is after that of the date the Framework Contract is entered into. <br />
+			The Framework Contract may only be put into effect before the withdrawal deadline has expired upon
+			the approval of the consumer User. The consumer User recognises that the use of Services after
+			entering into the Framework Contract constitutes an express request on its part to begin performing
+			the Framework Contract before the above-mentioned deadline has expired. <br />
+			Exercising the right of withdrawal involves the Framework Contract coming to an end, and in the
+			event performance thereof has begun, takes the form of termination and does not bring into question
+			the services previously provided. In this event, the consumer User will only be responsible for
+			a payment proportional to the Services effectively provided.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">15.3. Exercising the Withdrawal Right</h5>
+		<h6>
+			The User must notify the Distributor Customer Service of their withdrawal request within the
+			indicated time frame by telephone or by email and by sending confirmation to the address of
+			the Distributor Customer Service. For this purpose, it may use the withdrawal slip made
+			available to them by the Platform.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">
+			16. Rules Regarding the Fight Against Money Laundering and the Financing of Terrorism
+		</h5>
+		<h6>
+			The Issuer is subject to all of the Luxembourg regulations regarding the fight against money
+			laundering and the financing of terrorism.<br />
+			Pursuant to the provisions of Luxembourg law, relating to financial organisations participating
+			in the fight against money laundering and the financing of terrorist activities, the Issuer must
+			obtain information from all Users regarding any operation or original business relationship, the
+			subject and the destination of the operation or the opening of the Account. Furthermore, it must
+			carry out all due diligence for identifying the User and, if it be the case, the beneficial owner
+			of the Account and/or the Payment Operations related to them.<br />
+			The User recognises that the Issuer may bring an end or postpone at any time the use of Personalised
+			Security Data, access to an Account or the execution of an Operation or a Reimbursement in the
+			absence of sufficient elements regarding their purpose or nature. They are informed that an operation
+			carried out in the framework hereof may be subject to exercising the right of communication to
+			the national financial intelligence unit. The User, pursuant to regulations, may access all information
+			thus communicated subject to this right of access not jeopardising the purpose regarding the fight
+			against money laundering and the financing of terrorism if this data relates to the individual
+			making the request.<br />
+			No proceedings or civil liability action may be brought and no professional sanctions issued against
+			the Issuer, their officers or agents if they have made declarations regarding suspicions in good
+			faith to their national authority.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">17. Protection of Personal Data</h5>
+		<h6>
+			The Issuer collects and processes all Personal Data in compliance with the regulations in
+			force applicable to the protection of this Data.<br />
+			The Personal Data required during registration is necessary in the framework of the services provided
+			in compliance herewith. If the obligatory Personal Data is not provided, the interested party may
+			be refused access to the services. <br />
+			The Person in Question is informed that the Personal Data is specifically collected for the following
+			purposes: providing the services such as described herein; the fight against money laundering and
+			the financing of terrorism; managing requests for information and claims; carrying out statistics.
+			This data processing is specifically necessary for the performance of the Framework Contract as
+			well as respecting the legal obligations that the data processor is subject to. The Issuer and
+			the Distributor act as joint processors of this data. <br />
+			The Personal Data shall not be transferred to any third party without the express consent of the
+			Persons in Question. However, the Person in Question is informed that the Personal Data is transferred
+			to the Issuer’s subcontractors for the above-stated purposes. Said subcontractors only act on instructions
+			from the Issuer and exclusively on behalf of the latter. <br />
+			The Person in Question may access the list of subcontractors by sending their request to the Distributor
+			Customer Service. They are informed that the Issuer ensures that their subcontractors take all
+			necessary measures in order to maintain the security and confidentiality of the Personal Data.
+			In the event the Personal Data is violated (loss, breach, destruction, etc.) involving increased
+			risk to the Person in Question, the latter will be informed thereof. <br />
+			The Issuer reserves the right to disclose Personal Data at the request of a legal authority to
+			be in compliance with any law or regulation in force, to protect or defend the rights of the Account
+			Holder or the Person in Question, if circumstances require it or to protect the security of the
+			Service Provider, the Services or the public.<br />
+			Personal Data processed by the Issuer in the framework of the services provided in compliance herewith
+			is kept for the period of time that is strictly necessary to attain the purposes mentioned hereinabove.
+			Barring legal and regulatory provisions to the contrary, the Personal Data will not be kept beyond
+			the effective date of termination of the Contract. It is specifically indicated that the Personal
+			Data relating to identification is kept for a term of five years from the end of the contractual
+			relationship, subject to applicable regulation in terms of the fight against money laundering and
+			the financing of terrorism. <br />
+			The Persons in Question have the following rights pertaining to their Personal Data, according
+			to the conditions established by regulations: the right of access, right of rectification, the
+			right of objection, the right of erasure, the right to restrict its processing and the right of
+			portability. The Person in Question may at any time exercise these rights by addressing the Distributor
+			Customer Service. The request must indicate their last name, first name, identifier, and include
+			a photocopy of an identity document bearing their signature. <br />
+			A response will be sent to the Person in Question in a time frame of one (1) month following receipt
+			of the request. This deadline may be extended to two (2) months, given the complexity and the number
+			of requests. In this case, the Person in Question will be informed of this extension and the reasons
+			for postponement within a deadline of one (1) month from the receipt of the request. <br />
+			The Person in Question will be informed if they have the right to file a claim with the competent
+			authority for any request related to their Personal Data. <br />
+			If the Person in Question provides the request in electronic format, the response will be provided
+			in electronic format, unless they expressly request otherwise.<br />
+			When the Personal Data relate to a Person in Question who is not a party to the Framework Contract
+			has been transferred by the User, the latter will be responsible for communicating to the Person
+			in Question the information of this Article. <br />
+			Additional Information on the processing of Personal Data carried out in the framework hereof,
+			the time frame that it is kept and the rights of the Person in Question are available in the Issuer’s
+			confidentiality policy (accessible at the site
+			<a href="http://www.mangopay.com">www.mangopay.com</a>).
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">18. Professional Secrecy</h5>
+		<h6>
+			The Issuer is bound by professional secrecy. However, the secrecy may be lifted, in compliance
+			with the legislation in force, based on a legal, regulatory and prudential obligation,
+			specifically at the request of supervisory authorities, the tax or customs administration, as
+			well as those of a criminal judge or in the event of a legal request indicated to the
+			Distributor. Notwithstanding the foregoing, the User has the right to release the Distributor
+			from professional secrecy by expressly indicating the authorities receiving the confidential
+			information that relates to the User. <br />It is specified that professional secrecy may be
+			lifted by regulation benefiting companies providing the Distributor important operational
+			tasks within the framework hereof.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">19. Intellectual Property</h5>
+		<h6>
+			The Issuer retains all intellectual property rights that pertain to them for the Services
+			offered to the User. None of these intellectual property rights will be transferred to the
+			User under this Contract.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">20. Death of the User and Inactive Accounts</h5>
+		<h5 class="pl-6 pb-2 font-bold">20.1. Death of the User</h5>
+		<h6>
+			The death of the User will bring an end to the Framework Contract, once this is made aware to
+			the Issuer. Operations occurring from the time of death, except with the agreement of the
+			individual who has rights or the attorney in charge of the estate, will be considered not
+			having been authorised.<br />
+			The Electronic Money Account will remain open for the time necessary to settle the estate and the
+			Distributor/Issuer will ensure the transfer of the balance upon the agreement of the individual
+			who has rights or the attorney in charge of the estate.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">20.2 Inactive Accounts</h5>
+		<h6>
+			Any inactive Electronic Money Account may be the subject to an inactivity notification by
+			email on behalf of the Distributor followed by a follow-up notification one (1) month later.
+			The User’s Account is considered inactive if, at the end of a period of twelve (12) months,
+			there have been no operations (with the exception of management fees being taken out) at the
+			initiative of the User (or any representative) and that has not been specifically indicated to
+			the Distributor in any form whatsoever. <br />
+			In the absence of a response or use of the Electronic Money available in this time frame, the Account
+			will be closed and maintained only for the purposes of carrying out Reimbursement of the Electronic
+			Money. Management fees may be collected by the Issuer.<br />
+			The Account will no longer give rise to any further use of the Electronic Money.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">21. Force Majeure</h5>
+		<h6>
+			The Parties shall not be held responsible, or considered as being in breach hereof, in the
+			event of a delay or non-performance, when the cause of which is related to an event of force
+			majeure as defined by Article 1218 of the Civil Code.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">22. Independence of the Contractual Stipulations</h5>
+		<h6>
+			If one of the stipulations hereof is nullified or not applicable, it shall be deemed not
+			having been written and it shall not lead to nullification of the other stipulations.<br />
+			If one or more stipulations hereof becomes invalid or is declared as such pursuant to a law, regulation
+			or following a definitive decision handed down by a competent jurisdiction, the other stipulations
+			retain their force of obligation and their scope. The stipulations declared null and void will
+			then be replaced by stipulations that are as close as possible to the meaning and the scope of
+			the stipulations initially agreed to.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">23. Protection of Funds Collected</h5>
+		<h6>
+			The User’s funds are deposited at the end of each Business Day in an account opened in a Bank
+			and are held by the latter.<br />
+			Under the terms of Article 24-10 (1) a) of the Law of 20 May 2011, published in Mémorial A n° 104
+			of 24 May 2011 of the Grand Duchy of Luxembourg and Article 14 of the Law of 10 November 2009 published
+			in Mémorial A n° 215 of 11 November 2009 of the Grand Duchy of Luxembourg, transposing the Directive
+			2009/110/EC of the European Parliament and the Council of 16 September 2009, concerning access
+			to the activity of electronic money institutions, the funds collected are protected and are not
+			included in the pool of assets of the electronic money institution in the event of liquidation,
+			bankruptcy or any other competitive situation that may arise for this latter.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">24. Lack of Transferability</h5>
+		<h6>
+			The Framework Contract may not be subject to a total or partial transfer by the User in return
+			for payment or free of charge. Thus, they are prohibited from transferring to any third party
+			whatsoever the rights or obligations that it holds hereunder. In the event of breach of this
+			prohibition, in addition to the immediate termination hereof, they may be held responsible by
+			the Issuer.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">25. Agreement in Relation to Proof</h5>
+		<h6>
+			All data will be included in unalterable, true and secured form on the technology database of
+			the Issuer specifically relative to Payment Orders and confirmation received from the User,
+			notifications sent, access, Withdrawal, Reimbursement so as to constitute proof between the
+			Parties unless there is proof to the contrary.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">26. Claims and Mediation</h5>
+		<h6>
+			The User is asked to address the Distributor Customer Service, as indicated on the Site
+			regarding any claim. Any claim other than that established in Article 8 relating to entering
+			into, performing or terminating the Framework Contract and the services of issuing and
+			managing Electronic Money must be indicated by email to the following address: <a
+				class="text-blue-600"
+				href="mailto:legal@mangopay.com">legal@mangopay.com</a
+			>.<br />
+			The User accepts that the Issuer will respond to their claims on Hard Copy format. The response
+			will be issued as quickly as possible and at the latest within a time frame of fifteen (15) Business
+			Days following the receipt of the claim by the Issuer. However, for reasons outside of its control,
+			the Issuer may not be able to respond in this time frame of fifteen (15) days. <br />
+			In this event, it will provide the User with the response specifying the reasons for this additional
+			time period as well as the date on which it will send the definitive response. In any case, the
+			User shall receive a definitive response at the latest in a time frame of thirty-five (35) Business
+			Days following the receipt of the claim. <br />
+			The User is informed that the CSSF (Commission de Surveillance du Secteur financier) [Oversight
+			Commission of the Financial Sector] is competent to settle disputes on an extrajudicial basis related
+			to the performance of this Framework Contract. For more information on the CSSF and the conditions
+			of such recourse, you may address the Distributor Customer Service or consult the website of the
+			CSSF (<a href="http://www.cssf.lu">http://www.cssf.lu</a>). Mediation requests must be
+			addressed to the Mediator of the Commission de Surveillance du Secteur Financier (CSSF), 283
+			route d’Arlon, L-1150 Luxembourg, (direction@cssf.lu) and this, without prejudice to other
+			legal actions. However, the mediator may not be approached if the request is manifestly
+			unfounded or abusive, if the dispute has previously been settled or is in the process of being
+			settled by another mediator or by a court, if the request to the mediator is provided within a
+			time frame of longer than one year from the time of the written claim to the professional, or
+			if the dispute does not fall within the mediator’s scope of competence.
+		</h6>
+		<h5 class="pl-6 py-2 font-bold">27. Language - Applicable Law and Competent Jurisdiction</h5>
+		<h6>
+			With the exception of applying a law related to public order (which only applies in the strict
+			limits of its purpose), is expressly stipulated that English is the language chosen and used
+			by the Parties in their pre-contractual and contractual relationships and that the Framework
+			Contract is subject to French law and any dispute between the Parties regarding the latter
+			shall be submitted to the jurisdiction of the competent French courts.
+		</h6>
 	</section>
 </section>
 <Footer />
