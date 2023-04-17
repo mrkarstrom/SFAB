@@ -967,6 +967,10 @@
 			shall be submitted to the jurisdiction of the competent French courts.
 		</h6>
 	</section>
+	<img
+		src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mangopay_powered.svg?raw=true"
+		alt="MangoPay"
+	/>
 </section>
 <Footer />
 
