@@ -46,7 +46,7 @@
 			registered office at 2, Avenue Amélie, L-1125 Luxembourg and registered with the Luxembourg
 			Commerce and Companies Registry under number B173459 (the amount of the share capital can be
 			consulted here :
-			<a class="underline" href="https://www.mangopay.com/legal-notice/"
+			<a class="underline text-blue-600" href="https://www.mangopay.com/legal-notice/"
 				>https://www.mangopay.com/legal-notice/</a
 			>), authorised to carry out business within the European Economic Area, as an electronic money
 			institution approved by the Commission de Surveillance du Secteur Financier, 283 route d’Arlon
@@ -132,7 +132,7 @@
 			3812 and authorised to carry out its activity in all Member States of the European Union. The
 			Issuer appears on the list of electronic money institutions available at
 			<a
-				class="underline text-blue-400"
+				class="underline text-blue-600"
 				href="http://supervisedentities.cssf.lu/index.html?language=fr#Home"
 				>http://supervisedentities.cssf.lu/index.html?language=fr#Home</a
 			>
@@ -232,10 +232,10 @@
 		<h5 class="pl-6 py-2 font-bold">3.2 Contractual Documents</h5>
 		<h6>
 			The Framework Contract includes:<br />
-			<ul class="list-inside list-disc pl-4 pb-2">
-				<li>the General Conditions of Use of Electronic Money</li>
-				<li>the Registration Form available on the Site</li>
-				<li>the Price Conditions indicated by the Distributor</li>
+			<ul class="list-disc ml-10 pb-2">
+				<li class="pl-4">the General Conditions of Use of Electronic Money</li>
+				<li class="pl-4">the Registration Form available on the Site</li>
+				<li class="pl-4">the Price Conditions indicated by the Distributor</li>
 			</ul>
 			These General Conditions of Use of Electronic Money, as well as the Price Conditions, are made
 			available to the User on the Site and downloadable as a Hard Copy according to the methods indicated
@@ -259,10 +259,10 @@
 			referenced as a professional.<br />
 			The User acknowledges from the time of issuing their registration request to the Distributor and
 			during the entire term of the Framework Contract:<br />
-			<ul id="framework-contract" class="list-inside list-disc pl-4 pb-2">
-				<li>that they are at least 18 (eighteen) years of age and legally capable</li>
-				<li>that they are acting on their own behalf</li>
-				<li>
+			<ul id="framework-contract" class="list-disc ml-10 pb-2">
+				<li class="pl-4">that they are at least 18 (eighteen) years of age and legally capable</li>
+				<li class="pl-4">that they are acting on their own behalf</li>
+				<li class="pl-4">
 					that all the information provided upon their registration are true, exact and up-to-date
 				</li>
 			</ul>
@@ -270,7 +270,151 @@
 	</section>
 	<section id="registration-procedure" class="w-full flex flex-col">
 		<h5 class="pl-6 py-2 font-bold">4.2 Registration Procedure and Opening an Account</h5>
-		<h5 class="pl-6 pb-2 font-normal">4.1 Necessary and Prior Conditions for User Registration</h5>
+		<h5 class="pl-6 pb-2 font-normal">4.2.1 Information and Proof</h5>
+		<h6>
+			Any interested party must provide to the Distributor the information and documents listed
+			hereinbelow, for the Registration Form, in the event that this information and these documents
+			are not already in possession of the Distributor. <br />The interested party undertakes to
+			provide the information and documents corresponding to their status either as a professional
+			or as a consumer. For the User, who is a physical person and consumer: <br />
+			<ul id="proof-for-user" class="list-[circle] ml-20">
+				<li class="pl-4">
+					their last name, first name, email address, date and place of birth, nationality and
+					country of residence;
+				</li>
+				<li class="pl-4">
+					a copy of the User's valid official identity document (e.g., identity card, driver’s
+					license, and for citizens of countries outside of the European Union, a passport).
+				</li>
+			</ul>
+			<br />
+			For the Professional User:
+			<ul id="proof-for-user" class="list-[circle] ml-10 pt-2">
+				<li class="list-['-'] pl-4">for physical persons:</li>
+				<li class="ml-10 pl-4">
+					their last name, first name, email address, date of birth, nationality and country of
+					residence.
+				</li>
+				<li class="ml-10 pl-4">
+					an original or a copy of the official registration extract dated within three months that
+					indicates registration as a retailer or in the national business registry or any other
+					professional organisation that the User is a member of.
+				</li>
+				<li class="ml-10 pl-4">
+					a copy of the User's valid official identity document (e.g., identity card, driver’s
+					license, and for citizens of countries outside of the European Union, a passport).
+				</li>
+				<li class="list-['-'] pl-4 pt-2">for legal persons:</li>
+				<li class="ml-10 pl-4">
+					their business name, business form, capital, address of the registered office, description
+					of the activity, the identity of the business associates and officers, as well as the list
+					of the beneficial owners such as defined by regulation;
+				</li>
+				<li class="ml-10 pl-4">
+					a Kbis extract or equivalent document dated within three months proving their registration
+					at the Business and Companies Registry of a Member States of the European Union or a State
+					that is part of the European Economic Area agreement or a third-party country imposing
+					equivalent obligations in terms of the fight against money laundering and the financing of
+					terrorism and their bylaws. This document must include the business name, legal form,
+					address of the registered office and the identity of the business associates and officers
+					mentioned in Sections 1° and 2° of Article R.123-54 of the Code of Commerce or their
+					equivalent in foreign law;
+				</li>
+				<li class="ml-10 pl-4">
+					a copy of the bylaws and potential decisions specifically certified true legal copy from
+					the legal representative; o a copy of the identity card or passport of the legal
+					representative and, as the case may be, the beneficial owner(s);
+				</li>
+				<li class="ml-10 pl-4 pb-2">
+					The statement from the beneficial owners of the legal person holding more than 25% of
+					rights in the event that the interested party has not declared their beneficial owners in
+					the national registry, or if it is not subject to this obligation.
+				</li>
+				The User may also be requested to provide the bank details from an open account in the name of
+				the person mentioned in Sections 1° to 6° bis of Article L.561-2 of the Monetary and Financial
+				Code in a Member State of the European Union or a State that is part of the European Economic
+				Area agreement or a third-party country imposing equivalent obligations in terms of the fight
+				against money laundering and the financing of terrorism<br /> It is expressly established that
+				the Issuer maintains the possibility of requesting before opening an account and at any time
+				during the term of the Framework Contract, additional documents related to the User, the beneficial
+				owners, or a specific Payment Operation.
+			</ul>
+		</h6>
+		<h5 class="pl-6 py-2 font-normal">4.2.2 Restriction of the Account</h5>
+		<h6>
+			By the Issuer’s free assessment, use of an Account may be restricted without the Issuer having
+			to justify their decision to the User in question. The functioning of the Account will
+			specifically be restricted when the User has not provided all of the information and documents
+			required by the Issuer, such as listed hereinabove. These restrictions are indicated to the
+			User by the Distributor.
+		</h6>
+		<h5 class="pl-6 py-2 font-normal">4.2.3 Finalisation of Registration</h5>
+		<h6>
+			After entering into the Framework Contract, the User must provide all of the information and
+			proof that are requested by the Distributor. By giving their consent to the terms of the
+			Framework Contract, the User accepts that the Distributor will transfer to the Issuer their
+			request for registration as a User and all the proof documents received by it.<br />
+			The Issuer alone has the power to accept the registration of an interested party as a User for
+			an Account in their name. This acceptance will be indicated to the User by the Distributor by any
+			means under the terms established on the Site. <br />
+			The Issuer, without motivation, or right to an indemnity in favour of the User, may refuse a request
+			to open an Account. This refusal will be indicated to the User by the Distributor by any means
+			under the terms established on the Site.
+		</h6>
+	</section>
+	<section id="functioning-of-the-account" class="w-full flex flex-col">
+		<h5 class="pl-6 py-2 font-bold">5. Functioning of the Account</h5>
+		<h5 class="pl-6 pb-2 font-bold">5.1 Purchasing Electronic Money</h5>
+		<h6>
+			Acquiring Electronic Money may be done, by Card (or any other Payment Method accepted by the
+			Issuer), once or several times.<br />
+			When such an operation is requested, the User will be identified on the Site by indicating their
+			username (valid email address) and their password or via their Facebook account. <br />
+			The funds transfer request will be indicated on the Payment Page dedicated for this purpose. The
+			Issuer may request using a one-time code sent to the User’s mobile telephone by the institution
+			that issued the Card. If this is the case, it is the Issuer’s right to refuse any payment following
+			their free assessment without this decision giving rise to any indemnification. The funds transfer
+			operation is carried out by the institution that issued the Card. Any dispute for such a transfer
+			must be indicated to this institution. The Issuer is not authorised to cancel such a transfer.
+			Notwithstanding the foregoing, the User may obtain Reimbursement for the Electronic Money Pursuant
+			to Article 5.4.<br />
+			Electronic Money arriving in the User’s name may be based on the effective receipt of the funds
+			collected less the fees agreed to under the Price Conditions. <br />
+			In the event that the transfer of funds is cancelled by the Card issuer following it being contested,
+			no matter the reason stated, the Issuer upon receiving information may suspend or cancel any Payment
+			Operation, close the Account in question, debit at any time the Account of the amount of Electronic
+			Money corresponding to the funds of the cancelled transfer and proceed to recovery of the amounts
+			due by the User by any means. <br />
+
+			<h5 class="pl-6 py-2 font-bold">5.2. Functioning of the Account</h5>
+			Electronic Money is stored for an indeterminate term in the User’s Account by the Issuer under
+			the agreed-to Price Conditions.<br />
+			The Account is credited by acquiring Electronic Money in exchange for funds ordered by the User
+			directly from the Issuer via their Card (or any other Payment Method accepted by the Issuer) less
+			the corresponding fees is established in the Price Conditions. This Account is debited on the Order
+			of the Electronic Money User in the amount of the Payment or Reimbursement Operation carried out
+			including the related fees as established in the Price Conditions. The Issuer is authorised at
+			any time to debit this Account in the amount of the Electronic Money corresponding to the fees
+			due and payable established in the Price Conditions.<br />
+			The amount of Electronic Money available in the Account is immediately adjusted based on:
+			<ul id="the-amount-of-electronic-money" class="list-['-'] ml-10 pt-2">
+				<li class="pl-4">
+					the fees due and payable, by the Account User, the payment of which is carried out in
+					Electronic Money;
+				</li>
+				<li class="pl-4">
+					the Orders transmitted (or being transmitted) to the Issuer regarding Electronic Money
+					stored in the Account;
+				</li>
+				<li class="pl-4">
+					funds received by the Issuer in payment for acquiring Electronic Money in the Account;
+				</li>
+				<li class="pl-4">
+					and any cancellation regarding any of the above-mentioned operations in application
+					hereof.
+				</li>
+			</ul>
+		</h6>
 	</section>
 </section>
 <Footer />
