@@ -970,6 +970,8 @@
 	<img
 		src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mangopay_powered.svg?raw=true"
 		alt="MangoPay"
+		class="p-10"
+		width="300px"
 	/>
 </section>
 <Footer />
