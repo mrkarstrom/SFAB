@@ -4,7 +4,7 @@
 			lg:hidden"
 >
 	<figure class="card w-[90%] items-center justify-evenly bg-secondary h-[500px] drop-shadow-md">
-		<div class="flex flex-col  items-center jsutify-center">
+		<div class="flex flex-col  items-center justify-center">
 			<p class="text-xl p-4">Countdown to launch</p>
 			<svg
 				fill="#000000"
@@ -14,26 +14,26 @@
 				xmlns="http://www.w3.org/2000/svg"><path d="M5 6h10l-5 9-5-9z" /></svg
 			>
 		</div>
-		<p class="font-['Steelfish'] text-[100px] uppercase">Slowfashion</p>
+		<p class="font-['Steelfish'] text-[6em] md:text-9xl uppercase">Slowfashion</p>
 	</figure>
 
-	<div id="newsletter-signup" class="w-full px-10 pt-16">
+	<div id="newsletter-signup" class="w-full px-10 pt-16 ">
 		<h2 class="pb-6 mt-8">NEWSLETTER</h2>
-		<form action="" class="flex flex-row items-center">
+		<form action="" class="flex flex-wrap flex-row justify-center items-center max-w-96">
 			<input
-				class="h-20 w-96 pl-8 text-2xl rounded-lg bg-secondary border m-0"
+				class="h-20 w-full pl-8 text-2xl shrink basis-2/3 rounded-lg bg-secondary border m-0"
 				type="text"
 				name="inputName"
 				placeholder="your@email.com"
 				id="inputName"
 			/>
-			<button class="bg-accent px-6 w-64 h-20 text-3xl rounded-lg m-0">SIGN UP</button>
+			<button class="basis-1/3 bg-accent px-6 w-full h-20 text-3xl rounded-lg m-0">SIGN UP</button>
 		</form>
 	</div>
 	<h5 class="pb-4 text-2xl font-[400] w-full px-10 mt-6 mb-14">
 		Join our community and be part of the exciting launch
 	</h5>
-	<hr class="border-t-black border-t-1 border-solid w-[550px] h-20 mt-6" />
+	<hr class="border-t-black border-t-1 border-solid max-w-[550px] h-20 mt-6" />
 
 	<div id="links" class="flex items-center space-x-8 max-w-fit flex-1 mb-12">
 		<a

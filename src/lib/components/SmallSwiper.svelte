@@ -20,7 +20,7 @@
 
 <div
 	id="block-container"
-	class="w-full h-[650px] flex flex-col relative justify-end items-center 
+	class="w-full h-[650px] hidden flex-col relative justify-end items-center sm:flex
 			lg:hidden"
 >
 	<div

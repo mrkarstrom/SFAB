@@ -16,8 +16,8 @@
 
 <TopbarPlain />
 <Hero />
-<DownloadApp />
-<SmallSwiper />
+<DownloadApp /> 
+ <SmallSwiper />
 <ArrowBlock --blockHeight="14rem" />
 <AppWindow />
 <ArrowBlock />

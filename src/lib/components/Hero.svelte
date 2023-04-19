@@ -23,11 +23,11 @@
 			Be the change
 		</h3>
 		<h1
-			class="mb-24 text-white font-['Steelfish'] text-[6.5rem] uppercase 
+			class="mb-24 text-white font-['Steelfish'] text-7xl sm:text-8xl uppercase 
 		lg:text-[6rem]
 		"
 		>
-			<a href="/tac">Slowfashion</a>
+			<a href="/terms_and_conditions">Slowfashion</a>
 		</h1>
 		<div class="hidden lg:flex">
 			<ArrowDown --arrowColor="white" --circleColor="white" />

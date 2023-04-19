@@ -1,6 +1,7 @@
 <div
-	class="absolute left-8 top-8 
-				lg:flex
+	class="absolute 
+				sm:left-8 top-8 
+				sm:flex	
 				lg:pl-8
 				lg:w-auto
 				lg:left-4
