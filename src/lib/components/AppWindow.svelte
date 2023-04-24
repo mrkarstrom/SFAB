@@ -4,7 +4,6 @@
 	import { inview } from 'svelte-inview';
 
 	let isInView;
-	
 </script>
 
 <div
@@ -20,7 +19,7 @@
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">
 							<Title>
-								<p class="text-4xl ml-16 py-6 font-normal">A WINDOW into the App</p>
+								<p class="text-4xl ml-6 py-6 font-normal">A WINDOW into the App</p>
 							</Title>
 							<div
 								class="bounce-right flex flex-row items-center justify-center w-auto space-x-2 mr-6"
@@ -43,7 +42,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 					<div id="Discover-card-slider" class="grid grid-rows-3 grid-cols-1 w-full lg:hidden">
 						<div class="card p-4 w-full">
 							<div id="title-text-small1" class="font-medium pb-6">
@@ -84,7 +83,10 @@
 						</div>
 					</div>
 
-					<div class="content-container hidden lg:grid grid-cols-2 h-auto">
+					<div
+						class="content-container hidden  grid-cols-2 h-auto 
+								lg:grid"
+					>
 						<div class="left-side flex flex-col items-center w-full">
 							<div class="DG-card h-auto p-4 w-full">
 								<div id="title-text" class="font-medium leading-6 pb-1">
@@ -147,9 +149,3 @@
 		</div>
 	{/if}
 </div>
-
-<style>
-	:root {
-		--op: 1;
-	}
-</style>
