@@ -18,7 +18,7 @@
 				<div class="w-full h-auto bg-white flex flex-col items-center justify-center">
 					<div id="title-wrap" class="w-full ">
 						<Title>
-							<p class="text-4xl pb-12 font-normal text-black">2 Easy STEPS</p>
+							<p class="text-4xl pb-12 pl-4 font-normal text-black">2 Easy STEPS</p>
 						</Title>
 					</div>
 

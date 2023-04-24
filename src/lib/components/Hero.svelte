@@ -18,7 +18,8 @@
 								lg:pb-48"
 	>
 		<h3
-			class="mb-1 mt-14 text-white uppercase text-center whitespace-normal w-52 leading-[45px] text-[35px] lg:text-xl"
+			class="mb-1 mt-14 text-white uppercase text-center whitespace-normal w-52 leading-[45px] text-[35px] 
+			lg:text-xl"
 		>
 			Be the change
 		</h3>
