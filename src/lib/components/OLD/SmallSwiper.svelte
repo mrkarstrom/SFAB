@@ -1,6 +1,6 @@
 <script>
 	import { Swipe, SwipeItem } from 'svelte-swipe';
-	import CountdownSmall from './CountdownSmall.svelte';
+	import CountdownSmall from '../CountdownSmall.svelte';
 	const swipeConfig = {
 		autoplay: false,
 		showIndicators: false,

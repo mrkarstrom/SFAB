@@ -1,6 +1,6 @@
 <script>
-	import TopbarPlain from '$lib/components/TopbarPlain.svelte';
-	import Hero from '$lib/components/Hero.svelte';
+	import TopbarPlain from '$lib/components/sections/TopbarPlain.svelte';
+	import Hero from '$lib/components/sections/Hero.svelte';
 	import DownloadApp from '$lib/components/carousels/header/DownloadApp.svelte';
 	import SmallSwiper from '$lib/components/carousels/header/SmallSwiper.svelte';
 	import EasySteps from '$lib/components/sections/EasySteps.svelte';
@@ -8,10 +8,10 @@
 	import AppWindow from '$lib/components/sections/AppWindow.svelte';
 	import Discover from '$lib/components/sections/Discover.svelte';
 	import Mission1 from '$lib/components/carousels/mission/Mission1.svelte';
-	import Subscribe1 from '$lib/components/Subscribe1.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import MissionSmall from '$lib/components/MissionSmall.svelte';
-	import SubscribeSmall from '$lib/components/SubscribeSmall.svelte';
+	import Subscribe1 from '$lib/components/sections/Subscribe1.svelte';
+	import Footer from '$lib/components/sections/Footer.svelte';
+	import MissionSmall from '$lib/components/carousels/mission/MissionSmall.svelte';
+	import SubscribeSmall from '$lib/components/sections/SubscribeSmall.svelte';
 </script>
 
 <TopbarPlain />

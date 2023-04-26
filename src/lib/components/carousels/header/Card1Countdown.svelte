@@ -1,5 +1,5 @@
 <script>
-	import Countdown from './Countdown.svelte';
+	import Countdown from '$lib/components/sections/Countdown.svelte';
 </script>
 
 <div

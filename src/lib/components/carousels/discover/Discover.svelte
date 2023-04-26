@@ -1,7 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-	import Title from './Title.svelte';
+	import Title from '$lib/components/Title.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 	const swipeConfig = {
 		autoplay: false,

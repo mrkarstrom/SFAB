@@ -1,8 +1,8 @@
 <script>
-	import Card1Countdown from '../../Card1Countdown.svelte';
-	import Card3 from '../../Card3.svelte';
-	import Card4 from '../../Card4.svelte';
-	import Card2 from '../../Card2.svelte';
+	import Card1Countdown from '$lib/components/carousels/header/Card1Countdown.svelte';
+	import Card3 from '$lib/components/carousels/header/Card3.svelte';
+	import Card4 from '$lib/components/carousels/header/Card4.svelte';
+	import Card2 from '$lib/components/carousels/header/Card2.svelte';
 	import { Swipe, SwipeItem } from 'svelte-swipe';
 
 	const swipeConfig = {
