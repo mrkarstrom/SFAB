@@ -1,6 +1,6 @@
 <script>
 	import LinkbarHero from '$lib/components/LinkbarHero.svelte';
-	import ArrowDown from '$lib/components/ArrowDown.svelte';
+	import ArrowDown from '$lib/components/arrows/ArrowDown.svelte';
 </script>
 
 <div

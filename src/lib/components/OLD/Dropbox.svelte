@@ -1,6 +1,6 @@
 <div
 	id="dropbox-icon"
-	class="relative w-16 h-16 border-2 rounded-full border-[var(--lineFillColor)]"
+	class="relative w-16 h-16 border-2 rounded-full border-[var(--lineFillColor)] hidden"
 >
 	<div
 		class="arrow-box absolute w-4 h-13 z-10 left-[50%] top-[40%] translate-x-[-50%] translate-y-[-100%] bg-white"
