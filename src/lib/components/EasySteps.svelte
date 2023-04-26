@@ -1,5 +1,5 @@
 <script>
-	import Title from './Title.svelte';
+	import Title from '$lib/components/Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 	import CountdownSmall from './CountdownSmall.svelte';

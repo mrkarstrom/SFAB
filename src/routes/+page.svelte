@@ -6,8 +6,8 @@
 	import EasySteps from '$lib/components/sections/EasySteps.svelte';
 	import ArrowBlock from '$lib/components/arrows/ArrowBlock.svelte';
 	import AppWindow from '$lib/components/sections/AppWindow.svelte';
-	import Discover from '$lib/components/Discover.svelte';
-	import Mission1 from '$lib/components/Mission1.svelte';
+	import Discover from '$lib/components/sections/Discover.svelte';
+	import Mission1 from '$lib/components/carousels/mission/Mission1.svelte';
 	import Subscribe1 from '$lib/components/Subscribe1.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import MissionSmall from '$lib/components/MissionSmall.svelte';
