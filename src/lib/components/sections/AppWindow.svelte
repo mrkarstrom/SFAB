@@ -1,5 +1,5 @@
 <script>
-	import Title from './Title.svelte';
+	import Title from '$lib/Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 
@@ -14,7 +14,10 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div id="wrapper" class="opacity-[var(--op)] w-full justify-center items-center flex">
+			<div
+				id="a-window-into-the-app"
+				class="opacity-[var(--op)] w-full justify-center items-center flex"
+			>
 				<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">
