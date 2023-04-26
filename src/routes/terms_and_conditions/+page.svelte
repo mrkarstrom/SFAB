@@ -1,6 +1,6 @@
 <script>
-	import Footer from '$lib/components/Footer.svelte';
-	import TopbarPlain from '$lib/components/TopbarPlain.svelte';
+	import Footer from '$lib/components/sections/Footer.svelte';
+	import TopbarPlain from '$lib/components/sections/TopbarPlain.svelte';
 </script>
 
 <TopbarPlain />
