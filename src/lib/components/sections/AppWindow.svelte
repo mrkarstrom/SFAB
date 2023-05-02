@@ -90,9 +90,14 @@
 								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">ONE Eye</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-gray-coat.png?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/woman-gray-coat.jpg?raw=true"
 								alt="One Eye"
 								class="hover:-translate-y-2 transition ease-in-out delay-150"
+							/>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-gray-coat.png?raw=true"
+								alt="One Eye"
+								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 md:block"
 							/>
 							<h5 class="pt-1.5">Stockholm, September 2023</h5>
 						</div>
