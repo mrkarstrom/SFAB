@@ -6,9 +6,12 @@
 <div
 	id="hero-backdrop"
 	class="grid relative w-full place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
-	lg:h-[1000px]"
-	style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"
+	bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/hero-couple.png?raw=true')]
+	lg:h-[1000px]
+	md:bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/hero-couple.png?raw=true')]"
 >
+	<!-- style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"	 -->
+
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
 	<LinkbarHero />
