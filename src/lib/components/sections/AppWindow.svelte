@@ -92,7 +92,7 @@
 							<img
 								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/woman-gray-coat.jpg?raw=true"
 								alt="One Eye"
-								class="hover:-translate-y-2 transition ease-in-out delay-150"
+								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
 							/>
 							<img
 								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-gray-coat.png?raw=true"
