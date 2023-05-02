@@ -49,7 +49,7 @@
 				<SwipeItem>
 					<img
 						id="swipe-1"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
 					/>
@@ -57,7 +57,7 @@
 				<SwipeItem>
 					<img
 						id="swipe-2"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card2-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
 					/>
@@ -65,7 +65,7 @@
 				<SwipeItem>
 					<img
 						id="swipe-3"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card3-image.jpg?raw=true"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card3-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
 					/>
@@ -73,7 +73,7 @@
 				<SwipeItem>
 					<img
 						id="swipe-4"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card4-image.jpeg?raw=true"
+						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card4-image.jpg?raw=true"
 						alt=""
 						class="rounded-box"
 					/>
