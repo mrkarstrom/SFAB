@@ -94,7 +94,7 @@
 									"
 									>
 										<img
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/perfume.svg?raw=true"
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/perfume.jpg?raw=true"
 											alt="Perfume"
 											class="object-cover aspect-square w-[400px] h-[400px]"
 										/>
@@ -124,7 +124,7 @@
 									"
 									>
 										<img
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/bag-watch-coat.svg?raw=true"
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/bag-watch-coat.jpg?raw=true"
 											alt="Bag, Watch, Coat"
 											class="w-full h-full"
 										/>
@@ -153,7 +153,7 @@
 									"
 									>
 										<img
-											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/gucci-bag-black.svg?raw=true'"
+											src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/gucci-bag-black.jpg?raw=true'"
 											alt="Gucci Bag"
 											class="w-full h-full"
 										/>

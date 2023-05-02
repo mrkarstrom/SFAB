@@ -149,7 +149,7 @@
 							<img
 								class="object-fit"
 								id="mobile-image"
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mobile-download2.jpeg?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/mobile-download2.jpeg?raw=true"
 								alt="Mobile Phone"
 							/>
 						</div>
@@ -160,7 +160,7 @@
 				<img
 					class="object-fit"
 					id="mobile-image"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/mobile-download2.jpeg?raw=true"
+					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/mobile-download2.jpg?raw=true"
 					alt="Mobile Phone"
 				/>
 			</div>
