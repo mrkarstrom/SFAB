@@ -6,7 +6,7 @@
 <div
 	id="hero-backdrop"
 	class="grid relative w-full place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
-	bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/hero-couple.png?raw=true')]
+	bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/hero-couple.jpg?raw=true')]
 	lg:h-[1000px]
 	md:bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/hero-couple.png?raw=true')]"
 >
