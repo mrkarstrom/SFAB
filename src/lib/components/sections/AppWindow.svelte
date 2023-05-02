@@ -54,9 +54,15 @@
 								</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/desert-man.png?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/desert-man.jpg?raw=true"
 								alt="Desert Man"
-								class="hover:-translate-y-2 transition ease-in-out delay-150"
+								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
+							/>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/desert-man.png?raw=true"
+								alt="Desert Man"
+								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
+								md:block"
 							/>
 							<h5 class="pt-1.5">Sweden, Spring 2023</h5>
 						</div>
@@ -67,9 +73,15 @@
 								</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/woman-white-rose.svg?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/woman-white-rose.jpg?raw=true"
 								alt="Woman Rose"
-								class="hover:-translate-y-2 transition ease-in-out delay-150"
+								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
+							/>
+							<img
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-white-rose.svg?raw=true"
+								alt="Woman Rose"
+								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
+								md:block"
 							/>
 							<h5 class="pt-1.5">Sweden, Summer 2023</h5>
 						</div>

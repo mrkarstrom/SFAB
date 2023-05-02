@@ -10,8 +10,6 @@
 	lg:h-[1000px]
 	md:bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/hero-couple.png?raw=true')]"
 >
-	<!-- style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/hero-couple.png?raw=true')"	 -->
-
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
 	<LinkbarHero />
