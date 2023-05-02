@@ -35,7 +35,7 @@
 			/>
 		</div>
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card2-image.jpg?raw=true"
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/Card2-image.jpg?raw=true"
 			alt=""
 		/>
 	</div>
