@@ -303,7 +303,7 @@
 						</div>
 						<figure>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/gucci-bag-black.svg?raw=true'"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/gucci-bag-black.svg?raw=true"
 								alt="Gucci Bag"
 							/>
 						</figure>
