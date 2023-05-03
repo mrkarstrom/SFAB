@@ -240,7 +240,7 @@
 						</div>
 						<figure>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/perfume.svg?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/perfume.jpg?raw=true"
 								alt="Perfume"
 							/>
 						</figure>
@@ -269,7 +269,7 @@
 						</div>
 						<figure>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/bag-watch-coat.svg?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/bag-watch-coat.jpg?raw=true"
 								alt="Bag, Watch, Coat"
 							/>
 						</figure>
@@ -303,7 +303,7 @@
 						</div>
 						<figure>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/gucci-bag-black.svg?raw=true"
+								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/gucci-bag-black.jpg?raw=true'"
 								alt="Gucci Bag"
 							/>
 						</figure>
