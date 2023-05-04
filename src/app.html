@@ -6,7 +6,10 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
-	<body class="flex items-center justify-center w-full h-full overflow-x-hidden mx-auto">
+	<body
+		oncontextmenu="return false"
+		class="flex items-center justify-center w-full h-full overflow-x-hidden mx-auto"
+	>
 		<div class="w-full h-full lg:max-w-[1440px] mx-auto">%sveltekit.body%</div>
 	</body>
 </html>
