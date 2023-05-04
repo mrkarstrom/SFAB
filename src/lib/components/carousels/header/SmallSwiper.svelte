@@ -20,7 +20,8 @@
 
 <div
 	id="block-container"
-	class="w-full h-[650px] hidden flex-col relative justify-end items-center sm:flex
+	class="w-full h-[650px] hidden flex-col relative justify-end items-center 
+			sm:flex
 			lg:hidden"
 >
 	<div
@@ -29,11 +30,11 @@
 	>
 		<div
 			id="swiper-container"
-			class="relative w-full h-full flex flex-start rounded-box overflow-hidden"
+			class="relative w-[700px] h-[700px] flex rounded-box overflow-hidden"
 		>
 			<button
 				id="left-arrow"
-				class="absolute left-10 top-1/2 -translate-y-1/2 z-10"
+				class="absolute w-12 h-12 left-10 top-1/2 -translate-y-1/2 z-10 hover:bg-slate-100 rounded-full"
 				on:click={prevSlide}
 			>
 				<!-- arrow-left-svgrepo-com -->
@@ -50,35 +51,27 @@
 			<Swipe {...swipeConfig} bind:this={SwipeComp}>
 				<!-- Slide 1 Start -->
 				<SwipeItem>
-					<img
+					<div
 						id="swipe-1"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpg?raw=true"
-						alt=""
-						class="h-full w-full"
+						class="w-[770px] h-[770px] bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
-					<img
+					<div
 						id="swipe-2"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card2-image.jpg?raw=true"
-						alt=""
-						class="h-full w-full"
+						class="w-[770px] h-[770px] bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card2-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
-					<img
-						id="swipe-3"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card3-image.jpg?raw=true"
-						alt=""
-						class="h-full w-full"
+					<div
+						id="swipe-2"
+						class="w-[770px] h-[770px] bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card3-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
-					<img
-						id="swipe-4"
-						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card4-image.jpg?raw=true"
-						alt=""
-						class="h-full w-full"
+					<div
+						id="swipe-2"
+						class="w-[770px] h-[770px] bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card4-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 			</Swipe>

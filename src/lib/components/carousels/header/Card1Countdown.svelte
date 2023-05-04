@@ -32,7 +32,7 @@
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpeg?raw=true"
+			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpg?raw=true"
 			alt=""
 			class="block md:hidden"
 		/>
