@@ -33,13 +33,8 @@
 		<div
 			id="discover-frame-flying"
 			in:fly={{ y: 500, duration: 1500 }}
-			class="flex items-center justify-center w-full h-full px-24"
+			class="flex items-center justify-center w-full h-full pl-8"
 		>
-			<!-- <div
-				id="discover"
-				class=" flex flex-col items-center justify-center  border-green-700  w-full h-full px-24
-												"
-			> -->
 			<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
 				<div id="discover-text" class="w-full">
 					<Title>

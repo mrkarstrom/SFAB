@@ -21,13 +21,15 @@
 		<h2 class="pb-6 mt-8">NEWSLETTER</h2>
 		<form action="" class="flex flex-wrap flex-row justify-center items-center max-w-96">
 			<input
-				class="h-20 w-full pl-8 text-2xl shrink basis-2/3 rounded-lg bg-secondary border m-0"
+				class="h-20 w-full pl-8 text-2xl shrink  rounded-lg bg-secondary border m-0 sm:basis-2/3"
 				type="text"
 				name="inputName"
 				placeholder="your@email.com"
 				id="inputName"
 			/>
-			<button class="basis-1/3 bg-accent px-6 w-full h-20 text-3xl rounded-lg m-0">SIGN UP</button>
+			<button class="bg-accent px-6 w-full h-20 text-3xl rounded-lg m-0 sm:basis-1/3"
+				>SIGN UP</button
+			>
 		</form>
 	</div>
 	<h5 class="pb-4 text-2xl font-[400] w-full px-10 mt-6 mb-14">
