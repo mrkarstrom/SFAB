@@ -27,7 +27,10 @@
 		id="swiper-and-countdown-container"
 		class="w-[90vw] min-h-[820px] -translate-y-[90px] h-[820px] flex flex-col items-center justify-center absolute drop-shadow-lg z-20"
 	>
-		<div id="swiper-container" class="relative w-full flex flex-start h-full">
+		<div
+			id="swiper-container"
+			class="relative w-full h-full flex flex-start rounded-box overflow-hidden"
+		>
 			<button
 				id="left-arrow"
 				class="absolute left-10 top-1/2 -translate-y-1/2 z-10"
@@ -51,7 +54,7 @@
 						id="swipe-1"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card1-image.jpg?raw=true"
 						alt=""
-						class="rounded-box"
+						class="h-full w-full"
 					/>
 				</SwipeItem>
 				<SwipeItem>
@@ -59,7 +62,7 @@
 						id="swipe-2"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card2-image.jpg?raw=true"
 						alt=""
-						class="rounded-box"
+						class="h-full w-full"
 					/>
 				</SwipeItem>
 				<SwipeItem>
@@ -67,7 +70,7 @@
 						id="swipe-3"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card3-image.jpg?raw=true"
 						alt=""
-						class="rounded-box"
+						class="h-full w-full"
 					/>
 				</SwipeItem>
 				<SwipeItem>
@@ -75,10 +78,11 @@
 						id="swipe-4"
 						src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/Card4-image.jpg?raw=true"
 						alt=""
-						class="rounded-box"
+						class="h-full w-full"
 					/>
 				</SwipeItem>
 			</Swipe>
+
 			<button
 				id="right-arrow"
 				class="absolute top-1/2 -translate-y-1/2 right-10 z-20"
