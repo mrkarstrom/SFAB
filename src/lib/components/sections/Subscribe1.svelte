@@ -81,13 +81,19 @@
 			</a>
 		</div>
 	</section>
-	<div id="download-app-right" class="overflow-hidden h-full">
-		<img
-			src="https://yesweb.se/sfab/img/mockup/download-app-footer.svg"
-			class="h-full w-auto"
-			alt="Download App"
-		/>
-	</div>
+		<div id="download-app-figure" class="card h-full w-1/5 bg-secondary drop-shadow-md mr-2">
+			<figure class="w-full h-full -rotate-90 flex flex-col rounded-box items-center justify-center">
+				<p class="text-xl p-4 ">Download App</p>
+				<svg
+					fill="#000000"
+					width="40px"
+					height="40px"
+					viewBox="0 0 20 20"
+					xmlns="http://www.w3.org/2000/svg"><path d="M5 6h10l-5 9-5-9z" /></svg
+				>
+				<p class="font-['Steelfish'] text-[6em] md:text-8xl uppercase pb-2">Slowfashion</p>
+			</figure>
+		</div>
 </div>
 
 <style>
