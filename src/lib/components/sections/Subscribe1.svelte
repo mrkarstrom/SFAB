@@ -81,7 +81,7 @@
 			</a>
 		</div>
 	</section>
-		<div id="download-app-figure" class="card h-full w-[250px] bg-secondary drop-shadow-md mr-2">
+		<div id="download-app-figure" class="card rounded-md h-full w-[250px] bg-secondary drop-shadow-md mr-2">
 			<figure class="w-full h-full -rotate-90 flex flex-col rounded-box items-center justify-center py-8">
 				<p class="text-xl p-4 ">Download App</p>
 				<svg

@@ -200,12 +200,8 @@
 				<!-- Large view starts here -->
 				<div
 					id="three-images-container"
-					class="justify-center items-center h-full w-full max-w-[1300px] pt-8 hidden
-													lg:grid
-													lg:gap-4
-													lg:grid-rows-1
-													lg:grid-cols-3
-													"
+					class="hidden h-full w-full max-w-[1300px] pt-6 pr-6 gap-4 grid-rows-1 grid-cols-3
+							lg:grid"
 				>
 					<div
 						id="image-box1"
