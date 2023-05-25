@@ -1,10 +1,14 @@
 {
     "headerTitle": {
-        "ENG":"We are the Marketplace",
-        "SV": "Vi är Marknadens"
+        "ENG":"We Are The Marketplace For Pre-Owned High Quality Fashion",
+        "SV": "Vi är Framtiden inom Cirkulär Modeindustri"
         },
     "contentMain": {
         "ENG":"This is the Main content",
         "SV": "Huvudinnehåll"
+        },
+    "slogan": {
+        "ENG":"Be the change",
+        "SV": "Var förändringen"
         }
 }

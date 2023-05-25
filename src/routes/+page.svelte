@@ -15,16 +15,10 @@
 	
 	import languages from '$lib/lang/languages.json';
 	import { currentLanguage } from '$lib/stores/langStore.js'
-	// import { writable } from "svelte/store";
-	//  // Set the default language
-  	// export let defaultLanguage = 'ENG';
-  	// // Create a writable store for the current language
-  	// export const currentLanguage = writable(defaultLanguage);
-
 </script>
 		
 <TopbarPlain title={languages.headerTitle[$currentLanguage]}/>
-<Hero />
+<Hero slogan={languages.slogan[$currentLanguage]}/>
 <DownloadApp />
 <SmallSwiper />
 <ArrowBlock --blockHeight="14rem" />

@@ -1,6 +1,7 @@
 <script>
 	import LinkbarHero from '$lib/components/LinkbarHero.svelte';
 	import ArrowDown from '$lib/components/arrows/ArrowDown.svelte';
+	export let slogan
 </script>
 
 <div
@@ -22,7 +23,8 @@
 			class="mb-1 mt-14 text-white uppercase text-center whitespace-normal w-52 leading-[45px] text-[35px] 
 			lg:text-xl"
 		>
-			Be the change
+		{slogan}	
+		<!-- Be the change -->
 		</h3>
 		<h1
 			class="mb-24 text-white font-['Steelfish'] text-7xl sm:text-8xl uppercase 
