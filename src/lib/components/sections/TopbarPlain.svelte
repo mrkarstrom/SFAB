@@ -1,19 +1,18 @@
 <script>
-	export let currentLang = 'EN';
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	export let title;
 </script>
 
 <div class="flex relative h-[40px] bg-secondary w-full items-center justify-center">
 	<div />
 	<p class="font-normal text-sm cursor-default ">
-		We Are The Marketplace for Pre-Owned High Quality Fashion
+		{title}
 	</p>
 
 	<div class="absolute flex right-0 items-center mr-8 justify-center cursor-pointer">
-		{currentLang}
-		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/chevron-down.svg?raw=true"
-			alt="Chevron-down"
-			class="w-4"
-		/>
+		<select name="lang-switch" id="lang-switch" class="bg-secondary border-none focus:border-none" bind:value={$currentLanguage}>
+			<option value="ENG">ENG</option>
+			<option value="SV">SV</option>
+		</select>
 	</div>
 </div>

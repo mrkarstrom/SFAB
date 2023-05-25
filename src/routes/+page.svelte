@@ -12,9 +12,18 @@
 	import Footer from '$lib/components/sections/Footer.svelte';
 	import MissionSmall from '$lib/components/carousels/mission/MissionSmall.svelte';
 	import SubscribeSmall from '$lib/components/sections/SubscribeSmall.svelte';
-</script>
+	
+	import languages from '$lib/lang/languages.json';
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	// import { writable } from "svelte/store";
+	//  // Set the default language
+  	// export let defaultLanguage = 'ENG';
+  	// // Create a writable store for the current language
+  	// export const currentLanguage = writable(defaultLanguage);
 
-<TopbarPlain />
+</script>
+		
+<TopbarPlain title={languages.headerTitle[$currentLanguage]}/>
 <Hero />
 <DownloadApp />
 <SmallSwiper />
