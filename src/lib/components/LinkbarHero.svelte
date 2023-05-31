@@ -48,7 +48,7 @@
 			class="flex scale-110 animate-pulse two items-center justify-center p-[10px] border border-white rounded-full 
 				lg:scale-100"
 		>
-			<a href="https://instagram.com">
+			<a href="https://instagram.com/slowfashion_official">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="white"

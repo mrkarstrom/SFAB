@@ -37,7 +37,7 @@
 		</div>
 		<div id="links" class="flex items-center space-x-4 max-w-fit flex-1">
 			<a
-				href="#"
+				href="https://www.linkedin.com/company/slowfashionsweden/"
 				id="linked-in-link"
 				class="animate-pulse one rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
@@ -58,7 +58,7 @@
 				>
 			</a>
 			<a
-				href="#"
+				href="https://instagram.com/slowfashion_official"
 				id="twitter-link"
 				class="animate-pulse two rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
@@ -69,7 +69,7 @@
 				>
 			</a>
 			<a
-				href="#"
+				href="https://instagram.com/slowfashion_official"
 				id="instagram-link"
 				class="animate-pulse three rounded-full flex items-center justify-center bg-secondary h-16 w-16"
 			>
