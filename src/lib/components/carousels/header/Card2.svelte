@@ -1,3 +1,8 @@
+<script>
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	import languages from '$lib/lang/languages.json';
+</script>
+
 <div
 	id="container-box2"
 	class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center "
@@ -8,14 +13,14 @@
 				lg:pt-24 lg:pb-6 lg:rounded-lg"
 	>
 		<h6 class="text-center w-32 whitespace-wrap flex">
-			Give someone the opportunity to love what you don't use anymore.
+			{languages.downloadApp.card2.title[$currentLanguage]}
 		</h6>
 		<button
 			id="join-button"
 			class="has-pointer-events bg-accent flex items-center justify-center h-10 w-60 rounded-md uppercase text-primary
 				hover:bg-black hover:text-white transition duration-300 hover:ease-in-out"
 		>
-			<h5>Join Slowfashion</h5>
+			<h5>{languages.downloadApp.card2.button[$currentLanguage]}</h5>
 		</button>
 	</div>
 	<div class="relative h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">

@@ -11,22 +11,38 @@
         "ENG":"Be the change",
         "SV": "Var förändringen"
         },
-    "countdown": {
-        "ENG":"Countdown to launch",
-        "SV": "Lansering"
-        },
-    "countdownDays": {
-        "ENG":"DAYS",
-        "SV": "DAGAR"
-        },
-    "countdownHours": {
-        "ENG":"HOURS",
-        "SV": "TIMMAR"
-        },
-    "countdownMinutes": {
-        "ENG":"MINUTES",
-        "SV": "MINUTER"
-        },
+    "downloadApp": 
+        {
+            "card1": {
+                "countdown": {
+                    "ENG":"Countdown to launch",
+                    "SV": "Nedräkning till Lansering"
+                    },
+                "countdownDays": {
+                    "ENG":"DAYS",
+                    "SV": "DAGAR"
+                    },
+                "countdownHours": {
+                    "ENG":"HOURS",
+                    "SV": "TIMMAR"
+                    },
+                "countdownMinutes": {
+                    "ENG":"MINUTES",
+                    "SV": "MINUTER"
+                    }
+            },
+            "card2": {
+                "title": {
+                    "ENG":"Give someone the opportunity to love what you don't use anymore.",
+                    "SV":"Ge någon annan möjligheten att ta hand om det du älskar."
+                },
+                  "button": {
+                    "ENG":"Join Slowfashion",
+                    "SV":"Gå med Slowfashion"
+                }
+            }
+        }
+    ,
     "scroll": {
         "ENG":"Scroll down",
         "SV": "Fortsätt"
