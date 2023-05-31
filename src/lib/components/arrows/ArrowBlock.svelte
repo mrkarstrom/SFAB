@@ -1,3 +1,8 @@
+<script>
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	import languages from '$lib/lang/languages.json';
+</script>
+
 <div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-inherit z-100 ">
 	<div
 		id="arrow-down"
@@ -17,7 +22,7 @@
 			/>
 		</svg>
 	</div>
-	<p class="pl-5 text-md">scroll down</p>
+	<p class="pl-5 text-md">{languages.scroll[$currentLanguage]}</p>
 </div>
 
 <style>

@@ -26,6 +26,10 @@
     "countdownMinutes": {
         "ENG":"MINUTES",
         "SV": "MINUTER"
+        },
+    "scroll": {
+        "ENG":"Scroll down",
+        "SV": "Fortsätt"
         }
         
 }
