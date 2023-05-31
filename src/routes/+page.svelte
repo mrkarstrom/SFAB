@@ -12,9 +12,6 @@
 	import Footer from '$lib/components/sections/Footer.svelte';
 	import MissionSmall from '$lib/components/carousels/mission/MissionSmall.svelte';
 	import SubscribeSmall from '$lib/components/sections/SubscribeSmall.svelte';
-	
-	import languages from '$lib/lang/languages.json';
-	import { currentLanguage } from '$lib/stores/langStore.js'
 </script>
 		
 <TopbarPlain />
