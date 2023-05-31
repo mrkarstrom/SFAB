@@ -11,7 +11,7 @@
 
 
 	<div class="absolute hidden right-0 items-center mr-8 justify-center cursor-pointer md:flex">
-		<select name="lang-switch" id="lang-switch" class="bg-inherit border-none outline-none" bind:value={$currentLanguage}>
+		<select name="lang-switch" id="lang-switch" class="w-full cursor-pointer font-normal max-w-xs bg-inherit border-none outline-none focus:outline-none" bind:value={$currentLanguage}>
 			<option value="ENG">ENG</option>
 			<option value="SV" >SV</option>
 		</select>
