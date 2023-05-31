@@ -17,8 +17,8 @@
 	import { currentLanguage } from '$lib/stores/langStore.js'
 </script>
 		
-<TopbarPlain title={languages.headerTitle[$currentLanguage]}/>
-<Hero slogan={languages.slogan[$currentLanguage]}/>
+<TopbarPlain />
+<Hero />
 <DownloadApp />
 <SmallSwiper />
 <ArrowBlock --blockHeight="14rem" />

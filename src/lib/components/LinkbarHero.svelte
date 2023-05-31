@@ -23,7 +23,7 @@
 				lg:scale-100
 				"
 		>
-			<a href="https://linkedin.com">
+			<a href="https://www.linkedin.com/company/slowfashionsweden/">
 				<svg
 					width="24px"
 					height="24px"
