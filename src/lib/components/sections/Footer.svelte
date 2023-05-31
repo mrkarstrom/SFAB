@@ -1,3 +1,8 @@
+<script>
+	const d = new Date()
+	let currentYear = d.getFullYear()
+</script>
+
 <input type="checkbox" id="my-modal" class="modal-toggle" />
 <div class="modal">
 	<div class="modal-box relative max-w-[85%] md:max-w-[70%]">
@@ -49,5 +54,5 @@
 <div
 	class="flex flex-col items-center justify-center w-full b-0 h-[60px] lg:h-[35px] uppercase bg-[#edc692] text-gray-800"
 >
-	&copy;Slowfashion 2023
+	&copy;Slowfashion {currentYear}
 </div>
