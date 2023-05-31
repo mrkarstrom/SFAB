@@ -10,5 +10,22 @@
     "slogan": {
         "ENG":"Be the change",
         "SV": "Var förändringen"
+        },
+    "countdown": {
+        "ENG":"Countdown to launch",
+        "SV": "Lansering"
+        },
+    "countdownDays": {
+        "ENG":"DAYS",
+        "SV": "DAGAR"
+        },
+    "countdownHours": {
+        "ENG":"HOURS",
+        "SV": "TIMMAR"
+        },
+    "countdownMinutes": {
+        "ENG":"MINUTES",
+        "SV": "MINUTER"
         }
+        
 }

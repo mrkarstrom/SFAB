@@ -1,4 +1,6 @@
 <script>
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	import languages from '$lib/lang/languages.json';
 	import { onMount } from 'svelte';
 	let time = new Date();
 	let d10;
@@ -36,7 +38,7 @@
 
 <div class="w-full h-52 flex flex-col items-center justify-center">
 	<p class="text-[2.3rem] whitespace-normal font-light text-center leading-none ">
-		Countdown to launch
+		{languages.countdown[$currentLanguage]}
 	</p>
 	<div class="grid grid-cols-3 grid-rows-1 gap-x-2 pb-10 w-full pl-4 pr-3 h-full">
 		<div class="flex flex-col items-center">
@@ -52,7 +54,7 @@
 					{d1}
 				</p>
 			</div>
-			<small>DAYS</small>
+			<small>{languages.countdownDays[$currentLanguage]}</small>
 		</div>
 		<div class="flex flex-col items-center">
 			<div class="flex items-center space-x-1">
@@ -67,7 +69,7 @@
 					{h1}
 				</p>
 			</div>
-			<small>HOURS</small>
+			<small>{languages.countdownHours[$currentLanguage]}</small>
 		</div>
 		<div class="flex flex-col items-center">
 			<div class="flex items-center space-x-1">
@@ -82,7 +84,7 @@
 					{m1}
 				</p>
 			</div>
-			<small>MINUTES</small>
+			<small>{languages.countdownMinutes[$currentLanguage]}</small>
 		</div>
 	</div>
 </div>
