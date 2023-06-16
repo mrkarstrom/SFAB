@@ -53,25 +53,25 @@
 				<SwipeItem>
 					<div
 						id="swipe-1"
-						class="w-[770px] h-[770px] bg-[url('images/small/active/Card1-image.jpg?raw=true')] bg-contain"
+						class="w-[770px] h-[770px] bg-[url('/images/small/active/Card1-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
 					<div
 						id="swipe-2"
-						class="w-[770px] h-[770px] bg-[url('images/small/active/Card2-image.jpg?raw=true')] bg-contain"
+						class="w-[770px] h-[770px] bg-[url('/images/small/active/Card2-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
 					<div
 						id="swipe-2"
-						class="w-[770px] h-[770px] bg-[url('images/small/active/Card3-image.jpg?raw=true')] bg-contain"
+						class="w-[770px] h-[770px] bg-[url('/images/small/active/Card3-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 				<SwipeItem>
 					<div
 						id="swipe-2"
-						class="w-[770px] h-[770px] bg-[url('images/small/active/Card4-image.jpg?raw=true')] bg-contain"
+						class="w-[770px] h-[770px] bg-[url('/images/small/active/Card4-image.jpg?raw=true')] bg-contain"
 					/>
 				</SwipeItem>
 			</Swipe>
