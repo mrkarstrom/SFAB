@@ -8,9 +8,9 @@
 <div
 	id="hero-backdrop"
 	class="grid relative w-full place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
-	bg-[url('images/small/active/hero-couple.jpg?raw=true')]
+	bg-[url('./images/small/active/hero-couple.jpg?raw=true')]
 	lg:h-[1000px]
-	md:bg-[url('images/large/active/hero-couple.png?raw=true')]"
+	md:bg-[url('./images/large/active/hero-couple.png?raw=true')]"
 >
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
