@@ -1,5 +1,5 @@
 <script>
-	import { currentLanguage } from '$lib/stores/langStore.js'
+	import { currentLanguage } from '$lib/stores/langStore.js';
 	import languages from '$lib/lang/languages.json';
 	import { onMount } from 'svelte';
 	let time = new Date();
@@ -10,7 +10,7 @@
 	let m10;
 	let m1;
 
-	const goalDate = new Date('July 04 2023 00:00:00');
+	const goalDate = new Date('August 09 2023 08:20:00');
 
 	$: diff = goalDate - time;
 	$: d = Math.floor(diff / 1000 / 60 / 60 / 24);

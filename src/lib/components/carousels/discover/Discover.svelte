@@ -60,7 +60,7 @@
 						>
 							<button
 								id="left-arrow"
-								class="absolute -left-20 top-1/2 -translate-y-1/2 z-10"
+								class="absolute left-0 md:-left-20 top-1/2 -translate-y-1/2 z-10"
 								on:click={prevSlide}
 							>
 								<!-- arrow-left-svgrepo-com -->
@@ -175,7 +175,7 @@
 							</Swipe>
 							<button
 								id="right-arrow"
-								class="absolute top-1/2 -translate-y-1/2 -right-20 z-20"
+								class="absolute top-1/2 -translate-y-1/2 right-0 md:-right-20 z-20"
 								on:click={nextSlide}
 							>
 								<svg
@@ -230,10 +230,7 @@
 							</p>
 						</div>
 						<figure>
-							<img
-								src="images/small/active/perfume.jpg?raw=true"
-								alt="Perfume"
-							/>
+							<img src="images/small/active/perfume.jpg?raw=true" alt="Perfume" />
 						</figure>
 					</div>
 					<div
@@ -259,10 +256,7 @@
 							<p class="w-full font-thin text-xs text-left">Express your elegance and modernism</p>
 						</div>
 						<figure>
-							<img
-								src="images/small/active/bag-watch-coat.jpg?raw=true"
-								alt="Bag, Watch, Coat"
-							/>
+							<img src="images/small/active/bag-watch-coat.jpg?raw=true" alt="Bag, Watch, Coat" />
 						</figure>
 					</div>
 					<div
@@ -293,10 +287,7 @@
 							</p>
 						</div>
 						<figure>
-							<img
-								src="images/small/active/gucci-bag-black.jpg?raw=true'"
-								alt="Gucci Bag"
-							/>
+							<img src="images/small/active/gucci-bag-black.jpg?raw=true'" alt="Gucci Bag" />
 						</figure>
 					</div>
 				</div>
