@@ -34,7 +34,7 @@
 		>
 			<button
 				id="left-arrow"
-				class="absolute w-12 h-12 left-10 top-1/2 -translate-y-1/2 z-10 hover:bg-slate-100 rounded-full"
+				class="absolute w-10 h-10 left-0 top-1/2 -translate-y-1/2 z-10 bg-white bg-opacity-40 rounded"
 				on:click={prevSlide}
 			>
 				<!-- arrow-left-svgrepo-com -->
@@ -78,7 +78,7 @@
 
 			<button
 				id="right-arrow"
-				class="absolute top-1/2 -translate-y-1/2 right-10 z-20"
+				class="absolute top-1/2 -translate-y-1/2 bg-white bg-opacity-40 rounded right-0 z-10"
 				on:click={nextSlide}
 			>
 				<svg
