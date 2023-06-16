@@ -60,8 +60,9 @@
 						>
 							<button
 								id="left-arrow"
-								class="absolute left-0 top-1/2 -translate-y-1/2 z-10
-										md:-left-20"
+								class="absolute rounded bg-opacity-40 bg-white left-0 top-1/2 -translate-y-1/2 z-10
+										md:-left-20
+										md:bg-inherit"
 								on:click={prevSlide}
 							>
 								<!-- arrow-left-svgrepo-com -->
@@ -176,8 +177,9 @@
 							</Swipe>
 							<button
 								id="right-arrow"
-								class="absolute top-1/2 -translate-y-1/2 right-0 z-20
-										md:-right-20"
+								class="absolute rounded bg-opacity-40 bg-white top-1/2 -translate-y-1/2 right-0 z-20
+										md:-right-20
+										md:bg-inherit"
 								on:click={nextSlide}
 							>
 								<svg
