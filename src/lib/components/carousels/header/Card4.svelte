@@ -15,9 +15,6 @@
 		</button>
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
-		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/Card4-image.jpeg?raw=true"
-			alt=""
-		/>
+		<img src="images/large/active/Card4-image.jpeg?raw=true" alt="" />
 	</div>
 </div>

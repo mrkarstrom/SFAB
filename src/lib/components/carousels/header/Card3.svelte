@@ -26,21 +26,18 @@
 				<img
 					id="spinning-circle"
 					class="animate-spin"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/Card3-spinner.png?raw=true"
+					src="images/large/active/Card3-spinner.png?raw=true"
 					width="110px"
 					alt=""
 				/>
 				<img
 					class="z-10 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-icon-card3.png?raw=true"
+					src="images/download-box-icon-card3.png?raw=true"
 					width="40px"
 					alt=""
 				/>
 			</div>
-			<img
-				src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/Card3-image.jpg?raw=true"
-				alt=""
-			/>
+			<img src="images/large/active/Card3-image.jpg?raw=true" alt="" />
 		</div>
 	</div>
 </div>

@@ -39,7 +39,7 @@
 							<div
 								id="left-side1"
 								class="w-full bg-cover bg-center h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-chair.png?raw=true')"
+								style="background-image: url('images/large/active/woman-chair.png?raw=true')"
 							/>
 							<div
 								id="right-side1"
@@ -172,7 +172,7 @@
 							<div
 								id="right-side2"
 								class="w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/hand-hold-on-horses.jpg?raw=true')"
+								style="background-image: url('images/small/active/hand-hold-on-horses.jpg?raw=true')"
 							/>
 						</div>
 					</SwipeItem>
@@ -181,7 +181,7 @@
 							<div
 								id="left-side3"
 								class="w-full bg-cover bg-center lg:h-full"
-								style="background-image: url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/man-glass.jpg?raw=true')"
+								style="background-image: url('images/small/active/man-glass.jpg?raw=true')"
 							/>
 							<div
 								id="right-side3"

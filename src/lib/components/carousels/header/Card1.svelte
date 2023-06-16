@@ -11,13 +11,13 @@
 				<img
 					id="rotating-circle"
 					class="animate-spin"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-app-text-svg.svg?raw=true"
+					src="images/download-app-text-svg.svg?raw=true"
 					width="120px"
 					alt=""
 				/>
 				<img
 					class="z-10 absolute"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/download-box-icon-svg.svg?raw=true"
+					src="images/download-box-icon-svg.svg?raw=true"
 					width="40px"
 					alt=""
 				/>
@@ -32,7 +32,7 @@
 	</div>
 	<div class="h-full w-full col-start-2 col-span-2 items-center overflow-y-hidden">
 		<img
-			src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/Card1-image.jpeg?raw=true"
+			src="images/Card1-image.jpeg?raw=true"
 			alt=""
 		/>
 	</div>

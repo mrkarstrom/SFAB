@@ -54,12 +54,12 @@
 								</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/desert-man.jpg?raw=true"
+								src="images/small/active/desert-man.jpg?raw=true"
 								alt="Desert Man"
 								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
 							/>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/desert-man.png?raw=true"
+								src="images/large/active/desert-man.png?raw=true"
 								alt="Desert Man"
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
 								md:block"
@@ -73,12 +73,12 @@
 								</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/woman-white-rose.jpg?raw=true"
+								src="images/small/active/woman-white-rose.jpg?raw=true"
 								alt="Woman Rose"
 								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
 							/>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-white-rose.svg?raw=true"
+								src="images/large/active/woman-white-rose.svg?raw=true"
 								alt="Woman Rose"
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
 								md:block"
@@ -90,12 +90,12 @@
 								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">ONE Eye</h4>
 							</div>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/woman-gray-coat.jpg?raw=true"
+								src="images/small/active/woman-gray-coat.jpg?raw=true"
 								alt="One Eye"
 								class="block hover:-translate-y-2 transition ease-in-out delay-150 md:hidden"
 							/>
 							<img
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-gray-coat.png?raw=true"
+								src="images/large/active/woman-gray-coat.png?raw=true"
 								alt="One Eye"
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 md:block"
 							/>
@@ -113,7 +113,7 @@
 									<h4 class="w-60 whitespace-normal pb-1 ">DANCING in Dolce & Gabbana</h4>
 								</div>
 								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/desert-man.png?raw=true"
+									src="images/large/active/desert-man.png?raw=true"
 									alt="Desert Man"
 									class="hover:-translate-y-2 transition ease-in-out delay-150"
 								/>
@@ -125,7 +125,7 @@
 									<h4 class="pb-1">WEEK Fashion</h4>
 								</div>
 								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-white-rose.svg?raw=true"
+									src="images/large/active/woman-white-rose.svg?raw=true"
 									alt="Woman Rose"
 									class="hover:-translate-y-2 transition ease-in-out delay-150"
 								/>
@@ -140,7 +140,7 @@
 										<h4 class="pb-1">STYLE & Fashion</h4>
 									</div>
 									<img
-										src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/face-cover-reading.jpg?raw=true"
+										src="images/large/active/face-cover-reading.jpg?raw=true"
 										alt="Cover Reading"
 										class="hover:-translate-y-2 transition ease-in-out delay-150"
 									/>
@@ -154,7 +154,7 @@
 										<h4 class="pb-1">ONE Eye</h4>
 									</div>
 									<img
-										src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/woman-gray-coat.png?raw=true"
+										src="images/large/active/woman-gray-coat.png?raw=true"
 										alt="One Eye"
 										class="hover:-translate-y-2 transition ease-in-out delay-150"
 									/>

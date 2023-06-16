@@ -129,14 +129,14 @@
 							</button>
 							<div id="scan-me" class="flex items-center justify-between w-[230px]">
 								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/QR.png?raw=true"
+									src="images/QR.png?raw=true"
 									alt="QR-code"
 									style="object-fill"
 									id="QR-code"
 									class="w-20"
 								/>
 								<img
-									src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/scan-me.png?raw=true"
+									src="images/scan-me.png?raw=true"
 									alt="Scan-me"
 									style="object-fill"
 									id="scan-me-img"
@@ -149,7 +149,7 @@
 							<img
 								class="object-fit"
 								id="mobile-image"
-								src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/mobile-download2.jpeg?raw=true"
+								src="images/large/active/mobile-download2.jpeg?raw=true"
 								alt="Mobile Phone"
 							/>
 						</div>
@@ -160,7 +160,7 @@
 				<img
 					class="object-fit"
 					id="mobile-image"
-					src="https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/mobile-download2.jpg?raw=true"
+					src="images/small/active/mobile-download2.jpg?raw=true"
 					alt="Mobile Phone"
 				/>
 			</div>

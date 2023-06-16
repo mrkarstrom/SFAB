@@ -1,16 +1,16 @@
 <script>
 	import LinkbarHero from '$lib/components/LinkbarHero.svelte';
 	import ArrowDown from '$lib/components/arrows/ArrowDown.svelte';
-	import { currentLanguage } from '$lib/stores/langStore.js'
+	import { currentLanguage } from '$lib/stores/langStore.js';
 	import languages from '$lib/lang/languages.json';
 </script>
 
 <div
 	id="hero-backdrop"
 	class="grid relative w-full place-items-center bg-top bg-cover bg-no-repeat h-[650px] 
-	bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/small/active/hero-couple.jpg?raw=true')]
+	bg-[url('images/small/active/hero-couple.jpg?raw=true')]
 	lg:h-[1000px]
-	md:bg-[url('https://github.com/mrkarstrom/sfab/blob/main/src/lib/images/large/active/hero-couple.png?raw=true')]"
+	md:bg-[url('images/large/active/hero-couple.png?raw=true')]"
 >
 	<!-- flex flex-col items-center justify-start w-[1440px] bg-no-repeat bg-cover bg-center m-0 pt-48 -->
 
@@ -24,8 +24,8 @@
 			class="mb-1 mt-14 text-white uppercase text-center whitespace-normal w-52 leading-[45px] text-[35px] 
 			lg:text-xl"
 		>
-		<!-- Be the change -->
-		{languages.slogan[$currentLanguage]}	
+			<!-- Be the change -->
+			{languages.slogan[$currentLanguage]}
 		</h3>
 		<h1
 			class="mb-24 text-white font-['Steelfish'] text-7xl sm:text-8xl uppercase 
