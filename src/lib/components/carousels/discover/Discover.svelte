@@ -50,7 +50,7 @@
 
 				<div
 					id="block-container1"
-					class="w-[400px] h-[400px] flex flex-col justify-end items-center pt-8
+					class="w-[400px] h-[400px] flex flex-col justify-center items-center pt-8
 						lg:hidden"
 				>
 					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center">
@@ -60,7 +60,8 @@
 						>
 							<button
 								id="left-arrow"
-								class="absolute left-0 md:-left-20 top-1/2 -translate-y-1/2 z-10"
+								class="absolute left-0 top-1/2 -translate-y-1/2 z-10
+										md:-left-20"
 								on:click={prevSlide}
 							>
 								<!-- arrow-left-svgrepo-com -->
@@ -175,7 +176,8 @@
 							</Swipe>
 							<button
 								id="right-arrow"
-								class="absolute top-1/2 -translate-y-1/2 right-0 md:-right-20 z-20"
+								class="absolute top-1/2 -translate-y-1/2 right-0 z-20
+										md:-right-20"
 								on:click={nextSlide}
 							>
 								<svg
