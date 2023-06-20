@@ -33,9 +33,9 @@
 		<div
 			id="discover-frame-flying"
 			in:fly={{ y: 500, duration: 1500 }}
-			class="flex items-center justify-center w-full h-full pl-8"
+			class="flex items-center justify-center w-full h-full md:pl-8"
 		>
-			<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-2">
+			<div id="discover-box" class="flex flex-col items-center justify-center w-full h-full px-8">
 				<div id="discover-text" class="w-full">
 					<Title>
 						<p class="text-4xl font-normal text-black">DISCOVER in the app</p>
@@ -50,7 +50,7 @@
 
 				<div
 					id="block-container1"
-					class="w-[400px] h-[400px] flex flex-col justify-center items-center pt-8
+					class="w-[400px] h-[400px] flex flex-col justify-center items-center mt-8
 						lg:hidden"
 				>
 					<div id="swiper" class="w-full h-full flex flex-col items-center justify-center">
