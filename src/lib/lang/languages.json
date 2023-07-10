@@ -1,50 +1,50 @@
 {
     "headerTitle": {
-        "ENG":"We Are The Marketplace For Pre-Owned High Quality Fashion",
+        "EN":"We Are The Marketplace For Pre-Owned High Quality Fashion",
         "SV": "Vi är Framtiden inom Cirkulär Modeindustri"
         },
     "contentMain": {
-        "ENG":"This is the Main content",
+        "EN":"This is the Main content",
         "SV": "Huvudinnehåll"
         },
     "slogan": {
-        "ENG":"Be the change",
+        "EN":"Be the change",
         "SV": "Var förändringen"
         },
     "downloadApp": 
         {
             "card1": {
                 "countdown": {
-                    "ENG":"Countdown to launch",
+                    "EN":"Countdown to launch",
                     "SV": "Nedräkning till Lansering"
                     },
                 "countdownDays": {
-                    "ENG":"DAYS",
+                    "EN":"DAYS",
                     "SV": "DAGAR"
                     },
                 "countdownHours": {
-                    "ENG":"HOURS",
+                    "EN":"HOURS",
                     "SV": "TIMMAR"
                     },
                 "countdownMinutes": {
-                    "ENG":"MINUTES",
+                    "EN":"MINUTES",
                     "SV": "MINUTER"
                     }
             },
             "card2": {
                 "title": {
-                    "ENG":"Give someone the opportunity to love what you don't use anymore.",
+                    "EN":"Give someone the opportunity to love what you don't use anymore.",
                     "SV":"Ge någon annan möjligheten att ta hand om det du älskar."
                 },
                   "button": {
-                    "ENG":"Join Slowfashion",
+                    "EN":"Join Slowfashion",
                     "SV":"Gå med Slowfashion"
                 }
             }
         }
     ,
     "scroll": {
-        "ENG":"Scroll down",
+        "EN":"Scroll down",
         "SV": "Fortsätt"
         }
         
