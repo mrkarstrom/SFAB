@@ -2,7 +2,8 @@
 	import Title from '$lib/components/Title.svelte';
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
-
+	import { currentLanguage } from '$lib/stores/langStore.js';
+	import languages from '$lib/lang/languages.json';
 	let isInView;
 </script>
 
@@ -22,12 +23,14 @@
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">
 							<Title>
-								<p class="text-4xl ml-6 py-6 font-normal">A WINDOW into the App</p>
+								<p class="text-4xl ml-6 py-6 font-normal">
+									{languages.aWindowIntoTheApp.title[$currentLanguage]}
+								</p>
 							</Title>
 							<div
 								class="bounce-right flex flex-row items-center justify-center w-auto space-x-2 mr-6"
 							>
-								<h5>View All</h5>
+								<h5>{languages.aWindowIntoTheApp.viewAll[$currentLanguage]}</h5>
 								<svg
 									width="40px"
 									height="auto"
@@ -50,7 +53,7 @@
 						<div class="card p-4 w-full">
 							<div id="title-text-small1" class="font-medium pb-6">
 								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">
-									DANCING in Dolce & Gabbana
+									{languages.aWindowIntoTheApp.dancingInDolceAndGabbana[$currentLanguage]}
 								</h4>
 							</div>
 							<img
@@ -64,12 +67,14 @@
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
 								md:block"
 							/>
-							<h5 class="pt-1.5">Sweden, Spring 2023</h5>
+							<h5 class="pt-1.5">
+								{languages.aWindowIntoTheApp.swedenSpring2023[$currentLanguage]}
+							</h5>
 						</div>
 						<div class="card p-4 w-full">
 							<div id="title-text-small2" class="font-medium pb-6">
 								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">
-									STYLE & Fashion
+									{languages.aWindowIntoTheApp.styleFashion[$currentLanguage]}
 								</h4>
 							</div>
 							<img
@@ -83,11 +88,15 @@
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 
 								md:block"
 							/>
-							<h5 class="pt-1.5">Sweden, Summer 2023</h5>
+							<h5 class="pt-1.5">
+								{languages.aWindowIntoTheApp.swedenSummer2023[$currentLanguage]}
+							</h5>
 						</div>
 						<div class="card p-4 w-full">
 							<div id="title-text-small3" class="font-medium pb-6">
-								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">ONE Eye</h4>
+								<h4 class="text-4xl max-w-[430px] whitespace-normal font-normal ">
+									{languages.aWindowIntoTheApp.oneEye[$currentLanguage]}
+								</h4>
 							</div>
 							<img
 								src="images/small/active/woman-gray-coat.jpg?raw=true"
@@ -99,7 +108,9 @@
 								alt="One Eye"
 								class="hidden hover:-translate-y-2 transition ease-in-out delay-150 md:block"
 							/>
-							<h5 class="pt-1.5">Stockholm, September 2023</h5>
+							<h5 class="pt-1.5">
+								{languages.aWindowIntoTheApp.stockholmSeptember2023Stockholm[$currentLanguage]}
+							</h5>
 						</div>
 					</div>
 
@@ -110,7 +121,9 @@
 						<div class="left-side flex flex-col items-center w-full">
 							<div class="DG-card h-auto p-4 w-full">
 								<div id="title-text" class="font-medium leading-6 pb-1">
-									<h4 class="w-60 whitespace-normal pb-1 ">DANCING in Dolce & Gabbana</h4>
+									<h4 class="w-60 whitespace-normal pb-1 ">
+										{languages.aWindowIntoTheApp.dancingInDolceAndGabbana[$currentLanguage]}
+									</h4>
 								</div>
 								<img
 									src="images/large/active/desert-man.png?raw=true"
@@ -151,14 +164,16 @@
 							<div class="OE-container flex flex-col items-center justify-start">
 								<div class="OE-card h-auto w-[60%] -translate-y-14">
 									<div class="title-text font-medium leading-6 pb-1">
-										<h4 class="pb-1">ONE Eye</h4>
+										<h4 class="pb-1">{languages.aWindowIntoTheApp.oneEye[$currentLanguage]}</h4>
 									</div>
 									<img
 										src="images/large/active/woman-gray-coat.png?raw=true"
 										alt="One Eye"
 										class="hover:-translate-y-2 transition ease-in-out delay-150"
 									/>
-									<h6 class="pt-1.5">Stockholm</h6>
+									<h6 class="pt-1.5">
+										{languages.aWindowIntoTheApp.stockholmSeptember2023Stockholm[$currentLanguage]}
+									</h6>
 									<h5>September 2023</h5>
 								</div>
 							</div>

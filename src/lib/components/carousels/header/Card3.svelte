@@ -1,3 +1,8 @@
+<script>
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	import languages from '$lib/lang/languages.json';
+</script>
+
 <div
 	id="container-box3"
 	class="h-full w-[810px] gap-0 grid grid-rows-1 grid-cols-3 content-center "
@@ -10,13 +15,13 @@
 			id="textbox-1"
 			class="items-center justify-center ml-8 mt-10 h-auto bg-accent py-1 px-2 rounded"
 		>
-			<p class="font-normal text-[13px]">Be a beautiful part of the circular movement</p>
+			<p class="font-normal text-[13px]">{languages.downloadApp.card3.text1[$currentLanguage]}</p>
 		</div>
 		<div
 			id="textbox-2"
 			class="items-center justify-center  h-auto bg-accent mr-auto mb-8 py-1 px-2 rounded"
 		>
-			<p class="font-normal text-[13px]">Discover your new fashion</p>
+			<p class="font-normal text-[13px]">{languages.downloadApp.card3.text2[$currentLanguage]}</p>
 		</div>
 	</div>
 

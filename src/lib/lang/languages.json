@@ -1,51 +1,124 @@
 {
-    "headerTitle": {
-        "EN":"We Are The Marketplace For Pre-Owned High Quality Fashion",
-        "SV": "Vi är Framtiden inom Cirkulär Modeindustri"
-        },
-    "contentMain": {
-        "EN":"This is the Main content",
-        "SV": "Huvudinnehåll"
-        },
-    "slogan": {
-        "EN":"Be the change",
-        "SV": "Var förändringen"
-        },
-    "downloadApp": 
-        {
-            "card1": {
-                "countdown": {
-                    "EN":"Countdown to launch",
-                    "SV": "Nedräkning till Lansering"
-                    },
-                "countdownDays": {
-                    "EN":"DAYS",
-                    "SV": "DAGAR"
-                    },
-                "countdownHours": {
-                    "EN":"HOURS",
-                    "SV": "TIMMAR"
-                    },
-                "countdownMinutes": {
-                    "EN":"MINUTES",
-                    "SV": "MINUTER"
-                    }
-            },
-            "card2": {
-                "title": {
-                    "EN":"Give someone the opportunity to love what you don't use anymore.",
-                    "SV":"Ge någon annan möjligheten att ta hand om det du älskar."
-                },
-                  "button": {
-                    "EN":"Join Slowfashion",
-                    "SV":"Gå med Slowfashion"
-                }
-            }
-        }
-    ,
-    "scroll": {
-        "EN":"Scroll down",
-        "SV": "Fortsätt"
-        }
-        
+  "headerTitle": {
+    "EN": "We Are The Marketplace For Pre-Owned High Quality Fashion",
+    "SV": "Vi är Framtiden inom Cirkulär Modeindustri"
+  },
+  "contentMain": {
+    "EN": "This is the Main content",
+    "SV": "Huvudinnehåll"
+  },
+  "slogan": {
+    "EN": "Be the change",
+    "SV": "Var förändringen"
+  },
+  "downloadApp": {
+    "card1": {
+      "countdown": {
+        "EN": "Countdown to launch",
+        "SV": "Nedräkning till Lansering"
+      },
+      "countdownDays": {
+        "EN": "DAYS",
+        "SV": "DAGAR"
+      },
+      "countdownHours": {
+        "EN": "HOURS",
+        "SV": "TIMMAR"
+      },
+      "countdownMinutes": {
+        "EN": "MINUTES",
+        "SV": "MINUTER"
+      }
+    },
+    "card2": {
+      "title": {
+        "EN": "Give someone the opportunity to love what you don't use anymore.",
+        "SV": "Ge någon annan möjligheten att ta hand om det du älskar."
+      },
+      "button": {
+        "EN": "Join Slowfashion",
+        "SV": "Följ med Slowfashion"
+      }
+    },
+    "card3": {
+      "text1": {
+        "EN": "Be a beautiful part of the circular movement.",
+        "SV": "Var en vacker del av den cirkulära rörelsen."
+      },
+      "text2": {
+        "EN": "Join Slowfashion",
+        "SV": "Följ med Slowfashion"
+      }
+    },
+    "card4": {
+      "text1": {
+        "EN": "All within the same app",
+        "SV": "Allting inom en och samma app"
+      },
+      "button": {
+        "EN": "Join Slowfashion",
+        "SV": "Följ med Slowfashion"
+      }
+    }
+    
+  },
+  "scroll": {
+    "EN": "Scroll down",
+    "SV": "Fortsätt"
+  },
+  "aWindowIntoTheApp": {
+    "title": {
+      "EN": "A WINDOW into the App",
+      "SV": "EN FÖNSTER till Appen"
+    },
+    "viewAll": {
+      "EN": "View All",
+      "SV": "Visa Allt"
+    },
+    "dancingInDolceAndGabbana": {
+      "EN": "DANCING in Dolce & Gabbana",
+      "SV": "DANSAR i Dolce & Gabbana"
+    },
+    "swedenSpring2023": {
+      "EN": "Sweden, Spring 2023",
+      "SV": "Sverige, Våren 2023"
+    },
+    "styleFashion": {
+      "EN": "STYLE & Fashion",
+      "SV": "STIL & Mode"
+    },
+    "swedenSummer2023": {
+      "EN": "Sweden, Summer 2023",
+      "SV": "Sverige, Sommaren 2023"
+    },
+  
+    "stockholmSeptember2023": {
+      "EN": "Stockholm, September 2023",
+      "SV": "Stockholm, September 2023"
+    },
+    "sweden": {
+      "EN": "Sweden",
+      "SV": "Sverige"
+    },
+    "spring2023": {
+      "EN": "Spring 2023",
+      "SV": "Våren 2023"
+    },
+    "february2023": {
+      "EN": "February 2023",
+      "SV": "Februari 2023"
+    },
+    "summer2023": {
+      "EN": "Summer 2023",
+      "SV": "Sommaren 2023"
+    },
+    "oneEye": {
+      "EN": "ONE EYE",
+      "SV": "ETT ÖGA"
+    },
+    "september2023": {
+      "EN": "September 2023",
+      "SV": "September 2023"
+    }
+  }
 }
