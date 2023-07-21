@@ -1,11 +1,10 @@
 <script>
-	import { currentLanguage } from '$lib/stores/langStore.js'
+	import { currentLanguage } from '$lib/stores/langStore.js';
 	import languages from '$lib/lang/languages.json';
 </script>
 
 <div class="w-full flex items-center justify-center  h-[var(--blockHeight)] bg-inherit z-100 ">
 	<div
-		id="arrow-down"
 		class="animate-bounce flex justify-center items-center border-[var(--circleColor)] border w-[50px] h-[50px] rounded-full "
 	>
 		<svg

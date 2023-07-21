@@ -28,7 +28,12 @@
       "countdownMinutes": {
         "EN": "MINUTES",
         "SV": "MINUTER"
+      },
+      "slogan": {
+        "EN": "Honest | Smooth | Desirable",
+        "SV": "Ärlig | Smidig | Eftertraktad"
       }
+      
     },
     "card2": {
       "title": {

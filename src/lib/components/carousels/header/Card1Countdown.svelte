@@ -1,5 +1,7 @@
 <script>
 	import Countdown from '$lib/components/sections/Countdown.svelte';
+	import { currentLanguage } from '$lib/stores/langStore.js'
+	import languages from '$lib/lang/languages.json';
 </script>
 
 <div
@@ -26,7 +28,7 @@
 					alt=""
 				/>
 			</div>
-			<h6 class="text-center whitespace-nowrap pt-4 ">Honest | Smooth | Desirable</h6>
+			<h6 class="text-center whitespace-nowrap pt-4">{languages.downloadApp.card1.slogan[$currentLanguage]}</h6>
 		</div>
 		<Countdown />
 	</div>
