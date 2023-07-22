@@ -15,10 +15,7 @@
 >
 	{#if isInView}
 		<div in:fly={{ y: 500, duration: 1500 }}>
-			<div
-				id="a-window-into-the-app"
-				class="opacity-[var(--op)] w-full justify-center items-center flex"
-			>
+			<div id="a-window-into-the-app" class="w-full h-full justify-center items-center flex">
 				<div id="box-wrapper" class="w-full h-auto bg-secondary flex flex-col">
 					<div id="title-wrap">
 						<div id="title-text" class="flex flex-row justify-between">
@@ -115,11 +112,11 @@
 					</div>
 
 					<div
-						class="content-container hidden  grid-cols-2 h-auto 
+						class="grid-cols-2 h-full 
 								lg:grid"
 					>
 						<div class="left-side flex flex-col items-center w-full">
-							<div class="DG-card h-auto p-4 w-full">
+							<div class="h-auto p-4 w-full">
 								<div id="title-text" class="font-medium leading-6 pb-1">
 									<h4 class="w-60 whitespace-normal pb-1 ">
 										{languages.aWindowIntoTheApp.dancingInDolceAndGabbana[$currentLanguage]}

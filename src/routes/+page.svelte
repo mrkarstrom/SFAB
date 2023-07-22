@@ -13,7 +13,7 @@
 	import MissionSmall from '$lib/components/carousels/mission/MissionSmall.svelte';
 	import SubscribeSmall from '$lib/components/sections/SubscribeSmall.svelte';
 </script>
-		
+
 <TopbarPlain />
 <Hero />
 <DownloadApp />

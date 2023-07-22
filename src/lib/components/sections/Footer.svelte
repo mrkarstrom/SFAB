@@ -1,6 +1,6 @@
 <script>
-	const d = new Date()
-	let currentYear = d.getFullYear()
+	const d = new Date();
+	let currentYear = d.getFullYear();
 </script>
 
 <input type="checkbox" id="my-modal" class="modal-toggle" />
@@ -44,7 +44,7 @@
 			<a href="/" class="uppercase hover:font-semibold">Contact us</a>
 		</li>
 		<li class="w-full lg:w-36 text-center py-2 md:py-0">
-			<a href="/" class="uppercase hover:font-semibold ">Product Care</a>
+			<a href="/carepage" class="uppercase hover:font-semibold ">Product Care</a>
 		</li>
 		<li class="w-full lg:w-20 text-center py-2 md:py-0">
 			<a href="/" class="uppercase hover:font-semibold">App</a>

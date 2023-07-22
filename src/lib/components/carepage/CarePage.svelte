@@ -1,15 +1,16 @@
 <script>
-	import Block from './CareBlock.svelte';
-	import { TopbarPlain } from '$lib/components/sections/TopbarPlain.svelte';
+	import ArrowBlock from '$lib/components/arrows/ArrowBlock.svelte';
+	import CareHero from './CareHero.svelte';
+	import GridSection1 from './GridSection1.svelte';
+	import GridSection2 from './GridSection2.svelte';
+	import GridSection3 from './GridSection3.svelte';
 </script>
 
-<TopbarPlain />
-<Block let:Title let:Description let:Button>
-	<Title>Hello SlowFashion</Title>
-	<Description>
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur maiores illo
-		corporis. Autem animi eius, harum tenetur pariatur nihil eveniet odio esse veniam unde, velit
-		obcaecati? Blanditiis, aperiam? Eveniet.
-	</Description>
-	<Button>Get Started</Button>
-</Block>
+<main class="flex flex-col justify-center px-6 gap-4">
+	<CareHero/>
+	<GridSection1 />
+	<ArrowBlock />
+	<GridSection2 />
+	<ArrowBlock />
+	<GridSection3 />
+</main>
